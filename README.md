@@ -14,6 +14,6 @@ pass has since listed a slightly better code.
   2026 (targets_20261025.csv) and on 1 November 2026 (live_table.tsv), and make_table.py, the script that computes
   every number in the paper from these files.
 
-Paper: A. Canli, Improved spherical codes for Cohn's table (in preparation).
+Paper: A. Canli, Improved spherical codes in dimensions 3 to 32 (in preparation).
 
 By Arhan Canli (Quantavane). CC BY 4.0 (see LICENSE). Corrections are welcome as GitHub issues.
