@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+# files table_codes.py fetches or copies (listed with their SHA-256 in observations/data/)
+observations/cache/
+# state written by editor or agent plugins into the working folder
+.swarm/
+.claude-flow/
+ruvector.db
+.DS_Store

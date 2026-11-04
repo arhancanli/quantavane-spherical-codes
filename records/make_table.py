@@ -1,17 +1,18 @@
-"""Every number in paper.tex, from the engine's claim records and the last saved copy of the table page.
+"""Every number in paper.tex, from our claim records and the last saved copy of the table page (all in this folder).
 
   python3 -I make_table.py                         writes numbers.tex, table.tex, examples.tex and headline.json
   python3 -I make_table.py --live-page PAGE.html   first rebuilds live_table.tsv from a saved copy of the front page
                                                    of https://spherical-codes.org (one plain GET), then as above
 
-Inputs (read only):
-  ~/quantavane-engine/runs/spherical/targets_20261025.csv  the table on 25 Oct 2026 (d, n, cos, proved_optimal,
-                                                           needs_opt, ref, coords_link)
-  ~/quantavane-engine/claims/sphcodes/IMPROVED.tsv   every checked code that beat that table (d, n, table_cos, our_cos)
-  ~/quantavane-engine/claims/sphcodes/UPLOADED.tsv   every upload the live table served just after the post (code, cos)
-  ~/quantavane-engine/claims/sphcodes/BEATEN.tsv     entries others improved past ours (optional)
-  ~/quantavane-engine/claims/sphcodes/LIVE_SEEN.tsv  live values the uploader saw when it held back (optional, no header)
-  live_table.tsv (this folder)     the table as displayed when the page was saved (d, n, displayed cosine, credit)
+Inputs (read only, this folder):
+  targets_20261025.csv  the table on 25 Oct 2026 (d, n, cos, proved_optimal, needs_opt, ref, coords_link)
+  IMPROVED.tsv          every checked code that beat that table (d, n, table_cos, our_cos, time filed); rows filed
+                        after the page was saved are left out, so the numbers are those of the saved page's time
+  UPLOADED.tsv          every upload the live table served just after the post (code, cos)
+  BEATEN.tsv            entries others improved past ours (optional)
+  LIVE_SEEN.tsv         live values the uploader saw when it held back (optional, no header)
+  live_table.tsv        the table as displayed when the page was saved (d, n, displayed cosine, credit); its first
+                        line gives the time it was saved, which dates the numbers
   before_upload.tsv (this folder)  for the entries where the uploader kept its copy of the live code it replaced, that
                                    code's largest cosine (written once, on 31 Oct 2026, from the copies autoupload.py
                                    and attended.sh had saved; optional)
@@ -41,10 +42,9 @@ from collections import Counter, defaultdict
 from decimal import ROUND_CEILING, Decimal, InvalidOperation, getcontext
 
 getcontext().prec = 50
-E = os.path.expanduser("~/quantavane-engine")
-CLAIMS = os.path.join(E, "claims", "sphcodes")
-SNAPSHOT = os.path.join(E, "runs", "spherical", "targets_20261025.csv")
 HERE = os.path.dirname(os.path.abspath(__file__))
+CLAIMS = HERE
+SNAPSHOT = os.path.join(HERE, "targets_20261025.csv")
 LIVE = os.path.join(HERE, "live_table.tsv")
 BEFORE = os.path.join(HERE, "before_upload.tsv")
 SEEN_TOL = Decimal("1e-14")
@@ -153,9 +153,18 @@ def ceil12(x):
     return x.quantize(Decimal("1e-12"), rounding=ROUND_CEILING)
 
 
+def page_saved():
+    """'YYYY-MM-DD HH:MM +zzzz' from the first line of live_table.tsv: the numbers are to this time."""
+    assert os.path.exists(LIVE), "no live_table.tsv: save the table's front page and run with --live-page PAGE.html"
+    first = open(LIVE, encoding="utf-8").readline().rstrip("\n").split("\t")
+    assert first[0] == "# saved", "live_table.tsv does not start with its '# saved' line"
+    return first[1]
+
+
 def main():
     if "--live-page" in sys.argv:
         extract_live(sys.argv[sys.argv.index("--live-page") + 1])
+    cut = page_saved()[:16]  # filings up to the minute the page was saved
 
     # the table of 25 Oct 2026: (cos, proved optimal, needs more optimization)
     snap = {}
@@ -166,7 +175,7 @@ def main():
     # every checked code that beat it; the table value it was compared with must be the snapshot's
     found = {}
     for r in rows(os.path.join(CLAIMS, "IMPROVED.tsv")):
-        if len(r) < 4 or not r[0].isdigit():
+        if len(r) < 4 or not r[0].isdigit() or (len(r) > 4 and r[4][:16] > cut):
             continue
         k, table, ours = (int(r[0]), int(r[1])), number(r[2]), number(r[3])
         assert k in snap and table == snap[k][0], f"IMPROVED.tsv {k}: table value {table} is not the snapshot's"
@@ -291,8 +300,8 @@ def main():
     ka = max(ours, key=lambda k: gains[k][1])
     flagged = sum(1 for k in ours if snap[k][2])
     nums = {
-        "DataDate": long_date(time.strftime("%Y-%m-%d")),
-        "Period": period("2026-10-25", time.strftime("%Y-%m-%d")),
+        "DataDate": long_date(saved),
+        "Period": period("2026-10-25", saved[:10]),
         "LiveDate": long_date(saved),
         "LiveTime": f"{saved[11:16]} (UTC{saved[17:20]}:{saved[20:22]})",
         "NSnap": grouped(len(snap)),
@@ -330,7 +339,7 @@ def main():
         f.write("% written by make_table.py; do not edit\n")
         f.writelines(f"\\newcommand{{\\{k}}}{{{v}}}\n" for k, v in nums.items())
     head = {
-        "computed": time.strftime("%Y-%m-%d %H:%M %z"),
+        "computed": saved,  # the numbers are to the time the page was saved
         "live_page_saved": saved,
         "snapshot_entries": len(snap),
         "found_better_than_25oct": len(found),
