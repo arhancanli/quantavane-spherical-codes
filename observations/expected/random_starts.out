@@ -1,0 +1,7 @@
+an_d4_n150.log         d4 N150: ours 0.848138829210828 table 0.848007962329 -> behind by 1.31e-04 (166.1 s)
+an_d6_n89.log          d6 N89: ours 0.563319619503099 table 0.555561660912 -> behind by 7.76e-03 (168.4 s)
+an_d7_n84.log          d7 N84: ours 0.479618979184161 table 0.464981341724 -> behind by 1.46e-02 (174.9 s)
+anstart_d4_n150.log    d4 N150: ours 0.848007962328572 table 0.848007962329 -> behind by -4.28e-13 (163.1 s)
+d4_n150.log            d4 N150: ours 0.848056593369248 table 0.848007962329 -> behind by 4.86e-05 (604.0 s)
+d6_n89.log             d6 N89: ours 0.561312882279525 table 0.555561660912 -> behind by 5.75e-03 (625.2 s)
+d7_n84.log             d7 N84: ours 0.477625573807205 table 0.464981341724 -> behind by 1.26e-02 (607.5 s)

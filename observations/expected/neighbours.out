@@ -1,0 +1,4 @@
+flagged tried, value within 1E-8 of N+1's: 20, improved 11 (55.0%), median gain 2.99e-08, gain >= 1e-4: 1
+flagged tried, others: 1660, improved 1410 (84.9%), median gain 5.45e-06, gain >= 1e-4: 110
+flagged tried, value within 0.000001 of N+1's: 84, improved 69 (82.1%), median gain 1.56e-07, gain >= 1e-4: 1
+flagged tried, others: 1596, improved 1352 (84.7%), median gain 6.06e-06, gain >= 1e-4: 110

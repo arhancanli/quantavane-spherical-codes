@@ -1,0 +1,86 @@
+finish.py-converged codes: 433 entries (finish lane 335, fast lane 98), d 6-32
+  of them beating the table of 25 Oct by >= 1e-10: 377; the other 56 (fast lane 54, finish lane 2) gained 1.6e-14 to 9.6e-11
+measured 433 (output file matches the summary line)
+
+contact count the same at tolerance 1e-12 and 1e-8: 322 of 433; same at 1e-10 and 1e-8: 346
+contacts among non-rattlers minus isostatic count n_r(d-1)-d(d-1)/2+1: exactly 0 in 306 of 433; below 0 in 5; above 0 in 122
+  distribution of the excess: [(-14, 1), (-2, 2), (-1, 2), (0, 306), (1, 1), (2, 1), (3, 2), (6, 1), (13, 1), (14, 1), (16, 1), (18, 1)] ... [(4652, 1), (4702, 1), (5601, 1), (5684, 1), (5870, 1), (6627, 1)]
+  among the 5 below: median deficit -2
+  d 3-10: 107 codes, isostatic 95, with rattlers 104, median rattler share 0.037
+  d 11-17: 175 codes, isostatic 137, with rattlers 141, median rattler share 0.023
+  d 18-24: 83 codes, isostatic 37, with rattlers 33, median rattler share 0.000
+  d 25-32: 68 codes, isostatic 37, with rattlers 8, median rattler share 0.000
+rattlers: codes with at least one 286 of 433; median 3, max 105 (share max 0.429); points with no contact at all: codes with one 247, total 2703
+  isostatic codes with rattlers: 220 of 306
+mean contacts per non-rattler point / 2(d-1): median 0.975, q10 0.836, q90 1.323
+min contacts of a non-rattler point: median 15; max contacts of a point: median 43, largest 119
+antipodal pairs: codes with any 2 of 433; fully antipodal 0: [(7, 118), (26, 66)]
+
+compared with the table's code of 25-26 Oct (same point order): 432 codes
+  max move as stored: median 2.83e-02, q90 1.52e-01, max 1.69e+00
+  max move after best rotation: median 3.23e-02, q90 1.70e-01, max 1.49e+00
+  rms move after rotation: median 6.99e-03, q90 3.37e-02, max 4.67e-01
+  max move / minimal distance: median 2.90e-02, q90 1.51e-01, max 1.47e+00
+  non-rattlers: max move after rotation: median 3.06e-02, q90 1.69e-01, max 1.49e+00
+  non-rattlers: rms move: median 6.73e-03, q90 3.35e-02, max 4.67e-01
+  non-rattlers: max move / minimal distance: median 2.67e-02, q90 1.39e-01, max 1.47e+00
+  share of our contacts that are among the same number of closest pairs of the table's code: median 0.926, q10 0.773, min 0.302; equal to 1 in 49
+  pairs within 1e-10 of the table code's own largest cosine: median 1666.5, ours 2235.5; table codes with <= 2 such pairs: 6 of 432
+  pairs within 1e-6 of the table code's largest cosine / our contacts: median 0.890
+  largest relative moves: [((8, 456), '1.468'), ((8, 435), '1.431'), ((8, 433), '1.419'), ((12, 310), '1.394'), ((8, 448), '1.378')]
+  lane fast: 98 codes, non-rattler max move / minimal distance: median 1.33e-06, q90 3.27e-02, max 1.33e-01; above 0.5: 0
+  lane finish: 334 codes, non-rattler max move / minimal distance: median 4.06e-02, q90 1.72e-01, max 1.47e+00; above 0.5: 20
+  codes whose non-rattler points moved by more than half the minimal distance: [((8, 431), np.float64(1.02)), ((8, 433), np.float64(1.42)), ((8, 435), np.float64(1.43)), ((8, 448), np.float64(1.38)), ((8, 456), np.float64(1.47)), ((10, 266), np.float64(0.67)), ((11, 171), np.float64(0.91)), ((11, 273), np.float64(0.66)), ((12, 310), np.float64(1.39)), ((13, 178), np.float64(0.68)), ((13, 180), np.float64(0.79)), ((13, 181), np.float64(0.68)), ((13, 183), np.float64(0.55)), ((13, 184), np.float64(0.53)), ((13, 186), np.float64(0.64)), ((13, 187), np.float64(0.8)), ((13, 188), np.float64(0.55)), ((13, 190), np.float64(0.58)), ((13, 191), np.float64(0.76)), ((27, 80), np.float64(0.52))]
+
+over-constrained codes (contacts above the isostatic count by more than 20):
+  112 codes; d: {9: 3, 10: 7, 11: 10, 12: 3, 13: 5, 14: 2, 15: 6, 16: 5, 17: 3, 18: 9, 19: 2, 20: 5, 21: 4, 22: 5, 23: 10, 24: 4, 25: 7, 26: 6, 27: 6, 28: 6, 29: 2, 30: 1, 32: 1}
+   d9 N131 M 0.422454555951 contacts 1268 isostatic 941 rattlers 9 antipodal points 0
+   d9 N216 M 0.485914526523 contacts 2431 isostatic 1685 rattlers 1 antipodal points 0
+   d9 N217 M 0.486662803796 contacts 2315 isostatic 1645 rattlers 7 antipodal points 0
+   d10 N243 M 0.456198822235 contacts 2087 isostatic 2044 rattlers 11 antipodal points 0
+   d10 N244 M 0.456236677856 contacts 2086 isostatic 2035 rattlers 13 antipodal points 0
+   d10 N249 M 0.464403229264 contacts 2939 isostatic 2116 rattlers 9 antipodal points 0
+   d10 N250 M 0.464732416248 contacts 2874 isostatic 2080 rattlers 14 antipodal points 0
+   d10 N251 M 0.465004516698 contacts 2326 isostatic 2179 rattlers 4 antipodal points 0
+   d10 N252 M 0.465572082037 contacts 2309 isostatic 2080 rattlers 16 antipodal points 0
+   d10 N266 M 0.476191606450 contacts 2478 isostatic 2305 rattlers 5 antipodal points 0
+   d11 N173 M 0.388728543943 contacts 1854 isostatic 1676 rattlers 0 antipodal points 0
+   d11 N248 M 0.430845950131 contacts 2550 isostatic 2426 rattlers 0 antipodal points 0
+   d11 N280 M 0.441915025320 contacts 2866 isostatic 2736 rattlers 1 antipodal points 0
+   d11 N283 M 0.442746590431 contacts 2870 isostatic 2766 rattlers 1 antipodal points 0
+   d11 N284 M 0.443020346097 contacts 2876 isostatic 2776 rattlers 1 antipodal points 0
+   d11 N285 M 0.443551692315 contacts 3123 isostatic 2786 rattlers 1 antipodal points 0
+   d11 N287 M 0.444166020937 contacts 3090 isostatic 2806 rattlers 1 antipodal points 0
+   d11 N290 M 0.445396803730 contacts 3101 isostatic 2816 rattlers 3 antipodal points 0
+   d11 N302 M 0.456163022741 contacts 3060 isostatic 2966 rattlers 0 antipodal points 0
+   d11 N310 M 0.461809928321 contacts 3140 isostatic 3046 rattlers 0 antipodal points 0
+   d12 N345 M 0.428334994614 contacts 4685 isostatic 2586 rattlers 104 antipodal points 0
+   d12 N346 M 0.428334994614 contacts 4685 isostatic 2586 rattlers 105 antipodal points 0
+   d12 N354 M 0.431034104103 contacts 4480 isostatic 2718 rattlers 101 antipodal points 0
+   d13 N126 M 0.276107131865 contacts 1457 isostatic 1423 rattlers 1 antipodal points 0
+   d13 N178 M 0.304506590672 contacts 2020 isostatic 1987 rattlers 6 antipodal points 0
+   d13 N186 M 0.316768771406 contacts 2233 isostatic 2155 rattlers 0 antipodal points 0
+   d13 N187 M 0.317996550814 contacts 2206 isostatic 2167 rattlers 0 antipodal points 0
+   d13 N191 M 0.324065016492 contacts 2241 isostatic 2203 rattlers 1 antipodal points 0
+   d14 N262 M 0.333811741529 contacts 7205 isostatic 3004 rattlers 24 antipodal points 0
+   d14 N296 M 0.347198310290 contacts 7894 isostatic 3381 rattlers 29 antipodal points 0
+   d15 N153 M 0.245232882245 contacts 2326 isostatic 1842 rattlers 14 antipodal points 0
+   d15 N198 M 0.261931281309 contacts 1838 isostatic 1744 rattlers 66 antipodal points 0
+   d15 N200 M 0.263200518930 contacts 2294 isostatic 2122 rattlers 41 antipodal points 0
+   d15 N241 M 0.284811315653 contacts 5670 isostatic 3046 rattlers 16 antipodal points 0
+   d15 N249 M 0.291752277915 contacts 2990 isostatic 2962 rattlers 30 antipodal points 0
+   d15 N268 M 0.315473062933 contacts 4424 isostatic 3536 rattlers 8 antipodal points 0
+   d16 N289 M 0.285672436063 contacts 4763 isostatic 3691 rattlers 35 antipodal points 0
+   d16 N290 M 0.288751039798 contacts 7174 isostatic 3841 rattlers 26 antipodal points 0
+   d16 N301 M 0.302456657937 contacts 6413 isostatic 3796 rattlers 40 antipodal points 0
+   d16 N313 M 0.308876104730 contacts 7358 isostatic 4081 rattlers 33 antipodal points 0
+slightly over (1-20): 10: [((12, 213), 1), ((15, 193), 6), ((15, 197), 3), ((17, 98), 3), ((19, 77), 2), ((23, 73), 18), ((23, 122), 14), ((24, 77), 19), ((25, 72), 16), ((26, 76), 13)]
+under: [((8, 184), -14, {1e-12: 1203, 1e-10: 1204, 1e-08: 1209}), ((8, 352), -1, {1e-12: 2247, 1e-10: 2247, 1e-08: 2262}), ((20, 86), -1, {1e-12: 1402, 1e-10: 1402, 1e-08: 1403}), ((21, 61), -2, {1e-12: 1006, 1e-10: 1007, 1e-08: 1018}), ((21, 62), -2, {1e-12: 1024, 1e-10: 1024, 1e-08: 1044})]
+
+well-separated codes (same contact count at 1e-12 and 1e-8): 322; isostatic 227, more 95, fewer 0
+  d 3-10: non-isostatic 12 of 107 (11%), more contacts 10
+  d 11-17: non-isostatic 38 of 175 (22%), more contacts 38
+  d 18-24: non-isostatic 46 of 83 (55%), more contacts 43
+  d 25-32: non-isostatic 31 of 68 (46%), more contacts 31
+over-constrained: contacts / isostatic count median 1.35, max 2.66
+rattlers by d range (codes with any / codes, median share): d 3-10: 104/107 0.037; d 11-17: 141/175 0.023; d 18-24: 33/83 0.000; d 25-32: 8/68 0.000

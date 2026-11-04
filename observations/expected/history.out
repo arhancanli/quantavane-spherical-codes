@@ -1,0 +1,42 @@
+filings in IMPROVED.tsv: 4409, distinct entries 1646
+  filed by the paper's page time (2 Nov 18:46): 1606 entries; with gain >= 1e-10 over 25 Oct: 1431
+  all filings (to the end of the runs): 1646 entries; gain >= 1e-10: 1470
+
+first filing with gain >= 1e-10 (to 2 Nov 18:46), by lane: {'sweep3': 618, 'sweep': 386, 'fast/finish.py': 316, 'fast/sphopt': 79, 'lowtest': 9, 'finish/finish.py': 6, 'deep': 4, 'unflag': 4, 'unmatched:16': 2, 'repolish': 2, 'unmatched:': 1, 'unmatched:18': 1, 'unmatched:17': 1, 'unmatched:50': 1, 'unmatched:(hit-rate test)': 1}
+
+upload rows with no timed log line (hand uploads of 26 Oct, given 26 Oct 12:00): 18
+
+uploads (lines of UPLOADED.tsv): 1708; after the converged-only gate (31 Oct 21:48): 313
+  program and polish status of the run that produced each uploaded code after the gate: {'sphopt converged': 8, 'finish.py converged': 297, 'sphopt cut': 2, 'finish.py cut': 6}
+  converged run within 1e-13 of the uploaded cosine (the uploader's gate): {'sphopt only': 8, 'finish.py': 305}
+  before the gate: 1395 uploads; producing run: {'no matching run': 9, 'sphopt cut': 1289, 'sphopt converged': 97}
+
+finish lane (finish.py) on entries we had already filed: 715 entries; converged 337
+  gain over our best earlier code (all): median 1.37e-06, q25 1.66e-07, q75 7.05e-06, max 1.80e-04; >= 1e-8: 620, >= 1e-10: 663, < 1e-12: 43
+  gain over our best earlier code (converged): median 3.77e-07, q25 2.72e-08, q75 2.26e-06, max 7.46e-05; >= 1e-8: 268, >= 1e-10: 305, < 1e-12: 26
+
+last uploaded code of each entry, by its status on the 2 Nov 18:46 page and by convergence of that code:
+  ours       {'finish.py-converged': 274, 'sphopt-converged': 95, 'not converged': 78}
+  maintainer {'finish.py-converged': 35, 'sphopt-converged': 14, 'not converged': 513}
+  other      {'finish.py-converged': 2, 'sphopt-converged': 0, 'not converged': 5}
+  gone       {'finish.py-converged': 2, 'sphopt-converged': 2, 'not converged': 22}
+  finish.py-converged : 313 entries, still ours 274 (88%)
+  sphopt-converged    : 111 entries, still ours 95 (86%)
+  not converged       : 618 entries, still ours 78 (13%)
+
+survival by date of the last upload (ours on the 2 Nov 18:46 page / entries):
+  10-26: not-conv 0/8  sphopt-conv 7/9  finish.py 4/4
+  10-27: not-conv 3/140  sphopt-conv 59/65
+  10-28: not-conv 5/170  sphopt-conv 7/7  finish.py 1/1
+  10-29: not-conv 12/119  sphopt-conv 8/15  finish.py 1/1
+  10-30: not-conv 0/19  sphopt-conv 2/2
+  10-31: not-conv 58/162  sphopt-conv 10/11  finish.py 2/2
+  11-01: sphopt-conv 2/2  finish.py 198/223
+  11-02: finish.py 68/82
+
+entries improved by >= 1e-10 by the page time: 1431; uploaded 1042; never uploaded 389: {'never converged': 385, 'best code converged': 4}
+  of those, with a live value seen better than ours (LIVE_SEEN.tsv): 22
+  uploads after the gate with no converged run within 1e-13 now: 0
+never uploaded, by when first found and convergence of our best code: {('gate to uploader stop', 'not converged'): 223, ('after the stop', 'not converged'): 111, ('before the gate', 'not converged'): 51, ('before the gate', 'converged'): 3, ('gate to uploader stop', 'converged'): 1}
+entries first found (>= 1e-10) between the gate and the stop: 233, uploaded 9
+held back (first found in the window, never uploaded, best code not converged): 223; of them with a live value seen better than ours: 0

@@ -1,0 +1,9 @@
+d23 N84: start (table code) max cos 0.089247322021755; largest coordinate difference of any annealing output from the start 1.1e-16
+d23 N134: start (table code) max cos 0.134995532626022; largest coordinate difference of any annealing output from the start 1.1e-16
+d25 N165: start (table code) max cos 0.142829151199347; largest coordinate difference of any annealing output from the start 1.1e-16
+d30 N172: start (table code) max cos 0.127069826369445; largest coordinate difference of any annealing output from the start 1.1e-16
+d16 N92: start (table code) max cos 0.168684604645271; largest coordinate difference of any annealing output from the start 1.1e-16
+d17 N135: start (table code) max cos 0.199814929813052; largest coordinate difference of any annealing output from the start 5.6e-17
+d16 N182: start (table code) max cos 0.246088878824064; largest coordinate difference of any annealing output from the start 2.2e-16
+d12 N297: start (table code) max cos 0.414715708658092; largest coordinate difference of any annealing output from the start 1.1e-16
+annealing outputs found 120; identical to the start code (coordinates to 1e-12, max cos to 1e-15): 120

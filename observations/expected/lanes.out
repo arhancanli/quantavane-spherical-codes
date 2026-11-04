@@ -1,0 +1,38 @@
+hitrate test: targets 16, completed 13, gain >= 1e-10: 6; by d: d23 N69 4.80e-14, d22 N58 2.57e-08, d11 N84 3.40e-14, d15 N64 5.81e-13, d12 N73 3.38e-13, d13 N61 3.22e-13, d22 N59 2.46e-07, d22 N71 7.47e-13, d23 N67 9.26e-07, d25 N66 5.33e-07, d23 N62 8.15e-07, d22 N51 9.41e-13, d27 N82 2.81e-06
+   completed with d >= 18: 9, of which improved 6; d <= 17: 4, improved 0
+abtest           no completed runs
+lowtest          runs    26 (flagged    26) d 3-14  beats@12dec    19 ( 73.1%)  gain>=1e-10     9 ( 34.6%)  median gain of those 2.15e-06 [q25 1.21e-06, q75 3.98e-06]  polish converged 25  median secs 482
+sweep            runs   533 (flagged   533) d 18-32  beats@12dec   464 ( 87.1%)  gain>=1e-10   386 ( 72.4%)  median gain of those 6.18e-07 [q25 1.25e-07, q75 3.73e-06]  polish converged 58  median secs 1500
+sweep3           runs   709 (flagged   709) d 6-17  beats@12dec   670 ( 94.5%)  gain>=1e-10   618 ( 87.2%)  median gain of those 5.77e-06 [q25 1.10e-06, q75 2.31e-05]  polish converged 142  median secs 1500
+sweep4           no completed runs
+deep             runs   244 (flagged   244) d 18-32  beats@12dec   231 ( 94.7%)  gain>=1e-10   219 ( 89.8%)  median gain of those 1.04e-06 [q25 1.48e-07, q75 6.43e-06]  polish converged 12  median secs 1800
+repolish         runs     3 (flagged     3) d 21-23  beats@12dec     3 (100.0%)  gain>=1e-10     2 ( 66.7%)  median gain of those 1.45e-07 [q25 1.07e-07, q75 1.83e-07]  polish converged 1  median secs 1200
+converge         runs   260 (flagged   260) d 4-32  beats@12dec   260 (100.0%)  gain>=1e-10   260 (100.0%)  median gain of those 1.20e-06 [q25 1.39e-07, q75 8.15e-06]  polish converged 94  median secs 1800
+unflag           runs    20 (flagged     0) d 3-30  beats@12dec    10 ( 50.0%)  gain>=1e-10     4 ( 20.0%)  median gain of those 2.26e-06 [q25 1.19e-06, q75 3.61e-06]  polish converged 14  median secs 990
+uall             runs    48 (flagged     0) d 3-6  beats@12dec    21 ( 43.8%)  gain>=1e-10     0 (  0.0%)  median gain of those nan [q25 nan, q75 nan]  polish converged 48  median secs 240
+fast-LP(31Oct)   runs   104 (flagged   104) d 7-17  beats@12dec    91 ( 87.5%)  gain>=1e-10    79 ( 76.0%)  median gain of those 2.29e-06 [q25 1.13e-06, q75 4.83e-06]  polish converged 1  median secs 60
+fast-finish(1-2Nov) runs   668 (flagged   668) d 7-32  beats@12dec   641 ( 96.0%)  gain>=1e-10   587 ( 87.9%)  median gain of those 2.56e-06 [q25 5.30e-07, q75 7.95e-06]  polish converged 107  median secs 120
+finish(converged) runs   351 (flagged   350) d 6-32  beats@12dec   351 (100.0%)  gain>=1e-10   349 ( 99.4%)  median gain of those 5.33e-06 [q25 9.43e-07, q75 2.20e-05]  polish converged 351  median secs 41
+finish(cut)      runs  1529 (flagged  1516) d 7-32  beats@12dec  1529 (100.0%)  gain>=1e-10  1510 ( 98.8%)  median gain of those 1.18e-05 [q25 2.46e-06, q75 4.16e-05]  polish converged 0  median secs 120
+
+by population (runs that start from the table's own code):
+  sweep                d 18-24: runs  317, gain>=1e-10  221 ( 69.7%)
+  sweep                d 25-32: runs  216, gain>=1e-10  165 ( 76.4%)
+  sweep3               d  3-10: runs  312, gain>=1e-10  278 ( 89.1%)
+  sweep3               d 11-17: runs  397, gain>=1e-10  340 ( 85.6%)
+  fast-LP(31Oct)       d  3-10: runs   54, gain>=1e-10   51 ( 94.4%)
+  fast-LP(31Oct)       d 11-17: runs   50, gain>=1e-10   28 ( 56.0%)
+  fast-finish(1-2Nov)  d  3-10: runs   92, gain>=1e-10   87 ( 94.6%)
+  fast-finish(1-2Nov)  d 11-17: runs  210, gain>=1e-10  197 ( 93.8%)
+  fast-finish(1-2Nov)  d 18-24: runs  238, gain>=1e-10  192 ( 80.7%)
+  fast-finish(1-2Nov)  d 25-32: runs  128, gain>=1e-10  111 ( 86.7%)
+  unflag               d  3-10: runs   12, gain>=1e-10    0 (  0.0%)
+  unflag               d 11-17: runs    2, gain>=1e-10    0 (  0.0%)
+  unflag               d 18-24: runs    3, gain>=1e-10    2 ( 66.7%)
+  unflag               d 25-32: runs    3, gain>=1e-10    2 ( 66.7%)
+  uall                 d  3-10: runs   48, gain>=1e-10    0 (  0.0%)
+  lowtest              d  3-10: runs   20, gain>=1e-10    8 ( 40.0%)
+  lowtest              d 11-17: runs    6, gain>=1e-10    1 ( 16.7%)
+
+fast-finish: flagged runs 668, unflagged 0
+fast (all): TIER2 marks (no gain >= 1e-10) 106 of 772

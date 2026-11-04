@@ -1,0 +1,17 @@
+improved entries compared: 1431 of 1431 {}
+median per-point move / minimal distance: median 3.7e-03, q90 1.4e-02, q99 1.6e-01, max 0.34
+  entries whose median point moved by more than 0.01 of the minimal distance: 247
+  entries whose median point moved by more than 0.05 of the minimal distance: 63
+  entries whose median point moved by more than 0.1 of the minimal distance: 36
+  entries whose median point moved by more than 0.25 of the minimal distance: 4
+  entries whose median point moved by more than 0.5 of the minimal distance: 0
+  gain >= 1e-04: 111 entries, median point move > 0.1 in 34
+  gain >= 1e-05: 540 entries, median point move > 0.1 in 36
+  gain >= 1e-06: 1076 entries, median point move > 0.1 in 36
+  gain >= 1e-07: 1310 entries, median point move > 0.1 in 36
+  gain < 1e-5: 891 entries, median point move > 0.1 in 0
+Spearman rank correlation of gain and median move: 0.90
+largest median moves (entry, gain, median move, q90, max): [((32, 87), '5.4e-04', '0.34', '0.48', '0.71'), ((32, 232), '2.4e-04', '0.28', '0.54', '1.02'), ((30, 80), '1.9e-04', '0.26', '0.35', '0.42'), ((32, 224), '1.2e-05', '0.26', '0.43', '0.95'), ((31, 230), '8.9e-05', '0.22', '0.46', '0.60'), ((8, 457), '1.4e-03', '0.21', '0.91', '1.67'), ((28, 77), '2.8e-04', '0.21', '0.34', '0.40'), ((27, 80), '2.4e-04', '0.21', '0.38', '0.52'), ((29, 82), '2.3e-04', '0.21', '0.35', '0.55'), ((8, 447), '1.7e-03', '0.19', '0.78', '1.69'), ((8, 433), '5.9e-04', '0.19', '0.59', '1.42'), ((30, 83), '1.4e-04', '0.18', '0.25', '0.34'), ((8, 437), '6.1e-04', '0.17', '0.52', '1.05'), ((8, 443), '2.7e-04', '0.16', '0.44', '1.00'), ((11, 300), '1.2e-03', '0.16', '0.45', '1.01')]
+by d of the entries with median move > 0.1: {8: 16, 11: 2, 12: 1, 13: 2, 24: 1, 27: 1, 28: 3, 29: 1, 30: 5, 31: 1, 32: 3}
+d8 entries with median move > 0.1 of the minimal distance, N: [431, 432, 433, 434, 435, 437, 443, 447, 448, 455, 456, 457, 459, 460, 461, 467]
+entries with median move > 0.1, gains: ['1.0e-03', '1.2e-03', '1.2e-03', '1.2e-03', '1.2e-05'] ...

@@ -1,0 +1,13 @@
+entries run by an annealing lane and by finish.py from the table's code: 360
+  sweep: 360; finish.py-from-table better by >= 1e-10 in 238, worse by >= 1e-10 in 57, within 1e-10 in 65
+    of the 269 where the annealing lane gained >= 1e-10: finish.py from the table code reached at least as low (within 1e-10) in 212
+    non-rattler max move between the two codes / minimal distance: median 3.8e-03, q90 2.5e-02, max 1.25e+00; above 0.1: 14
+    where finish.py converged (88): values within 1e-10 of the annealing lane's 44, finish.py lower by >= 1e-10 40, higher by >= 1e-10 4
+    finish.py worse (lane, entry, anneal-lane value, finish.py value, move): [((18, 199), '0.222171408775', '0.223079307147', '0.52', 'cut'), ((22, 203), '0.165054997792', '0.165614830529', '0.65', 'cut'), ((32, 87), '0.061573626214', '0.062094388208', '0.71', 'cut'), ((19, 256), '0.228976015418', '0.229464897897', '0.15', 'cut'), ((26, 121), '0.103331941874', '0.103746569671', '1.25', 'converged'), ((28, 77), '0.065631381324', '0.065907306319', '0.40', 'converged'), ((18, 246), '0.244422758332', '0.244698606895', '0.19', 'cut'), ((18, 247), '0.244595778790', '0.244857184282', '0.19', 'cut')]
+
+where finish.py from the table's code converged but the annealing lane's code is lower by >= 1e-10:
+  d26 N121: table 0.103746569671, anneal+LP 0.103331941874, finish.py from table 0.103746569671, difference 4.15e-04, non-rattler move between them / minimal distance 1.25
+  d28 N76: table 0.064711751358, anneal+LP 0.064711737596, finish.py from table 0.064711740569, difference 2.97e-09, non-rattler move between them / minimal distance 0.00
+  d28 N77: table 0.065907662195, anneal+LP 0.065631381324, finish.py from table 0.065907306319, difference 2.76e-04, non-rattler move between them / minimal distance 0.40
+  d29 N82: table 0.068547694244, anneal+LP 0.068321142664, finish.py from table 0.068547335496, difference 2.26e-04, non-rattler move between them / minimal distance 0.55
+entries where the annealing lane gained >= 2.5e-4 over the table: 10; of them finish.py from the table code reached within 1e-10 or lower: 1
