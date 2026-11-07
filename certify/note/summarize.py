@@ -347,6 +347,25 @@ def main():
     mac["HScaled"] = f'{float(pnum(st["H_scaled_min1_numeric"])):.4f}'
     mac["StressTotalScaled"] = f'{float(pnum(st["stress_scaled_total_weight_numeric"])):.1f}'
     mac["SegTExact"] = tex_elt(t1)
+    # the exact endpoint of the ratio interval of Corollary 5.3(a) and the ratio of omega*
+    vr = []
+    k_ = 1
+    while f"vertex_{k_}_ratio_QQ_over_PP" in st:
+        if f"vertex_{k_}_ratio_tower" in st:
+            vr.append((float(pnum(st[f"vertex_{k_}_ratio_QQ_over_PP"])), tower(f"vertex_{k_}_ratio_tower")))
+        k_ += 1
+    mac["RatioMaxExact"] = tex_elt(max(vr, key=lambda x: x[0])[1])
+    mac["RatioMaxminExact"] = tex_elt(tower("maxmin_ratio_tower"))
+    # the linear-programming certificate of Corollary 5.3(b) (structure.gp, part (2b)): the dual weights live on the
+    # orbits 6 and 12, the maximisers form a segment parallel to sigma_A with omega* as one endpoint, and its other
+    # endpoint (orbits 4, 6, 12 smallest) is the one computed above from t1
+    assert st["maxmin_dual_support"].strip() == "[5, 11]" and st["maxmin_dual_bound_equals_value"].strip() == "1"
+    assert st["maxmin_face_is_segment"].strip() == "1" and st["maxmin_face_direction_is_sigma_A"].strip() == "1"
+    assert st["maxmin_face_WMM_is_an_endpoint"].strip() == "1"
+    assert st["maxmin_face_other_endpoint_orbits_at_min"].strip() == "[3, 5, 11]"
+    oe = [[Fraction(x.strip()) for x in grp.split(",")]
+          for grp in re.findall(r"\[([^\[\]]+)\]", st["maxmin_face_other_endpoint_scaled_min1_tower"])]
+    assert oe == endp
     ms = lambda key: [int(x) for x in st[key].strip("[]").split(",")]
     lin_rows = [("trivial", "$\\Gamma$", ms("mult_trivial_[T,rot,E]"), 0),
                 ("$\\varepsilon$", "$M_{10}$", ms("mult_eps_[T,rot,E]"), 1),

@@ -3,7 +3,7 @@
  "script_sha256": "32ee772ed5eee2517891f37b13107f74630951eba2b325be04a9d0ca919c36b4",
  "runner_sha256": "4821d6d7f0cb7de18efcec3562f1fab3f72982117c59faeffa055bad5734aa85",
  "pari_version": "[2, 15, 4]",
- "seconds": 219.0,
+ "seconds": 190.5,
  "error": null,
  "data_sha256_before_run": {
   "aut_generators.gp": "dbc1af6076a24690fb0204ee4a77d8bf647c3ec4e85fe6f369787d647de41d28",
@@ -31,7 +31,7 @@
   "cosine": "0.117359909646538258002137350506310134207089206750897232534541",
   "G_BB_positive_definite": "1",
   "gram_rank_22_identity": "1",
-  "seconds_gram": "28",
+  "seconds_gram": "23",
   "contacts": "4042",
   "min_contacts_per_point": "57",
   "max_contacts_per_point": "73",
@@ -40,10 +40,10 @@
   "prime": "1073741891",
   "rank_mod_p": "923",
   "flex_space_mod_rotations_dim_at_most_1": "1",
-  "seconds_rank": "32",
+  "seconds_rank": "26",
   "flex_identity_on_all_pairs": "1",
   "flex_nonzero_pairs": "1688",
-  "seconds_flex": "70",
+  "seconds_flex": "59",
   "stress_positive_on_every_contact": "1",
   "stress_equilibrium": "1",
   "H_two_formulas_agree": "1",
@@ -54,7 +54,7 @@
   "galois_conjugations_realised_by_relabellings": "0",
   "automorphisms_by_backtracking": "1440",
   "backtracking_nodes": "147129",
-  "seconds_total": "219",
+  "seconds_total": "190",
   "STATUS": "ALL CHECKS PASSED"
  }
 }

@@ -1,0 +1,13 @@
+{"d": 3, "n": 7, "contacts": 12, "rattlers": 0, "flexes_mod_rotations": 0, "strictly_positive_stress": true, "infinitesimally_jammed_numerically": true}
+{"d": 3, "n": 8, "contacts": 16, "rattlers": 0, "flexes_mod_rotations": 0, "strictly_positive_stress": true, "infinitesimally_jammed_numerically": true}
+{"d": 3, "n": 9, "contacts": 18, "rattlers": 0, "flexes_mod_rotations": 0, "strictly_positive_stress": true, "infinitesimally_jammed_numerically": true}
+{"d": 3, "n": 10, "contacts": 19, "rattlers": 0, "flexes_mod_rotations": 0, "strictly_positive_stress": true, "infinitesimally_jammed_numerically": true}
+{"d": 3, "n": 11, "contacts": 25, "rattlers": 0, "flexes_mod_rotations": 0, "strictly_positive_stress": true, "infinitesimally_jammed_numerically": true}
+{"d": 3, "n": 12, "contacts": 30, "rattlers": 0, "flexes_mod_rotations": 0, "strictly_positive_stress": true, "infinitesimally_jammed_numerically": true}
+{"d": 3, "n": 13, "contacts": 24, "rattlers": 0, "flexes_mod_rotations": 0, "strictly_positive_stress": true, "infinitesimally_jammed_numerically": true}
+{"d": 3, "n": 14, "contacts": 28, "rattlers": 0, "flexes_mod_rotations": 0, "strictly_positive_stress": true, "infinitesimally_jammed_numerically": true}
+{"d": 3, "n": 24, "contacts": 60, "rattlers": 0, "flexes_mod_rotations": 0, "strictly_positive_stress": true, "infinitesimally_jammed_numerically": true}
+{"d": 4, "n": 10, "contacts": 30, "rattlers": 0, "flexes_mod_rotations": 0, "strictly_positive_stress": true, "infinitesimally_jammed_numerically": true}
+{"d": 4, "n": 24, "contacts": 96, "rattlers": 0, "flexes_mod_rotations": 0, "strictly_positive_stress": true, "infinitesimally_jammed_numerically": true}
+{"d": 4, "n": 120, "contacts": 720, "rattlers": 0, "flexes_mod_rotations": 0, "strictly_positive_stress": true, "infinitesimally_jammed_numerically": true}
+{"program": "optima.py", "entries": 12, "without_rattlers": 12, "infinitesimally_jammed_numerically": 12, "with_rattlers": [], "seconds": 2.3}

@@ -4,7 +4,8 @@
 # Rerun everything behind the note "A jammed spherical code that is not infinitesimally jammed".
 #   zsh certify/note/run_note.sh SNAPDIR NOTEDIR
 # SNAPDIR: the archived table (the directory holding data.txt, DSpace@MIT handle 1721.1/153543); NOTEDIR: where the LaTeX
-# numbers and tables go. About fifteen minutes on one core (more on a loaded machine).
+# numbers and tables go. About twenty minutes on one core (more on a loaded machine); peak resident memory about
+# 2.3 GB (PARI's stack may grow to 4 GB, run_gp.py).
 #
 # Environment (see requirements_note.txt): Python 3.9 or later with numpy, scipy, mpmath, python-flint 0.6.0 (for the
 # version 5 program certify/v5/jam116.py) and cypari 2.5.7, which bundles PARI/GP 2.15.4 (for the GP scripts). The
@@ -45,6 +46,7 @@ for m in gram ratio; do
 done
 echo "RED CONTROLS: 2 of 2 failed as they must (gram: (G) fails; ratio: (H) fails)" > out/red_controls.txt
 # numbers and tables
+$PY optima.py $SNAP out/optima.json                    > out/optima.log
 $PY summarize.py $NOTE                                 > out/summary.log
 $PY family_summary.py $NOTE                            > out/family_summary.log
 $PY manifest.py                                        > out/manifest.log

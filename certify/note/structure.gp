@@ -192,6 +192,57 @@ out("maxmin_H_sign", sgn(HMM));
 out("maxmin_H_over_normF2", num(HMM)/num(normF2));
 \\ check the max-min stress is an equilibrium stress at every point (it is in the kernel by construction)
 out("maxmin_equilibrium", EQ*WMM == 0);
+\\ (2b) An exact optimality certificate for the max-min problem (maximise the smallest entry over the invariant
+\\ stresses of total weight 1), by linear-programming duality: weights y_t > 0 on a set S of orbits where WMM is
+\\ smallest, sum y_t = 1, and sum_{t in S} y_t omega_t = lam * tot(omega) for every invariant stress omega. Then every
+\\ invariant stress of total weight 1 has smallest entry <= sum y_t omega_t = lam, and WMM attains lam; the maximisers
+\\ are exactly the invariant stresses of total weight 1 that are equal to lam on S and >= lam elsewhere (complementary
+\\ slackness). This set is computed exactly: its affine span, and if that is a line, its two endpoints.
+{
+  my(m0, Z0, TOT, cert = 0, S, y, lam, M, kk, rows, A0, dirs, dv, lo = [], hi = [], tl, th, e1, e2);
+  m0 = WMM[select(t -> abs(num(WMM[t]) - mm) < 10^-30, vector(nT, t, t))[1]];
+  Z0 = select(t -> WMM[t] == m0, vector(nT, t, t));
+  TOT = vector(#Ks[1, ], j, sum(t = 1, nT, sizes[t]*Ks[t, j]));
+  forvec(v = vector(#Z0, i, [0, 1]), if (cert, break);
+    S = select(i -> v[i], vector(#Z0, i, i)); if (!#S, next); S = vector(#S, i, Z0[S[i]]);
+    M = matrix(#TOT, #S + 1, j, i, if (i <= #S, Ks[S[i], j], -TOT[j]));
+    kk = matker(M);
+    if (matsize(kk)[2] == 1,
+      y = vector(#S, i, kk[i, 1]); lam = kk[#S + 1, 1];
+      my(sy = sum(i = 1, #S, y[i]));
+      if (sy != 0, y = y/sy; lam = lam/sy;
+        if (prod(i = 1, #S, sgn(y[i]) > 0), cert = 1))));
+  if (!cert, error("no dual certificate for the max-min stress"));
+  out("maxmin_dual_support", apply(t -> t - 1, S));
+  out("maxmin_dual_weights_numeric", vector(#S, i, num(y[i])));
+  out("maxmin_dual_bound_equals_value", lam == m0 && tot(WMM) == 1);
+  if (lam != m0 || tot(WMM) != 1, error("dual bound"));
+  \\ the set of maximisers: omega = Ks z with Ks[S,] z = lam, TOT z = 1, and Ks z >= lam
+  rows = matrix(#S + 1, #TOT, i, j, if (i <= #S, Ks[S[i], j], TOT[j]));
+  dirs = matker(rows);
+  out("maxmin_face_dimension", matsize(dirs)[2]);
+  if (matsize(dirs)[2] == 1,
+    dv = Ks*dirs[, 1];
+    out("maxmin_face_direction_is_sigma_A", matrank(matconcat([dv, sigA])) == 1);
+    for (t = 1, nT, my(s = sgn(dv[t])); if (s > 0, lo = concat(lo, [(m0 - WMM[t])/dv[t]]));
+                                         if (s < 0, hi = concat(hi, [(m0 - WMM[t])/dv[t]])));
+    if (!#lo || !#hi, error("the face of maximisers is unbounded"));
+    tl = lo[1]; for (i = 2, #lo, if (sgn(lo[i] - tl) > 0, tl = lo[i]));
+    th = hi[1]; for (i = 2, #hi, if (sgn(hi[i] - th) < 0, th = hi[i]));
+    if (sgn(th - tl) < 0, error("empty face"));
+    e1 = WMM + tl*dv; e2 = WMM + th*dv;
+    out("maxmin_face_is_segment", sgn(th - tl) > 0);
+    out("maxmin_face_endpoint_1_orbits_at_min", apply(t -> t - 1, select(t -> e1[t] == m0, vector(nT, t, t))));
+    out("maxmin_face_endpoint_2_orbits_at_min", apply(t -> t - 1, select(t -> e2[t] == m0, vector(nT, t, t))));
+    my(oth = if (e1 == WMM, e2, if (e2 == WMM, e1, 0)));
+    out("maxmin_face_WMM_is_an_endpoint", oth != 0);
+    if (oth != 0,
+      out("maxmin_face_other_endpoint_orbits_at_min", apply(t -> t - 1, select(t -> oth[t] == m0, vector(nT, t, t))));
+      out("maxmin_face_other_endpoint_scaled_min1_numeric", vector(nT, t, num(oth[t]/m0)));
+      out("maxmin_face_other_endpoint_scaled_min1_tower", vector(nT, t, tow(oth[t]/m0)~))));
+  if (matsize(dirs)[2] == 0, out("maxmin_face_is_point", 1));
+  out("maxmin_value_tower", tow(m0)~);
+}
 
 \\ H depends only on the stresses of the two isolated contacts p1p2 and q1q2: on the invariant stresses,
 \\ omega -> (omega_PP, omega_QQ) has rank 2 and kernel R sigma_A, and H(sigma_A) = 0

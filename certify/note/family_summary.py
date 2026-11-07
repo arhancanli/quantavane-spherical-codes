@@ -114,6 +114,26 @@ def main():
     mac["XpAlphaSign"] = "<" if sx["alpha_sign"].strip() == "-1" else ">"
     mac["XpBetaSign"] = "<" if sx["beta_sign"].strip() == "-1" else ">"
     mac["XpSeconds"] = round(float(cx["seconds"]))
+    # Remark 7.2: the thresholds are equal; h'_P = lam h_P and h'_Q = lam h_Q with lam in Q(sqrt145) (exact)
+    from fractions import Fraction as Fr
+    s0 = json.load(open(os.path.join(O, "structure.json")))["results"]
+    tv = lambda key, src: [Fr(x.strip()) for x in src[key].strip("[]").split(",")]
+    assert tv("threshold_ratio_tower", s0) == tv("threshold_ratio_tower", sx)
+    a0, a1 = tv("alpha_tower", s0), tv("alpha_tower", sx)
+    b0, b1 = tv("beta_tower", s0), tv("beta_tower", sx)
+    def qdiv(x, y):                       # (x0 + x1 r)/(y0 + y1 r) in Q(sqrt145)
+        den = y[0] ** 2 - 145 * y[1] ** 2
+        return ((x[0] * y[0] - 145 * x[1] * y[1]) / den, (x[1] * y[0] - x[0] * y[1]) / den)
+    def qmul(x, y):
+        return (x[0] * y[0] + 145 * x[1] * y[1], x[0] * y[1] + x[1] * y[0])
+    lam = qdiv((a1[0], a1[1]), (a0[0], a0[1]))
+    assert all(v == 0 for v in a0[4:] + a1[4:] + b0[4:] + b1[4:])
+    assert qmul(lam, (a0[2], a0[3])) == (a1[2], a1[3])                           # the s1 parts of h_P
+    assert qmul(lam, (b0[0], b0[1])) == (b1[0], b1[1]) and qmul(lam, (b0[2], b0[3])) == (b1[2], b1[3])   # h_Q
+    den = math.lcm(lam[0].denominator, lam[1].denominator)
+    A_, B_ = int(lam[0] * den), int(lam[1] * den)
+    mac["XpLambdaExact"] = "\\frac{%d%s%s\\sqrt{145}}{%d}" % (A_, "+" if B_ >= 0 else "-", "" if abs(B_) == 1 else abs(B_), den)
+    summ["xprime_lambda"] = [str(lam[0]), str(lam[1])]
     # the second, independent check of X' (jam_xprime.py, Python/Arb) and its red controls
     jx = json.load(open(os.path.join(O, "jam_xprime.json")))
     assert jx["status"].startswith("JAMMED") and jx["agrees_with_xprime_gp"]
@@ -124,6 +144,10 @@ def main():
         assert jr["status"].startswith("FAILED")
     mac["XpRedGram"] = json.load(open(os.path.join(O, "jam_xprime_red_gram.json")))["status"].replace("FAILED: ", "")
     mac["XpRedRatio"] = json.load(open(os.path.join(O, "jam_xprime_red_ratio.json")))["status"].replace("FAILED: ", "")
+    # ------------------------------------------------------------ the provably optimal entries in dimensions 3 and 4
+    op = json.load(open(os.path.join(O, "optima.json")))
+    assert op["infinitesimally_jammed_numerically"] == op["entries"] == op["without_rattlers"]
+    mac["OptEntries"] = op["entries"]
     # ------------------------------------------------------------ the entries of the table near (22,116)
     tp = os.path.join(FD, "table_near.json")
     if os.path.exists(tp):

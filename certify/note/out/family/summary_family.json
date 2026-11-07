@@ -416,6 +416,10 @@
   },
   "verdict": "rattlers"
  },
+ "xprime_lambda": [
+  "-27409/13824",
+  "3497/13824"
+ ],
  "table": {
   "entries": 31,
   "structured": 9,
@@ -494,11 +498,13 @@
   "XpMaxmin": "0.2817",
   "XpAlphaSign": "<",
   "XpBetaSign": ">",
-  "XpSeconds": 219,
+  "XpSeconds": 190,
+  "XpLambdaExact": "\\frac{-27409+3497\\sqrt{145}}{13824}",
   "XpPyRank": "2{,}320",
   "XpPyPrime": "2{,}147{,}483{,}477",
   "XpRedGram": "G does not have rank d",
   "XpRedRatio": "H not positive",
+  "OptEntries": 12,
   "TabNmax": 100,
   "TabAutTimeout": 0,
   "TabAutTimeoutList": "none",

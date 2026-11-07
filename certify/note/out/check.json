@@ -3,7 +3,7 @@
  "script_sha256": "c220aef76549bbb4dc19bc713928304e97fb43d238978e5e68194e585bfa5dbc",
  "runner_sha256": "4821d6d7f0cb7de18efcec3562f1fab3f72982117c59faeffa055bad5734aa85",
  "pari_version": "[2, 15, 4]",
- "seconds": 238.3,
+ "seconds": 214.5,
  "error": null,
  "data_sha256_before_run": {
   "aut_generators.gp": "0f82e89723c97f53fbba48a356e5b8d530d99264e5ab272eb6dec055c3752578",
@@ -33,7 +33,7 @@
   "cosine": "0.117359909646538258002137350506310134207089206750897232534541",
   "G_BB_positive_definite": "1",
   "gram_rank_22_identity": "1",
-  "seconds_gram": "27",
+  "seconds_gram": "26",
   "contacts": "4042",
   "min_contacts_per_point": "57",
   "max_contacts_per_point": "73",
@@ -48,7 +48,7 @@
   "seconds_rank": "30",
   "flex_identity_on_all_pairs": "1",
   "flex_nonzero_pairs": "1688",
-  "seconds_flex": "70",
+  "seconds_flex": "69",
   "stress_positive_on_every_contact": "1",
   "stress_equilibrium": "1",
   "H_two_formulas_agree": "1",
@@ -59,7 +59,7 @@
   "galois_conjugations_realised_by_relabellings": "3",
   "automorphisms_by_backtracking": "1440",
   "backtracking_nodes": "147129",
-  "seconds_total": "238",
+  "seconds_total": "214",
   "STATUS": "ALL CHECKS PASSED"
  }
 }

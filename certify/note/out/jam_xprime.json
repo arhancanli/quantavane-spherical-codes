@@ -76,7 +76,7 @@
   ]
  ],
  "agrees_with_xprime_gp": true,
- "seconds_X": 2.1,
+ "seconds_X": 1.8,
  "cos_class": 12,
  "cos_value_float": 0.11735990964653825,
  "cos_satisfies_30x2_5x_1": true,
@@ -88,12 +88,12 @@
  "rattlers": 0,
  "G_BB_positive_definite": true,
  "gram_rank_d_check_failures": 0,
- "seconds_gram": 6.5,
+ "seconds_gram": 5.8,
  "prime": 2147483477,
  "rank_mod_p": 2320,
  "rank_needed": 2320,
  "cols": 2552,
- "seconds_rank": 22.8,
+ "seconds_rank": 21.5,
  "proposal_flex_numerical_nullity_mod_rotations": 1,
  "flex_classes": [
   0,
@@ -123,19 +123,19 @@
   140.1139117361337,
   1.0
  ],
- "seconds_flex": 54.1,
+ "seconds_flex": 49.3,
  "stress_types": 14,
  "stress_space_dim_on_types": 3,
  "stress_positive": true,
  "stress_equilibrium_failures": 0,
  "stress_min_relative": 0.2816720031444245,
  "stress_ratio_QQ_over_PP": 1.4988775496653517,
- "seconds_stress": 65.2,
+ "seconds_stress": 59.7,
  "H_sign": 1,
  "H_float": 10052.924319230182,
  "flex_norm2_float": 5683156.387400489,
  "H_over_norm2_total_stress": 0.0017688980618428924,
- "seconds_H": 79.5,
+ "seconds_H": 72.6,
  "status": "JAMMED, NOT INFINITESIMALLY JAMMED (prestress stable: strict local minimum modulo rotations)",
- "seconds": 79.5
+ "seconds": 72.6
 }

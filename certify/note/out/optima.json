@@ -1,0 +1,278 @@
+{
+ "program": "optima.py",
+ "entries": 12,
+ "without_rattlers": 12,
+ "infinitesimally_jammed_numerically": 12,
+ "with_rattlers": [],
+ "seconds": 2.3,
+ "entries_detail": [
+  {
+   "contacts": 12,
+   "largest_cosine": 0.21013831273060316,
+   "rattlers": 0,
+   "degrees": [
+    3,
+    4
+   ],
+   "rank_core": 3,
+   "flexes_mod_rotations": 0,
+   "singular_values_around_gap": [
+    1.7403303178839203e-16,
+    0.6218526188191968
+   ],
+   "stress_dimension": 1,
+   "maxmin_stress_times_E": 0.6238814850160578,
+   "equilibrium_residual": 1.3877787807814457e-16,
+   "strictly_positive_stress": true,
+   "d": 3,
+   "n": 7,
+   "notes": "K. Sch\u00fctte and B. L. van der Waerden, Auf welcher Kugel haben 5, 6, 7, 8 oder 9 ",
+   "infinitesimally_jammed_numerically": true
+  },
+  {
+   "contacts": 16,
+   "largest_cosine": 0.2612038749637414,
+   "rattlers": 0,
+   "degrees": [
+    4
+   ],
+   "rank_core": 3,
+   "flexes_mod_rotations": 0,
+   "singular_values_around_gap": [
+    3.1479442776181127e-16,
+    0.7067670412365006
+   ],
+   "stress_dimension": 3,
+   "maxmin_stress_times_E": 0.7387961250362568,
+   "equilibrium_residual": 6.938893903907228e-17,
+   "strictly_positive_stress": true,
+   "d": 3,
+   "n": 8,
+   "notes": "K. Sch\u00fctte and B. L. van der Waerden, Auf welcher Kugel haben 5, 6, 7, 8 oder 9 ",
+   "infinitesimally_jammed_numerically": true
+  },
+  {
+   "contacts": 18,
+   "largest_cosine": 0.33333333333333337,
+   "rattlers": 0,
+   "degrees": [
+    4
+   ],
+   "rank_core": 3,
+   "flexes_mod_rotations": 0,
+   "singular_values_around_gap": [
+    8.976552621545339e-16,
+    0.575424737253798
+   ],
+   "stress_dimension": 3,
+   "maxmin_stress_times_E": 0.5999999999999701,
+   "equilibrium_residual": 1.0408340855860843e-16,
+   "strictly_positive_stress": true,
+   "d": 3,
+   "n": 9,
+   "notes": "K. Sch\u00fctte and B. L. van der Waerden, Auf welcher Kugel haben 5, 6, 7, 8 oder 9 ",
+   "infinitesimally_jammed_numerically": true
+  },
+  {
+   "contacts": 19,
+   "largest_cosine": 0.40439432521625085,
+   "rattlers": 0,
+   "degrees": [
+    3,
+    4
+   ],
+   "rank_core": 3,
+   "flexes_mod_rotations": 0,
+   "singular_values_around_gap": [
+    8.686180284278983e-16,
+    0.34565136541433056
+   ],
+   "stress_dimension": 2,
+   "maxmin_stress_times_E": 0.33489562030184916,
+   "equilibrium_residual": 8.326672684688674e-17,
+   "strictly_positive_stress": true,
+   "d": 3,
+   "n": 10,
+   "notes": "K. Sch\u00fctte and B. L. van der Waerden, Auf welcher Kugel haben 5, 6, 7, 8 oder 9 ",
+   "infinitesimally_jammed_numerically": true
+  },
+  {
+   "contacts": 25,
+   "largest_cosine": 0.44721359549995804,
+   "rattlers": 0,
+   "degrees": [
+    4,
+    5
+   ],
+   "rank_core": 3,
+   "flexes_mod_rotations": 0,
+   "singular_values_around_gap": [
+    8.683270572552855e-16,
+    0.501067004403668
+   ],
+   "stress_dimension": 6,
+   "maxmin_stress_times_E": 0.7555113812500163,
+   "equilibrium_residual": 4.85722573273506e-17,
+   "strictly_positive_stress": true,
+   "d": 3,
+   "n": 11,
+   "notes": "K. Sch\u00fctte and B. L. van der Waerden, Auf welcher Kugel haben 5, 6, 7, 8 oder 9 ",
+   "infinitesimally_jammed_numerically": true
+  },
+  {
+   "contacts": 30,
+   "largest_cosine": 0.44721359549995804,
+   "rattlers": 0,
+   "degrees": [
+    5
+   ],
+   "rank_core": 3,
+   "flexes_mod_rotations": 0,
+   "singular_values_around_gap": [
+    9.16241009873051e-16,
+    0.5870358557382896
+   ],
+   "stress_dimension": 9,
+   "maxmin_stress_times_E": 0.9999999999999775,
+   "equilibrium_residual": 5.551115123125783e-17,
+   "strictly_positive_stress": true,
+   "d": 3,
+   "n": 12,
+   "notes": "L. Fejes [T\u00f3th], \u00dcber eine Absch\u00e4tzung des k\u00fcrzesten Abstandes zweier Punkte ein",
+   "infinitesimally_jammed_numerically": true
+  },
+  {
+   "contacts": 24,
+   "largest_cosine": 0.5426364868296386,
+   "rattlers": 0,
+   "degrees": [
+    3,
+    4
+   ],
+   "rank_core": 3,
+   "flexes_mod_rotations": 0,
+   "singular_values_around_gap": [
+    8.558780497896341e-16,
+    0.24138848369133156
+   ],
+   "stress_dimension": 1,
+   "maxmin_stress_times_E": 0.8467816566415927,
+   "equilibrium_residual": 9.020562075079397e-17,
+   "strictly_positive_stress": true,
+   "d": 3,
+   "n": 13,
+   "notes": "K. Sch\u00fctte and B. L. van der Waerden, Auf welcher Kugel haben 5, 6, 7, 8 oder 9 ",
+   "infinitesimally_jammed_numerically": true
+  },
+  {
+   "contacts": 28,
+   "largest_cosine": 0.5639503003605053,
+   "rattlers": 0,
+   "degrees": [
+    4
+   ],
+   "rank_core": 3,
+   "flexes_mod_rotations": 0,
+   "singular_values_around_gap": [
+    8.799595358268362e-16,
+    0.27142872720034206
+   ],
+   "stress_dimension": 3,
+   "maxmin_stress_times_E": 0.7089445566496081,
+   "equilibrium_residual": 8.500145032286355e-17,
+   "strictly_positive_stress": true,
+   "d": 3,
+   "n": 14,
+   "notes": "K. Sch\u00fctte and B. L. van der Waerden, Auf welcher Kugel haben 5, 6, 7, 8 oder 9 ",
+   "infinitesimally_jammed_numerically": true
+  },
+  {
+   "contacts": 60,
+   "largest_cosine": 0.7230784683335088,
+   "rattlers": 0,
+   "degrees": [
+    5
+   ],
+   "rank_core": 3,
+   "flexes_mod_rotations": 0,
+   "singular_values_around_gap": [
+    2.1588552788527606e-15,
+    0.2384463799496974
+   ],
+   "stress_dimension": 15,
+   "maxmin_stress_times_E": 0.8562689605087701,
+   "equilibrium_residual": 3.122502256758253e-17,
+   "strictly_positive_stress": true,
+   "d": 3,
+   "n": 24,
+   "notes": "R. M. Robinson, Arrangements of 24 points on a sphere, Math. Ann. 144 (1961), 17",
+   "infinitesimally_jammed_numerically": true
+  },
+  {
+   "contacts": 30,
+   "largest_cosine": 0.1666666666666668,
+   "rattlers": 0,
+   "degrees": [
+    6
+   ],
+   "rank_core": 4,
+   "flexes_mod_rotations": 0,
+   "singular_values_around_gap": [
+    9.768445361301088e-16,
+    0.8969784393239273
+   ],
+   "stress_dimension": 6,
+   "maxmin_stress_times_E": 0.999999999999994,
+   "equilibrium_residual": 6.418476861114186e-17,
+   "strictly_positive_stress": true,
+   "d": 4,
+   "n": 10,
+   "notes": "A. L. Mackay, The packing of three-dimensional spheres on the surface of a four-",
+   "infinitesimally_jammed_numerically": true
+  },
+  {
+   "contacts": 96,
+   "largest_cosine": 0.5,
+   "rattlers": 0,
+   "degrees": [
+    8
+   ],
+   "rank_core": 4,
+   "flexes_mod_rotations": 0,
+   "singular_values_around_gap": [
+    1.013722687185681e-15,
+    0.4568502517478563
+   ],
+   "stress_dimension": 30,
+   "maxmin_stress_times_E": 0.9999999999993433,
+   "equilibrium_residual": 1.8214596497756474e-17,
+   "strictly_positive_stress": true,
+   "d": 4,
+   "n": 24,
+   "notes": "L. Schl\u00e4fli, Theorie der vielfachen Kontinuit\u00e4t [1852], Denkschriften der Schwei",
+   "infinitesimally_jammed_numerically": true
+  },
+  {
+   "contacts": 720,
+   "largest_cosine": 0.8090169943749475,
+   "rattlers": 0,
+   "degrees": [
+    12
+   ],
+   "rank_core": 4,
+   "flexes_mod_rotations": 0,
+   "singular_values_around_gap": [
+    1.9210035622830384e-15,
+    0.13068047827944265
+   ],
+   "stress_dimension": 366,
+   "maxmin_stress_times_E": 0.9999999999988985,
+   "equilibrium_residual": 9.324138683375338e-18,
+   "strictly_positive_stress": true,
+   "d": 4,
+   "n": 120,
+   "notes": "L. Schl\u00e4fli, Theorie der vielfachen Kontinuit\u00e4t [1852], Denkschriften der Schwei",
+   "infinitesimally_jammed_numerically": true
+  }
+ ]
+}
