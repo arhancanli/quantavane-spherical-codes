@@ -1,0 +1,32 @@
+# Files of certify/ for paper version 4 (paths from the repository root). Directories stand for all
+# their files; certify/census/MANIFEST_v4.tsv lists every file with its size and SHA-256.
+certify/README.md
+certify/.gitignore
+certify/sphcert.py
+certify/census/cq.py
+certify/census/strict.py
+certify/census/exact_strict.py
+certify/census/exact_big.py
+certify/census/exact_sample.py
+certify/census/snapshot.py
+certify/census/classify.py
+certify/census/run_census.py
+certify/census/run_all.sh
+certify/census/run_exact.sh
+certify/census/fetch_snapshot.sh
+certify/census/summarize.py
+certify/census/make_text.py
+certify/census/census_md.py
+certify/census/validate_poly.py
+certify/census/manifest.py
+certify/census/index.tsv
+certify/census/classify.jsonl
+certify/census/snapshot_files.json
+certify/census/validate_v4.tsv
+certify/census/summary_v4.json
+certify/census/MANIFEST_v4.tsv
+certify/COMMIT_LIST_v4.txt
+certify/census/results_v4/
+certify/census/strict_v4/
+certify/census/exact_v4/
+certify/census/logs/*v4*

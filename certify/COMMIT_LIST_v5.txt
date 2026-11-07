@@ -1,0 +1,50 @@
+# Files of certify/ for paper version 5 (paths from the repository root), for the owner's commit. Directories stand for
+# all their files. certify/RELEASE_FILES.tsv lists every file with its size and destination (git or Zenodo);
+# certify/census/MANIFEST_v4.tsv and certify/v5/MANIFEST_v5.tsv give the SHA-256 of every file. Nothing has been
+# committed or pushed.
+#
+# git (MIT licence, certify/LICENSE):
+certify/LICENSE
+certify/README.md
+certify/RELEASE_FILES.tsv
+certify/COMMIT_LIST_v4.txt
+certify/COMMIT_LIST_v5.txt
+certify/.gitignore
+certify/sphcert.py
+certify/run_batch.py
+certify/analysis.py
+certify/exact_check.py
+certify/lp_dual.py
+certify/make_lists.py
+certify/dedup.py
+certify/census/cq.py
+certify/census/strict.py
+certify/census/exact_strict.py
+certify/census/exact_big.py
+certify/census/exact_sample.py
+certify/census/snapshot.py
+certify/census/classify.py
+certify/census/run_census.py
+certify/census/run_all.sh
+certify/census/run_exact.sh
+certify/census/fetch_snapshot.sh
+certify/census/summarize.py
+certify/census/make_text.py
+certify/census/census_md.py
+certify/census/validate_poly.py
+certify/census/manifest.py
+certify/census/index.tsv
+certify/census/snapshot_files.json
+certify/census/validate_v4.tsv
+certify/census/summary_v4.json
+certify/census/MANIFEST_v4.tsv
+certify/census/strict_v4/
+certify/census/exact_v4/
+certify/census/logs/*v4*
+certify/v5/
+#
+# Zenodo deposit (DOI to be filled in by the owner), too large for git:
+#   certify/census/results_v4/      16,265 files, about 23 MB
+#   certify/census/classify.jsonl   about 16 MB
+#   certify/results/, certify/lists/, certify/logs/   (outputs of version 2 of the paper)
+#   and an archive of the whole of certify/ at this version
