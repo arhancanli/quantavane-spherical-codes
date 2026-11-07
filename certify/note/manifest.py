@@ -5,7 +5,7 @@
 import hashlib, os
 HERE = os.path.dirname(os.path.abspath(__file__))
 rows = []
-for sub in ("", "data", "data_xprime", "out", os.path.join("out", "family")):
+for sub in ("", "data", "data_xprime", "out", os.path.join("out", "family"), os.path.join("out", "symcount")):
     base = os.path.join(HERE, sub)
     for f in sorted(os.listdir(base)):
         p = os.path.join(base, f)

@@ -106,6 +106,12 @@
  "bar_FA": 0.1439876930876964,
  "strut_FA": 0.14182474520807214,
  "H_FA": 0.0021629478796242607,
+ "soft_modes": 2,
+ "coordinate_modes": 32,
+ "mu2_over_1mc": 0.4052406437435832,
+ "H_const_mode": 0.002825742506598339,
+ "H_other_soft_modes": 0.0012077196491223994,
+ "H_other_modes": -0.0018705142760964734,
  "maxmin_segment_t1": 0.703258384531186,
  "maxmin_other_endpoint": [
   15.06516769062372,

@@ -107,24 +107,37 @@ outputs are superseded by version 4 and are not part of the release.
 
 ## The note: a jammed spherical code that is not infinitesimally jammed (`note/`)
 
-The programs of the note *A jammed spherical code that is not infinitesimally jammed* (A. Canli). Rerun everything with
+The programs of the note *A jammed spherical code that is not infinitesimally jammed* (A. Canli). The theorem that the
+entry (22,116) is jammed but not infinitesimally jammed appeared in version 5 of the census paper (its Theorem 5.4,
+with `v5/recognise116.py` and `v5/jam116.py`); from version 6 on the census paper does not contain it, and the note is
+its only place. Rerun everything with
 
-    zsh certify/note/run_note.sh SNAPDIR NOTEDIR     # about fifteen minutes on one core
+    zsh certify/note/run_note.sh SNAPDIR NOTEDIR     # about twenty-five minutes on one core; peak memory about 2.3 GB
 
-which runs, in order: `extract.py` (the stored entry), `classes.py` (classes and the 13 exact values, from the version 5
-recognition), `aut116.py` (the group by individualisation and refinement), `construct.py` (the model in the circle
-geometry of PG(1,9)), `orbit_model.py` (each orbit on pairs described in the model; Tables 1 and 5), `structure.gp` (the
-flex, the stresses, the characters), `check.gp` (the second exact verification, including the count of the 1440
-automorphisms by backtracking: 147,129 nodes), `v5/jam116.py` (the first exact verification), then for the second code
-X' of Section 7 `xprime.gp` (the exact data of X' in `data_xprime/`), `structure.gp` and `check_xprime.gp` on that
-directory (`QV_NOTE_DATA=data_xprime`), `jam_xprime.py` (the second, independent check of X': an adapted copy of
-`v5/jam116.py` in Python with ball arithmetic, which recomputes X' from X* itself and must agree with `data_xprime/`)
-and its two red controls (`--red gram`, `--red ratio`, which must fail: run_note.sh stops if either passes), and finally
-`summarize.py`, `family_summary.py` (numbers and tables) and `manifest.py`. The last lines printed are the two GP
-STATUS lines, the two Python statuses and the red-control line. On the author's machine (loaded) the GP scripts take two to four minutes each and `jam116.py` about a
-minute.
+which runs, in order: `extract.py` (the stored entry), `classes.py` (classes and the 13 exact values, from the
+recognition `v5/out/recognition_d22_n116.json`), `aut116.py` (the group by individualisation and refinement),
+`construct.py` (the model in the circle geometry of PG(1,9)), `model_check.py` (a second, separately written program
+that builds the model from the text of the note and finds the same bijection with the deposited class matrices of X*
+and X'; adapted from an anonymous referee check), `orbit_model.py` (each orbit on pairs described in the model; Tables 1
+and 5), `structure.gp` (the flex, the stresses, the characters), `check.gp` (the second exact verification, including the
+count of the 1440 automorphisms by backtracking: 147,129 nodes), `v5/jam116.py` (the first exact verification),
+`field.gp` (the field in reduced form), then for the second code X' of Section 7 `xprime.gp` (the exact data of X' in
+`data_xprime/`), `structure.gp` on that directory (`QV_NOTE_DATA=data_xprime`), `galois_xprime.py` (the three Galois
+relabellings of X', `data_xprime/galois.gp`), `check_xprime.gp` (which checks them), `jam_xprime.py` (the second check of
+X': an adapted copy of `v5/jam116.py` in Python with ball arithmetic, which recomputes X' from X* itself and must agree
+with `data_xprime/`) and its two red controls (`--red gram`, `--red ratio`, which must fail: run_note.sh stops if either
+passes), and finally `optima.py`, `summarize.py`, `family_summary.py`, `symcount_summary.py` (numbers and tables) and
+`manifest.py`. The last lines printed are the STATUS lines, the two Python statuses, the model check and the red-control
+line. On the author's machine (loaded) the GP scripts take two to four minutes each, `jam116.py` about a minute and
+`model_check.py` about two minutes.
 
-The floating-point searches of Section 7 are run separately (hours): `zsh certify/note/run_family.sh SNAPDIR` runs
-`family.py` (Gamma-invariant codes from PGammaL(2,q) and subgroups: the restarts for X* and X', then the cases of its
-table `CASES`) and `family_table.py` (the entries of the table in dimension 22 with N <= 100); their outputs are in
-`note/out/family/`. Nothing in them is a certificate; the note states which results are floating point.
+Two floating-point computations are run separately (hours). `zsh certify/note/run_symcount.sh SNAPDIR` runs
+`symcount.py` in three shards over every entry of the table: contacts, rattlers, the rank of the rigidity matrix, the
+symmetry group and its character table where needed, and the symmetry-forced count of flexes (Section 4 of the note);
+outputs in `note/out/symcount/`, summarised by `symcount_summary.py`. Some steps have time limits (the backtracking
+search for a group, each linear program), so on another machine a few entries may move between "undecided" and a
+decided class; the outputs here were written by successive versions of `symcount.py` with the same decision rules
+(the last ones only computed less where the result cannot change the class), and the entries whose stresses the note
+examines were recomputed with the last two versions (which differ only in solving the max-min linear program over the invariant stresses when the group is known). `zsh certify/note/run_family.sh SNAPDIR` runs `family.py` (Gamma-invariant codes from
+PGammaL(2,q) and subgroups: the restarts for X* and X', then the cases of its table `CASES`) and `family_table.py`;
+outputs in `note/out/family/`. Nothing in them is a certificate; the note states which results are floating point.

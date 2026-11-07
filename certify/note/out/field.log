@@ -1,0 +1,10 @@
+field_polredabs = y^8 - 15*y^6 + 22*y^4 - 15*y^2 + 1
+field_disc_factor = [2, 8; 3, 4; 5, 4; 29, 4]
+field_disc = 9166361760000
+field_real_roots = 4
+field_y0 = -3.66693715474705140414603377239786148389837410149575134439178
+field_sqrt145_in_y = -2*y^6 + 30*y^4 - 42*y^2 + 15
+field_s1_in_y = -1/6*y^6 + 23/10*y^4 - 5/6*y^2 + 3/10
+field_s2_in_y = 23/270*y^7 - 731/540*y^5 + 793/270*y^3 - 931/540*y
+field_y2_plus_yinv2 = (15 + sqrt145)/2
+STATUS = FIELD CHECKS PASSED

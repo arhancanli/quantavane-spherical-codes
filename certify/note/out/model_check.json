@@ -1,0 +1,37 @@
+{
+ "program": "model_check.py",
+ "group_order": 1440,
+ "class_counts": [
+  2,
+  2,
+  40,
+  720,
+  40,
+  720,
+  180,
+  72,
+  20,
+  72,
+  720,
+  40,
+  4042
+ ],
+ "split_360": [
+  360,
+  180,
+  180
+ ],
+ "bijection_found": true,
+ "pairs_checked": 6670,
+ "PQ_images_in_stored_order": [
+  112,
+  113,
+  114,
+  115
+ ],
+ "xprime_pairs_checked": 6670,
+ "class_preserving_permutations": 1440,
+ "seconds_model_and_bijection": 5.9,
+ "seconds_count": 144.1,
+ "status": "MODEL = DEPOSITED CLASS MATRICES (X* and X')"
+}

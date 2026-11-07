@@ -1,2 +1,2 @@
 PARI stack size set to 500000000 bytes, maximum size set to 4000006144
-{"script": "structure.gp", "seconds": 174.1, "error": null, "lines": 116}
+{"script": "structure.gp", "seconds": 247.9, "error": null, "lines": 116}

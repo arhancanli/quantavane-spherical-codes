@@ -69,7 +69,7 @@ def main():
     for k, v in S["open22"].items():
         out.append(f"| ({k}) | {v} |")
     jam = json.load(open(os.path.join(HERE, "out", "jam_d22_n116.json")))
-    out += ["", "## The jammed code that is not infinitesimally jammed", "",
+    out += ["", "## The jammed code that is not infinitesimally jammed (now the separate note, certify/note/)", "",
             f"(22,116): {jam['status']}. Field Q(sqrt145, s1, s2) of degree 8; {jam['contacts']} contacts; rank of the "
             f"rigidity matrix at least {jam['rank_mod_p']} = 116*22 - 231 - 1 (mod {jam['prime']}); one flex (nonzero on "
             f"{jam['flex_S_nonzero_pairs']} pairs of the Gram derivative); a positive stress on {jam['stress_types']} contact "

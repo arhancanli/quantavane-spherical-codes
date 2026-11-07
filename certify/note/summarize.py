@@ -216,6 +216,19 @@ def main():
     barA, strutA = bars_struts(FAu)
     summary.update(total_weight_omega_star=float(omE.sum()), bar_F=barF, strut_F=strutF, H_F=barF - strutF,
                    bar_FA=barA, strut_FA=strutA, H_FA=barA - strutA)
+    # Proposition 2.7: the modes of the contact graph weighted by omega* (eigenvalues of L relative to W), and the energy
+    # of the unit flex F mode by mode, H = sum_k (1 - c - mu_k) |eta_k|^2 (floating point)
+    import scipy.linalg as sla
+    Lw = np.diag(wE)
+    np.add.at(Lw, (Ea, Eb), -omE)
+    np.add.at(Lw, (Eb, Ea), -omE)
+    mu_, Ph_ = sla.eigh(Lw, np.diag(wE))
+    soft_ = mu_ < (1 - cf) * (1 - 1e-9)
+    contrib_ = (1 - cf - mu_) * ((Ph_.T @ (wE[:, None] * Fu)) ** 2).sum(1)
+    assert abs(float(contrib_.sum()) - (barF - strutF)) < 1e-9
+    summary.update(soft_modes=int(soft_.sum()), coordinate_modes=int((np.abs(mu_ - (1 - cf)) < 1e-9).sum()),
+                   mu2_over_1mc=float(mu_[1] / (1 - cf)), H_const_mode=float(contrib_[0]),
+                   H_other_soft_modes=float(contrib_[1:][soft_[1:]].sum()), H_other_modes=float(contrib_[~soft_].sum()))
     # ---------------------------------------------------------------- the max-min invariant stresses form a segment
     # exact: omega*(t) = omega* + t * 20 sigma_A (Table 4 scaling) keeps the entries 1 on the orbits 6, 12 and the
     # total weight, and stays >= 1 until orbit 4 reaches 1 at t1 = (omega*_4 - 1)/2
@@ -296,6 +309,11 @@ def main():
         "BarF": f"{summary['bar_F']:.5f}", "StrutF": f"{summary['strut_F']:.5f}", "HF": f"{summary['H_F']:.5f}",
         "BarFA": f"{summary['bar_FA']:.5f}", "StrutFA": f"{summary['strut_FA']:.5f}",
         "HShare": f"{100 * summary['H_F'] / summary['bar_F']:.0f}",
+        "SoftStarText": ("the eigenvalues of Proposition~\\ref{prop:balance} below $1-c$ are $\\mu_1=0$ and %d more (the "
+                         "smallest nonzero one is $\\approx%.3f(1-c)$), and in $H_{\\omega^*}(F)$ the constant mode contributes "
+                         "$\\approx%.5f$, the other soft modes $\\approx%.5f$ and the modes above $1-c$ $\\approx%.5f$."
+                         % (summary["soft_modes"] - 1, summary["mu2_over_1mc"], summary["H_const_mode"],
+                            summary["H_other_soft_modes"], summary["H_other_modes"])),
         "SegT": f"{summary['maxmin_segment_t1']:.4f}",
         "SegEndOne": f"{summary['maxmin_other_endpoint'][0]:.4f}",
         "SegEndTwo": f"{summary['maxmin_other_endpoint'][1]:.4f}",
@@ -323,6 +341,34 @@ def main():
         v = ic[e]
         ptex += ("-" if v < 0 else ("+" if ptex else "")) + f"{abs(v):,}".replace(",", "{,}") + mono(e)
     mac["MinPoly"] = ptex
+    # the reduced form of L (field.gp): GP polynomials in y written as LaTeX
+    fld = json.load(open(os.path.join(O, "field.json")))["results"]
+    assert fld["STATUS"] == "FIELD CHECKS PASSED"
+    def gp_poly_tex(t):
+        import re as re_
+        t = t.replace(" ", "")
+        terms = re_.findall(r"[+-]?[^+-]+", t)
+        out_ = ""
+        for term in terms:
+            sgn = "-" if term.startswith("-") else "+"
+            term = term.lstrip("+-")
+            if "*" in term:
+                cf_, mo = term.split("*", 1)
+            elif "y" in term:
+                cf_, mo = "", term
+            else:
+                cf_, mo = term, ""
+            mo = re_.sub(r"y\^(\d+)", r"y^{\1}", mo)
+            if "/" in cf_:
+                num, den_ = cf_.split("/")
+                cf_ = "\\tfrac{%s}{%s}" % (num, den_)
+            out_ += ("" if (not out_ and sgn == "+") else sgn) + cf_ + mo
+        return out_
+    mac["FieldPoly"] = gp_poly_tex(fld["field_polredabs"])
+    fac = [[int(x) for x in row.split(",")] for row in fld["field_disc_factor"].strip("[]").split(";")]
+    mac["FieldDisc"] = "\\cdot".join("%d^{%d}" % (p_, e_) for p_, e_ in fac)
+    mac["FieldYzero"] = "%.5f" % float(fld["field_y0"])
+    mac["FieldSqrtY"] = gp_poly_tex(fld["field_sqrt145_in_y"])
     mac["RealRoots"] = ckr["real_roots_of_P"]
     mac["AutBacktrack"] = ckr["automorphisms_by_backtracking"]
     mac["AutNodes"] = f'{int(ckr["backtracking_nodes"]):,}'.replace(",", "{,}")

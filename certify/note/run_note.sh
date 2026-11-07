@@ -4,7 +4,7 @@
 # Rerun everything behind the note "A jammed spherical code that is not infinitesimally jammed".
 #   zsh certify/note/run_note.sh SNAPDIR NOTEDIR
 # SNAPDIR: the archived table (the directory holding data.txt, DSpace@MIT handle 1721.1/153543); NOTEDIR: where the LaTeX
-# numbers and tables go. About twenty minutes on one core (more on a loaded machine); peak resident memory about
+# numbers and tables go. About twenty-five minutes on one core (on the author's loaded machine); peak resident memory about
 # 2.3 GB (PARI's stack may grow to 4 GB, run_gp.py).
 #
 # Environment (see requirements_note.txt): Python 3.9 or later with numpy, scipy, mpmath, python-flint 0.6.0 (for the
@@ -13,8 +13,9 @@
 # (colon-separated), and PYTHON selects the interpreter. The defaults below are the author's machine; with the packages
 # installed in the interpreter itself, run as   QV_LIBS= PYTHON=python3 zsh certify/note/run_note.sh SNAPDIR NOTEDIR
 #
-# The floating-point searches of Section 7 (family.py, family_table.py) take hours and are run by run_family.sh; this
-# script only reads their outputs in out/family/ (family_summary.py).
+# The floating-point computations that take hours are run separately: the count across the table (symcount.py, by
+# run_symcount.sh) and the searches of Appendix B (family.py, family_table.py, by run_family.sh); this script only reads
+# their outputs in out/symcount/ and out/family/ (symcount_summary.py, family_summary.py).
 set -e
 HERE=${0:A:h}
 SNAP=$1
@@ -33,10 +34,14 @@ $PY orbit_model.py                                     > out/orbit_model.log
 $PY run_gp.py structure.gp structure flex.gp stress.gp > out/run_structure.txt 2>&1
 $PY run_gp.py check.gp check                           > out/run_check.txt 2>&1
 (cd ../v5 && $PY jam116.py $SNAP out/recognition_d22_n116.json ../note/out/jam116_rerun.json > ../note/out/jam116_rerun.log)
+$PY run_gp.py field.gp field                           > out/run_field.txt 2>&1
 # the second code X' (Theorem 7.1): X* with Q reflected in the hyperplane of A
 $PY run_gp.py xprime.gp xprime                         > out/run_xprime.txt 2>&1
 QV_NOTE_DATA=data_xprime $PY run_gp.py structure.gp structure_xprime flex.gp stress.gp > out/run_structure_xprime.txt 2>&1
+$PY galois_xprime.py                                   > out/galois_xprime.log
 QV_NOTE_DATA=data_xprime $PY run_gp.py check_xprime.gp check_xprime                    > out/run_check_xprime.txt 2>&1
+# the model of Definition 3.1, built a second time by a separately written program, against data/ and data_xprime/
+$PY model_check.py out/model_check.json                > out/model_check.log
 # the second, independent check of X' (Python/Arb: an adapted copy of v5/jam116.py), and two red controls that must fail
 $PY jam_xprime.py out/jam_xprime.json                  > out/jam_xprime.log
 for m in gram ratio; do
@@ -49,7 +54,10 @@ echo "RED CONTROLS: 2 of 2 failed as they must (gram: (G) fails; ratio: (H) fail
 $PY optima.py $SNAP out/optima.json                    > out/optima.log
 $PY summarize.py $NOTE                                 > out/summary.log
 $PY family_summary.py $NOTE                            > out/family_summary.log
+$PY symcount_summary.py $NOTE                          > out/symcount_summary.log
 $PY manifest.py                                        > out/manifest.log
-grep -h STATUS out/check.log out/check_xprime.log
+grep -h STATUS out/check.log out/check_xprime.log out/field.log
+grep -ho '"status": "[^"]*"' out/model_check.json
+cat out/galois_xprime.log
 grep -ho '"status": "[^"]*"' out/jam116_rerun.json out/jam_xprime.json
 cat out/red_controls.txt

@@ -1,5 +1,6 @@
-"""UNTRUSTED recognition for the entry (22,116) (paper, version 5, Section 5): nothing here is trusted; jam116.py
-checks everything it uses.
+"""UNTRUSTED recognition for the entry (22,116), for the note "A jammed spherical code that is not infinitesimally
+jammed" (certify/note/; written for version 5 of the census paper, which no longer contains the result): nothing here
+is trusted; jam116.py checks everything it uses.
 
   python3 -I certify/v5/recognise116.py SNAPDIR OUT.json
 

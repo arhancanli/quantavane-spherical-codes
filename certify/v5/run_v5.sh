@@ -29,7 +29,8 @@ $PY rigidity.py $SNAP 19 166 out/rigidity_d19_n166.json > out/rigidity_19_166.lo
 wait
 $PY rigidity.py $SNAP 9 330 out/rigidity_d9_n330.json > out/rigidity_9_330.log 2>&1
 stamp "rigidity done"
-# the jammed code that is not infinitesimally jammed (Section 5.1)
+# (22,116), the jammed code that is not infinitesimally jammed: now the separate note (certify/note/), no longer in
+# the census paper
 $PY recognise116.py $SNAP out/recognition_d22_n116.json > out/recognise116.log 2>&1
 $PY jam116.py $SNAP out/recognition_d22_n116.json out/jam_d22_n116.json > out/jam116.log 2>&1
 stamp "jam116 done"

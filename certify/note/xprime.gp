@@ -13,7 +13,7 @@
 \\ checks that every entry of G' is one of thirteen values t0' < t1' < t2 < ... < t12 = c, where t0', t1' replace the
 \\ values t0, t1 of X* on the four pairs between P and Q, determines the class matrix of X', checks that the
 \\ generators of Aut(X*) preserve it, and writes values.gp, class_matrix.gp, basis.gp, orbitals.gp (the orbits of
-\\ Aut(X*) on pairs, with the classes of X') and aut_generators.gp (the same generators; no Galois relabellings).
+\\ Aut(X*) on pairs, with the classes of X') and aut_generators.gp (the same generators; the Galois relabellings of X' are found by galois_xprime.py).
 
 read(Str(DATA, "values.gp"));
 read(Str(DATA, "orbitals.gp"));
@@ -147,9 +147,8 @@ write(fo, "ORBS = List();");
     foreach(o[5], q, if (CM2[q[1] + 1][q[2] + 1] != k, error("orbit not constant in X'")));
     write(fo, Str("listput(ORBS, [", k, ", ", o[2], ", ", o[3], ", \"", o[4], "\", ", o[5], "]);")));
 }
-write(fa, "\\\\ The generators of Aut(X*) (aut116.py), which preserve X' (xprime.gp); no Galois relabellings.");
+write(fa, "\\\\ The generators of Aut(X*) (aut116.py), which preserve X' (xprime.gp); the Galois relabellings are in galois.gp.");
 write(fa, Str("AUTGEN = ", AUTGEN, ";"));
 write(fa, Str("EPSGEN = ", EPSGEN, ";"));
 write(fa, Str("CHARGEN = ", CHARGEN, ";"));
-write(fa, "GALPERM = [];");
 out("written", "certify/note/data_xprime/");  \\ 7 Nov: a fixed relative path, never the machine's own

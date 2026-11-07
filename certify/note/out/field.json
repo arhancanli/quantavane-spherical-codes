@@ -1,0 +1,40 @@
+{
+ "script": "field.gp",
+ "script_sha256": "a43f20f834aebc941e9cbb34aca05d6c75f69b089df2b3f2b10dbdcb1a1f0d91",
+ "runner_sha256": "4821d6d7f0cb7de18efcec3562f1fab3f72982117c59faeffa055bad5734aa85",
+ "pari_version": "[2, 15, 4]",
+ "seconds": 0.0,
+ "error": null,
+ "data_sha256_before_run": {
+  "aut_generators.gp": "0f82e89723c97f53fbba48a356e5b8d530d99264e5ab272eb6dec055c3752578",
+  "basis.gp": "e5a321cfb010209530507b71c01268866703ef653b940e720e81591af252290b",
+  "class_matrix.gp": "b3f1316eb1579ebf960ef9bdc1673c826779bc417322af16391fdf6bc62ac925",
+  "flex.gp": "352ce79ec049ce41f272c4e1a41db231dda7b62b05eaa42551bf06f25bfeb601",
+  "orbitals.gp": "d162786c928231c74406062e0b38753fd20460d3d38f8af031503be31d543018",
+  "stored_d22_n116.txt": "00e8c55bbe713d70ac287b239628bd247c7afaed9ea17e2126f62f2b715c31a3",
+  "stress.gp": "3d851e5eea77ff397ae1061f844154fb65aa9bc28ea3f1238032fb0ded2acdf8",
+  "values.gp": "b43239acbe79d02bfb36a5ca7f7206f000a23c1e23931199aa777705c7e90319"
+ },
+ "data_sha256_after_run": {
+  "aut_generators.gp": "0f82e89723c97f53fbba48a356e5b8d530d99264e5ab272eb6dec055c3752578",
+  "basis.gp": "e5a321cfb010209530507b71c01268866703ef653b940e720e81591af252290b",
+  "class_matrix.gp": "b3f1316eb1579ebf960ef9bdc1673c826779bc417322af16391fdf6bc62ac925",
+  "flex.gp": "352ce79ec049ce41f272c4e1a41db231dda7b62b05eaa42551bf06f25bfeb601",
+  "orbitals.gp": "d162786c928231c74406062e0b38753fd20460d3d38f8af031503be31d543018",
+  "stored_d22_n116.txt": "00e8c55bbe713d70ac287b239628bd247c7afaed9ea17e2126f62f2b715c31a3",
+  "stress.gp": "3d851e5eea77ff397ae1061f844154fb65aa9bc28ea3f1238032fb0ded2acdf8",
+  "values.gp": "b43239acbe79d02bfb36a5ca7f7206f000a23c1e23931199aa777705c7e90319"
+ },
+ "results": {
+  "field_polredabs": "y^8 - 15*y^6 + 22*y^4 - 15*y^2 + 1",
+  "field_disc_factor": "[2, 8; 3, 4; 5, 4; 29, 4]",
+  "field_disc": "9166361760000",
+  "field_real_roots": "4",
+  "field_y0": "-3.66693715474705140414603377239786148389837410149575134439178",
+  "field_sqrt145_in_y": "-2*y^6 + 30*y^4 - 42*y^2 + 15",
+  "field_s1_in_y": "-1/6*y^6 + 23/10*y^4 - 5/6*y^2 + 3/10",
+  "field_s2_in_y": "23/270*y^7 - 731/540*y^5 + 793/270*y^3 - 931/540*y",
+  "field_y2_plus_yinv2": "(15 + sqrt145)/2",
+  "STATUS": "FIELD CHECKS PASSED"
+ }
+}

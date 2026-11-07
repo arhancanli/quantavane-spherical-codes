@@ -13,7 +13,8 @@
 \\     no rattlers.  (R) the flexes modulo rotations have dimension at most 1 (rank modulo a prime ideal of degree 1).
 \\ (S) the given S is a nonzero flex.  (W) the given omega is a strictly positive equilibrium stress.  (H) the two
 \\ formulas for H_omega(F) agree and are positive.  (A) the generators preserve the classes, multiply S by +-1 and fix
-\\ omega.  (O) the permutations preserving the classes, counted by backtracking.
+\\ omega, and each Galois relabelling (data_xprime/galois.gp) realises its conjugation.  (O) the permutations preserving
+\\ the classes, counted by backtracking.
 
 default(realprecision, 60);
 n = 116; d = 22;
@@ -204,6 +205,8 @@ need(HS > 0, "H not positive");
 
 \\ ------------------------------------------------------------------ (A) the symmetry data
 read(Str(DATA, "aut_generators.gp"));
+read(Str(DATA, "galois.gp"));          \\ the Galois relabellings of X' (galois_xprime.py)
+need(#GALPERM == 3, "the three Galois relabellings of X' are missing");
 {
   for (i = 1, #AUTGEN, my(g = AUTGEN[i]);
     need(#Set(g) == n && vecmin(g) == 0 && vecmax(g) == n - 1, "not a permutation");

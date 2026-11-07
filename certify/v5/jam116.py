@@ -1,5 +1,7 @@
 """A jammed spherical code that is not infinitesimally jammed: the exact certificate for the entry (22,116) of the
-archived table (paper, version 5, Theorem 5.4).
+archived table, for the note of that title (certify/note/; its Theorem 1.1 and Section 6, first verification).
+Version 5 of the census paper stated this result as its Theorem 5.4; from version 6 on the census paper does not
+contain it, and the note is its only place.
 
   python3 -I certify/v5/jam116.py SNAPDIR RECOGNITION.json OUT.json
 
