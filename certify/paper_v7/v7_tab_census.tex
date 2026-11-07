@@ -1,0 +1,26 @@
+% written by make_numbers_v7.py; do not edit
+\begin{tabular}{lrrrrrrr}
+\toprule
+ & \multicolumn{5}{c}{dimension $d$} & & \\ \cmidrule(lr){2-6}
+ & 3--5 & 6--10 & 11--17 & 18--24 & 25--32 & all & unmarked \\
+\midrule
+entries & 3{,}028 & 3{,}455 & 3{,}658 & 1{,}856 & 4{,}268 & 16{,}265 & 3{,}021 \\
+\midrule
+strict local minimum & 724 & 173 & 131 & 88 & 35 & 1{,}151 & 1{,}126 \\
+\quad isostatic (Thm.~\ref{thm:check}) & 660 & 81 & 49 & 20 & 29 & 839 & 825 \\
+\quad recognised Gram matrix (Sec.~\ref{sec:recog}) & 36 & 70 & 80 & 66 & 6 & 258 & 250 \\
+\quad symmetry (Thm.~\ref{thm:sym}) & 28 & 21 & 0 & 0 & 0 & 49 & 46 \\
+\quad exact arithmetic (Prop.~\ref{prop:exact}) & 0 & 0 & 1 & 2 & 0 & 3 & 3 \\
+\quad exact core, bar-rigid (Sec.~\ref{sec:open}) & 0 & 1 & 1 & 0 & 0 & 2 & 2 \\
+local min., strictness open (Thm.~\ref{thm:hyper}) & 173 & 210 & 140 & 83 & 24 & 630 & 562 \\
+local min., not strict (Prop.~\ref{prop:split}) & 0 & 2 & 0 & 0 & 0 & 2 & 2 \\
+not a local minimum & 2 & 0 & 2 & 9 & 2 & 15 & 15 \\
+\quad negative stress (Prop.~\ref{prop:nonopt}) & 2 & 0 & 0 & 0 & 0 & 2 & 2 \\
+\quad flat core (Prop.~\ref{prop:flat}) & 0 & 0 & 2 & 9 & 2 & 13 & 13 \\
+\midrule
+no local min.\ within $\delta$ (Thm.~\ref{thm:flex}) & 2{,}125 & 3{,}032 & 2{,}973 & 1{,}387 & 2{,}965 & 12{,}482 & 1{,}091 \\
+\multicolumn{8}{l}{no verdict:} \\
+\quad attempts failed or did not apply & 3 & 21 & 17 & 28 & 13 & 82 & 49 \\
+\quad above the size limit & 1 & 17 & 395 & 261 & 1{,}229 & 1{,}903 & 176 \\
+\bottomrule
+\end{tabular}

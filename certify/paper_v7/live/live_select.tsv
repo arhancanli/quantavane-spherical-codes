@@ -1,0 +1,816 @@
+# d	n	census class	reason
+3	119	strict	positive verdict, live cosine differs
+3	125	strict	positive verdict, live cosine differs
+3	161	local	positive verdict, live cosine differs
+3	173	local	positive verdict, live cosine differs
+3	183	strict	positive verdict, live cosine differs
+3	196	strict	positive verdict, live cosine differs
+3	202	strict	positive verdict, live cosine differs
+3	218	local	positive verdict, live cosine differs
+3	222	strict	positive verdict, live cosine differs
+3	226	strict	positive verdict, live cosine differs
+3	227	local	positive verdict, live cosine differs
+3	233	strict	positive verdict, live cosine differs
+3	234	strict	positive verdict, live cosine differs
+3	237	strict	positive verdict, live cosine differs
+3	238	strict	positive verdict, live cosine differs
+3	239	strict	positive verdict, live cosine differs
+3	243	strict	positive verdict, live cosine differs
+3	248	strict	positive verdict, live cosine differs
+3	250	local	positive verdict, live cosine differs
+3	254	strict	positive verdict, live cosine differs
+3	261	strict	positive verdict, live cosine differs
+3	263	strict	positive verdict, live cosine differs
+3	264	strict	positive verdict, live cosine differs
+3	266	strict	positive verdict, live cosine differs
+3	276	strict	positive verdict, live cosine differs
+3	277	strict	positive verdict, live cosine differs
+3	285	local	positive verdict, live cosine differs
+3	291	strict	positive verdict, live cosine differs
+3	292	strict	positive verdict, live cosine differs
+3	294	strict	positive verdict, live cosine differs
+3	301	strict	positive verdict, live cosine differs
+3	302	local	positive verdict, live cosine differs
+3	303	strict	positive verdict, live cosine differs
+3	304	strict	positive verdict, live cosine differs
+3	309	strict	positive verdict, live cosine differs
+3	310	strict	positive verdict, live cosine differs
+3	311	strict	positive verdict, live cosine differs
+3	320	strict	positive verdict, live cosine differs
+3	323	strict	positive verdict, live cosine differs
+3	328	strict	positive verdict, live cosine differs
+3	329	strict	positive verdict, live cosine differs
+3	332	strict	positive verdict, live cosine differs
+3	335	strict	positive verdict, live cosine differs
+3	339	strict	positive verdict, live cosine differs
+3	346	strict	positive verdict, live cosine differs
+3	348	strict	positive verdict, live cosine differs
+3	352	local	positive verdict, live cosine differs
+3	355	strict	positive verdict, live cosine differs
+3	368	strict	positive verdict, live cosine differs
+3	369	strict	positive verdict, live cosine differs
+3	370	strict	positive verdict, live cosine differs
+3	371	strict	positive verdict, live cosine differs
+3	372	strict	positive verdict, live cosine differs
+3	373	strict	positive verdict, live cosine differs
+3	375	strict	positive verdict, live cosine differs
+3	377	strict	positive verdict, live cosine differs
+3	378	strict	positive verdict, live cosine differs
+3	385	strict	positive verdict, live cosine differs
+3	386	local	positive verdict, live cosine differs
+3	387	strict	positive verdict, live cosine differs
+3	394	strict	positive verdict, live cosine differs
+3	405	strict	positive verdict, live cosine differs
+3	406	strict	positive verdict, live cosine differs
+3	408	strict	positive verdict, live cosine differs
+3	414	strict	positive verdict, live cosine differs
+3	418	strict	positive verdict, live cosine differs
+3	421	strict	positive verdict, live cosine differs
+3	425	strict	positive verdict, live cosine differs
+3	427	strict	positive verdict, live cosine differs
+3	436	strict	positive verdict, live cosine differs
+3	438	strict	positive verdict, live cosine differs
+3	443	strict	positive verdict, live cosine differs
+3	445	strict	positive verdict, live cosine differs
+3	446	local	positive verdict, live cosine differs
+3	447	strict	positive verdict, live cosine differs
+3	448	strict	positive verdict, live cosine differs
+3	450	strict	positive verdict, live cosine differs
+3	453	strict	positive verdict, live cosine differs
+3	455	strict	positive verdict, live cosine differs
+3	456	strict	positive verdict, live cosine differs
+3	457	local	positive verdict, live cosine differs
+3	464	strict	positive verdict, live cosine differs
+3	473	strict	positive verdict, live cosine differs
+3	480	local	positive verdict, live cosine differs
+3	481	strict	positive verdict, live cosine differs
+3	485	strict	positive verdict, live cosine differs
+3	486	strict	positive verdict, live cosine differs
+3	487	strict	positive verdict, live cosine differs
+3	488	strict	positive verdict, live cosine differs
+3	489	strict	positive verdict, live cosine differs
+3	491	strict	positive verdict, live cosine differs
+3	492	strict	positive verdict, live cosine differs
+3	496	strict	positive verdict, live cosine differs
+3	497	strict	positive verdict, live cosine differs
+3	499	strict	positive verdict, live cosine differs
+3	503	strict	positive verdict, live cosine differs
+3	505	strict	positive verdict, live cosine differs
+3	507	strict	positive verdict, live cosine differs
+3	510	local	positive verdict, live cosine differs
+3	511	strict	positive verdict, live cosine differs
+3	513	strict	positive verdict, live cosine differs
+3	514	strict	positive verdict, live cosine differs
+3	515	strict	positive verdict, live cosine differs
+3	517	strict	positive verdict, live cosine differs
+3	520	strict	positive verdict, live cosine differs
+3	521	strict	positive verdict, live cosine differs
+3	526	strict	positive verdict, live cosine differs
+3	528	strict	positive verdict, live cosine differs
+3	529	strict	positive verdict, live cosine differs
+3	531	strict	positive verdict, live cosine differs
+3	532	strict	positive verdict, live cosine differs
+3	536	strict	positive verdict, live cosine differs
+3	539	strict	positive verdict, live cosine differs
+3	540	strict	positive verdict, live cosine differs
+3	542	strict	positive verdict, live cosine differs
+3	545	strict	positive verdict, live cosine differs
+3	546	strict	positive verdict, live cosine differs
+3	547	strict	positive verdict, live cosine differs
+3	551	strict	positive verdict, live cosine differs
+3	553	strict	positive verdict, live cosine differs
+3	554	strict	positive verdict, live cosine differs
+3	556	strict	positive verdict, live cosine differs
+3	560	strict	positive verdict, live cosine differs
+3	561	strict	positive verdict, live cosine differs
+3	567	strict	positive verdict, live cosine differs
+3	571	strict	positive verdict, live cosine differs
+3	572	strict	positive verdict, live cosine differs
+3	574	strict	positive verdict, live cosine differs
+3	576	notlocal	positive verdict, live cosine differs
+3	577	strict	positive verdict, live cosine differs
+3	578	strict	positive verdict, live cosine differs
+3	579	strict	positive verdict, live cosine differs
+3	581	strict	positive verdict, live cosine differs
+3	582	local	positive verdict, live cosine differs
+3	583	strict	positive verdict, live cosine differs
+3	584	strict	positive verdict, live cosine differs
+3	590	strict	positive verdict, live cosine differs
+3	599	strict	positive verdict, live cosine differs
+3	600	strict	positive verdict, live cosine differs
+3	601	strict	positive verdict, live cosine differs
+3	604	strict	positive verdict, live cosine differs
+3	606	strict	positive verdict, live cosine differs
+3	613	strict	positive verdict, live cosine differs
+3	614	strict	positive verdict, live cosine differs
+3	616	local	positive verdict, live cosine differs
+3	617	strict	positive verdict, live cosine differs
+3	618	strict	positive verdict, live cosine differs
+3	619	local	positive verdict, live cosine differs
+3	621	strict	positive verdict, live cosine differs
+3	623	strict	positive verdict, live cosine differs
+3	624	strict	positive verdict, live cosine differs
+3	627	strict	positive verdict, live cosine differs
+3	629	strict	positive verdict, live cosine differs
+3	631	strict	positive verdict, live cosine differs
+3	633	strict	positive verdict, live cosine differs
+3	640	strict	positive verdict, live cosine differs
+3	642	strict	positive verdict, live cosine differs
+3	651	strict	positive verdict, live cosine differs
+3	653	strict	positive verdict, live cosine differs
+3	658	strict	positive verdict, live cosine differs
+3	659	strict	positive verdict, live cosine differs
+3	662	strict	positive verdict, live cosine differs
+3	663	strict	positive verdict, live cosine differs
+3	673	strict	positive verdict, live cosine differs
+3	676	strict	positive verdict, live cosine differs
+3	678	strict	positive verdict, live cosine differs
+3	681	local	positive verdict, live cosine differs
+3	686	strict	positive verdict, live cosine differs
+3	688	strict	positive verdict, live cosine differs
+3	692	local	positive verdict, live cosine differs
+3	698	strict	positive verdict, live cosine differs
+3	702	strict	positive verdict, live cosine differs
+3	707	strict	positive verdict, live cosine differs
+3	716	strict	positive verdict, live cosine differs
+3	719	strict	positive verdict, live cosine differs
+3	720	strict	positive verdict, live cosine differs
+3	722	strict	positive verdict, live cosine differs
+3	725	strict	positive verdict, live cosine differs
+3	730	strict	positive verdict, live cosine differs
+3	731	strict	positive verdict, live cosine differs
+3	732	local	positive verdict, live cosine differs
+3	737	strict	positive verdict, live cosine differs
+3	740	strict	positive verdict, live cosine differs
+3	742	strict	positive verdict, live cosine differs
+3	747	strict	positive verdict, live cosine differs
+3	750	strict	positive verdict, live cosine differs
+3	751	strict	positive verdict, live cosine differs
+3	753	strict	positive verdict, live cosine differs
+3	757	strict	positive verdict, live cosine differs
+3	758	strict	positive verdict, live cosine differs
+3	762	strict	positive verdict, live cosine differs
+3	763	strict	positive verdict, live cosine differs
+3	767	strict	positive verdict, live cosine differs
+3	770	strict	positive verdict, live cosine differs
+3	774	strict	positive verdict, live cosine differs
+3	777	strict	positive verdict, live cosine differs
+3	780	strict	positive verdict, live cosine differs
+3	781	strict	positive verdict, live cosine differs
+3	784	strict	positive verdict, live cosine differs
+3	790	strict	positive verdict, live cosine differs
+3	791	notlocal	positive verdict, live cosine differs
+3	792	strict	positive verdict, live cosine differs
+3	796	strict	positive verdict, live cosine differs
+3	797	strict	positive verdict, live cosine differs
+3	800	strict	positive verdict, live cosine differs
+3	804	strict	positive verdict, live cosine differs
+3	805	strict	positive verdict, live cosine differs
+3	807	strict	positive verdict, live cosine differs
+3	810	strict	positive verdict, live cosine differs
+3	813	strict	positive verdict, live cosine differs
+3	816	strict	positive verdict, live cosine differs
+3	817	strict	positive verdict, live cosine differs
+3	823	strict	positive verdict, live cosine differs
+3	824	strict	positive verdict, live cosine differs
+3	829	strict	positive verdict, live cosine differs
+3	852	local	positive verdict, live cosine differs
+3	867	strict	positive verdict, live cosine differs
+3	877	strict	positive verdict, live cosine differs
+3	880	strict	positive verdict, live cosine differs
+3	881	strict	positive verdict, live cosine differs
+3	887	strict	positive verdict, live cosine differs
+3	898	strict	positive verdict, live cosine differs
+3	914	strict	positive verdict, live cosine differs
+3	933	strict	positive verdict, live cosine differs
+3	938	strict	positive verdict, live cosine differs
+3	942	strict	positive verdict, live cosine differs
+3	945	strict	positive verdict, live cosine differs
+3	956	strict	positive verdict, live cosine differs
+3	957	local	positive verdict, live cosine differs
+3	964	local	positive verdict, live cosine differs
+3	984	strict	positive verdict, live cosine differs
+3	985	strict	positive verdict, live cosine differs
+3	989	strict	positive verdict, live cosine differs
+3	990	strict	positive verdict, live cosine differs
+3	1003	strict	positive verdict, live cosine differs
+4	77	strict	positive verdict, live cosine differs
+4	86	strict	positive verdict, live cosine differs
+4	98	strict	positive verdict, live cosine differs
+4	105	strict	positive verdict, live cosine differs
+4	109	strict	positive verdict, live cosine differs
+4	121	strict	positive verdict, live cosine differs
+4	122	strict	positive verdict, live cosine differs
+4	123	strict	positive verdict, live cosine differs
+4	126	strict	positive verdict, live cosine differs
+4	127	strict	positive verdict, live cosine differs
+4	128	strict	positive verdict, live cosine differs
+4	131	strict	positive verdict, live cosine differs
+4	132	strict	positive verdict, live cosine differs
+4	133	strict	positive verdict, live cosine differs
+4	134	strict	positive verdict, live cosine differs
+4	135	strict	positive verdict, live cosine differs
+4	136	strict	positive verdict, live cosine differs
+4	137	strict	positive verdict, live cosine differs
+4	138	local	positive verdict, live cosine differs
+4	139	strict	positive verdict, live cosine differs
+4	140	strict	positive verdict, live cosine differs
+4	141	strict	positive verdict, live cosine differs
+4	144	strict	positive verdict, live cosine differs
+4	146	strict	positive verdict, live cosine differs
+4	147	strict	positive verdict, live cosine differs
+4	150	strict	positive verdict, live cosine differs
+4	151	strict	positive verdict, live cosine differs
+4	152	strict	positive verdict, live cosine differs
+4	153	strict	positive verdict, live cosine differs
+4	154	strict	positive verdict, live cosine differs
+4	155	strict	positive verdict, live cosine differs
+4	159	strict	positive verdict, live cosine differs
+4	161	strict	positive verdict, live cosine differs
+4	166	strict	positive verdict, live cosine differs
+4	168	strict	positive verdict, live cosine differs
+4	169	strict	positive verdict, live cosine differs
+4	171	strict	positive verdict, live cosine differs
+4	173	strict	positive verdict, live cosine differs
+4	174	strict	positive verdict, live cosine differs
+4	175	strict	positive verdict, live cosine differs
+4	176	strict	positive verdict, live cosine differs
+4	177	strict	positive verdict, live cosine differs
+4	178	strict	positive verdict, live cosine differs
+4	180	strict	positive verdict, live cosine differs
+4	181	strict	positive verdict, live cosine differs
+4	183	strict	positive verdict, live cosine differs
+4	184	strict	positive verdict, live cosine differs
+4	185	strict	positive verdict, live cosine differs
+4	187	strict	positive verdict, live cosine differs
+4	188	strict	positive verdict, live cosine differs
+4	189	strict	positive verdict, live cosine differs
+4	190	strict	positive verdict, live cosine differs
+4	193	strict	positive verdict, live cosine differs
+4	195	strict	positive verdict, live cosine differs
+4	196	strict	positive verdict, live cosine differs
+4	197	strict	positive verdict, live cosine differs
+4	198	strict	positive verdict, live cosine differs
+4	199	strict	positive verdict, live cosine differs
+4	203	strict	positive verdict, live cosine differs
+4	204	strict	positive verdict, live cosine differs
+4	205	strict	positive verdict, live cosine differs
+4	207	strict	positive verdict, live cosine differs
+4	208	strict	positive verdict, live cosine differs
+4	209	strict	positive verdict, live cosine differs
+4	210	strict	positive verdict, live cosine differs
+4	212	strict	positive verdict, live cosine differs
+4	214	strict	positive verdict, live cosine differs
+4	216	strict	positive verdict, live cosine differs
+4	218	strict	positive verdict, live cosine differs
+4	219	strict	positive verdict, live cosine differs
+4	220	strict	positive verdict, live cosine differs
+4	221	strict	positive verdict, live cosine differs
+4	223	strict	positive verdict, live cosine differs
+4	224	strict	positive verdict, live cosine differs
+4	225	strict	positive verdict, live cosine differs
+4	227	strict	positive verdict, live cosine differs
+4	228	strict	positive verdict, live cosine differs
+4	230	strict	positive verdict, live cosine differs
+4	232	strict	positive verdict, live cosine differs
+4	233	strict	positive verdict, live cosine differs
+4	234	strict	positive verdict, live cosine differs
+4	236	strict	positive verdict, live cosine differs
+4	237	strict	positive verdict, live cosine differs
+4	238	strict	positive verdict, live cosine differs
+4	244	strict	positive verdict, live cosine differs
+4	246	strict	positive verdict, live cosine differs
+4	247	strict	positive verdict, live cosine differs
+4	249	strict	positive verdict, live cosine differs
+4	250	strict	positive verdict, live cosine differs
+4	255	strict	positive verdict, live cosine differs
+4	288	local	positive verdict, live cosine differs
+5	41	local	positive verdict, live cosine differs
+5	78	strict	positive verdict, live cosine differs
+5	79	local	positive verdict, live cosine differs
+5	80	strict	positive verdict, live cosine differs
+5	81	strict	positive verdict, live cosine differs
+5	83	strict	positive verdict, live cosine differs
+5	84	strict	positive verdict, live cosine differs
+5	88	strict	positive verdict, live cosine differs
+5	92	local	positive verdict, live cosine differs
+5	93	strict	positive verdict, live cosine differs
+5	94	strict	positive verdict, live cosine differs
+5	95	strict	positive verdict, live cosine differs
+5	96	strict	positive verdict, live cosine differs
+5	98	local	positive verdict, live cosine differs
+5	102	strict	positive verdict, live cosine differs
+5	103	strict	positive verdict, live cosine differs
+5	104	strict	positive verdict, live cosine differs
+5	105	strict	positive verdict, live cosine differs
+5	108	strict	positive verdict, live cosine differs
+5	110	strict	positive verdict, live cosine differs
+5	111	strict	positive verdict, live cosine differs
+5	112	strict	positive verdict, live cosine differs
+5	114	strict	positive verdict, live cosine differs
+5	115	strict	positive verdict, live cosine differs
+5	117	strict	positive verdict, live cosine differs
+5	118	strict	positive verdict, live cosine differs
+5	119	strict	positive verdict, live cosine differs
+5	120	strict	positive verdict, live cosine differs
+5	121	strict	positive verdict, live cosine differs
+5	125	strict	positive verdict, live cosine differs
+5	126	strict	positive verdict, live cosine differs
+5	127	strict	positive verdict, live cosine differs
+5	129	strict	positive verdict, live cosine differs
+5	138	strict	positive verdict, live cosine differs
+5	143	strict	positive verdict, live cosine differs
+5	147	strict	positive verdict, live cosine differs
+5	149	strict	positive verdict, live cosine differs
+5	150	strict	positive verdict, live cosine differs
+5	155	local	positive verdict, live cosine differs
+5	156	local	positive verdict, live cosine differs
+5	159	strict	positive verdict, live cosine differs
+5	160	strict	positive verdict, live cosine differs
+5	161	strict	positive verdict, live cosine differs
+5	162	strict	positive verdict, live cosine differs
+5	163	strict	positive verdict, live cosine differs
+5	164	strict	positive verdict, live cosine differs
+5	167	strict	positive verdict, live cosine differs
+5	168	strict	positive verdict, live cosine differs
+5	170	strict	positive verdict, live cosine differs
+5	174	strict	positive verdict, live cosine differs
+5	175	strict	positive verdict, live cosine differs
+5	176	local	positive verdict, live cosine differs
+5	238	strict	positive verdict, live cosine differs
+5	239	strict	positive verdict, live cosine differs
+5	240	strict	positive verdict, live cosine differs
+5	241	strict	positive verdict, live cosine differs
+6	46	local	positive verdict, live cosine differs
+6	59	local	positive verdict, live cosine differs
+6	62	local	positive verdict, live cosine differs
+6	64	local	positive verdict, live cosine differs
+6	65	strict	positive verdict, live cosine differs
+6	66	strict	positive verdict, live cosine differs
+6	67	strict	positive verdict, live cosine differs
+6	75	local	positive verdict, live cosine differs
+6	76	local	positive verdict, live cosine differs
+6	84	local	positive verdict, live cosine differs
+6	90	local	positive verdict, live cosine differs
+6	94	local	positive verdict, live cosine differs
+6	103	local	positive verdict, live cosine differs
+6	104	local	positive verdict, live cosine differs
+6	105	local	positive verdict, live cosine differs
+6	106	local	positive verdict, live cosine differs
+6	118	local	positive verdict, live cosine differs
+6	119	strict	positive verdict, live cosine differs
+6	126	local	positive verdict, live cosine differs
+6	127	strict	positive verdict, live cosine differs
+6	128	strict	positive verdict, live cosine differs
+6	130	strict	positive verdict, live cosine differs
+6	137	strict	positive verdict, live cosine differs
+7	59	strict	positive verdict, live cosine differs
+7	62	strict	positive verdict, live cosine differs
+7	64	local	positive verdict, live cosine differs
+7	68	strict	positive verdict, live cosine differs
+7	69	strict	positive verdict, live cosine differs
+7	70	strict	positive verdict, live cosine differs
+7	79	local	positive verdict, live cosine differs
+7	92	local	positive verdict, live cosine differs
+7	93	local	positive verdict, live cosine differs
+7	96	local	positive verdict, live cosine differs
+7	101	strict	positive verdict, live cosine differs
+7	102	strict	positive verdict, live cosine differs
+7	106	strict	positive verdict, live cosine differs
+7	129	local	positive verdict, live cosine differs
+7	143	local	positive verdict, live cosine differs
+7	147	local	positive verdict, live cosine differs
+7	148	local	positive verdict, live cosine differs
+7	359	local	positive verdict, live cosine differs
+8	44	strict	positive verdict, live cosine differs
+8	48	local	positive verdict, live cosine differs
+8	49	local	positive verdict, live cosine differs
+8	57	strict	positive verdict, live cosine differs
+8	59	strict	positive verdict, live cosine differs
+8	60	strict	positive verdict, live cosine differs
+8	61	strict	positive verdict, live cosine differs
+8	66	local	positive verdict, live cosine differs
+8	75	local	positive verdict, live cosine differs
+8	78	strict	positive verdict, live cosine differs
+8	79	strict	positive verdict, live cosine differs
+8	80	local	positive verdict, live cosine differs
+8	91	local	positive verdict, live cosine differs
+8	95	local	positive verdict, live cosine differs
+8	96	local	positive verdict, live cosine differs
+8	97	strict	positive verdict, live cosine differs
+8	116	local	positive verdict, live cosine differs
+8	117	strict	positive verdict, live cosine differs
+8	119	strict	positive verdict, live cosine differs
+8	120	local	positive verdict, live cosine differs
+8	137	local	positive verdict, live cosine differs
+9	59	local	positive verdict, live cosine differs
+9	65	local	positive verdict, live cosine differs
+9	66	local	positive verdict, live cosine differs
+9	68	strict	positive verdict, live cosine differs
+9	69	strict	positive verdict, live cosine differs
+9	70	strict	positive verdict, live cosine differs
+9	71	strict	positive verdict, live cosine differs
+9	80	strict	positive verdict, live cosine differs
+9	97	local	positive verdict, live cosine differs
+9	98	local	positive verdict, live cosine differs
+9	104	local	positive verdict, live cosine differs
+9	106	local	positive verdict, live cosine differs
+9	108	strict	positive verdict, live cosine differs
+9	110	strict	positive verdict, live cosine differs
+9	119	strict	positive verdict, live cosine differs
+9	122	strict	positive verdict, live cosine differs
+10	29	local	positive verdict, live cosine differs
+10	34	strict	positive verdict, live cosine differs
+10	42	strict	positive verdict, live cosine differs
+10	44	local	positive verdict, live cosine differs
+10	45	local	positive verdict, live cosine differs
+10	64	local	positive verdict, live cosine differs
+10	65	local	positive verdict, live cosine differs
+10	68	local	positive verdict, live cosine differs
+10	69	local	positive verdict, live cosine differs
+10	74	local	positive verdict, live cosine differs
+10	78	local	positive verdict, live cosine differs
+10	86	strict	positive verdict, live cosine differs
+10	87	strict	positive verdict, live cosine differs
+10	88	strict	positive verdict, live cosine differs
+10	99	strict	positive verdict, live cosine differs
+10	114	local	positive verdict, live cosine differs
+10	121	strict	positive verdict, live cosine differs
+10	156	strict	positive verdict, live cosine differs
+11	47	strict	positive verdict, live cosine differs
+11	48	strict	positive verdict, live cosine differs
+11	49	local	positive verdict, live cosine differs
+11	50	strict	positive verdict, live cosine differs
+11	52	strict	positive verdict, live cosine differs
+11	53	strict	positive verdict, live cosine differs
+11	54	strict	positive verdict, live cosine differs
+11	55	strict	positive verdict, live cosine differs
+11	56	strict	positive verdict, live cosine differs
+11	68	strict	positive verdict, live cosine differs
+11	78	local	positive verdict, live cosine differs
+11	79	local	positive verdict, live cosine differs
+11	111	strict	positive verdict, live cosine differs
+11	117	strict	positive verdict, live cosine differs
+11	120	local	positive verdict, live cosine differs
+12	53	local	positive verdict, live cosine differs
+12	54	local	positive verdict, live cosine differs
+12	55	strict	positive verdict, live cosine differs
+12	67	local	positive verdict, live cosine differs
+12	70	strict	positive verdict, live cosine differs
+12	78	strict	positive verdict, live cosine differs
+12	79	strict	positive verdict, live cosine differs
+12	80	local	positive verdict, live cosine differs
+12	91	local	positive verdict, live cosine differs
+12	92	local	positive verdict, live cosine differs
+12	121	local	positive verdict, live cosine differs
+13	53	local	positive verdict, live cosine differs
+13	60	strict	positive verdict, live cosine differs
+13	61	strict	positive verdict, live cosine differs
+13	62	local	positive verdict, live cosine differs
+13	66	strict	positive verdict, live cosine differs
+13	67	strict	positive verdict, live cosine differs
+13	101	local	positive verdict, live cosine differs
+14	43	local	positive verdict, live cosine differs
+14	53	strict	positive verdict, live cosine differs
+14	56	local	positive verdict, live cosine differs
+14	57	local	positive verdict, live cosine differs
+14	92	local	positive verdict, live cosine differs
+14	98	strict	positive verdict, live cosine differs
+14	112	strict	positive verdict, live cosine differs
+14	121	local	positive verdict, live cosine differs
+14	152	local	positive verdict, live cosine differs
+14	153	local	positive verdict, live cosine differs
+15	41	strict	positive verdict, live cosine differs
+15	42	local	positive verdict, live cosine differs
+15	48	strict	positive verdict, live cosine differs
+15	58	strict	positive verdict, live cosine differs
+15	63	strict	positive verdict, live cosine differs
+15	66	local	positive verdict, live cosine differs
+15	67	local	positive verdict, live cosine differs
+15	68	local	positive verdict, live cosine differs
+15	69	local	positive verdict, live cosine differs
+15	94	local	positive verdict, live cosine differs
+15	95	local	positive verdict, live cosine differs
+15	99	local	positive verdict, live cosine differs
+15	135	local	positive verdict, live cosine differs
+15	136	local	positive verdict, live cosine differs
+15	143	local	positive verdict, live cosine differs
+15	150	local	positive verdict, live cosine differs
+15	151	local	positive verdict, live cosine differs
+15	152	local	positive verdict, live cosine differs
+15	156	local	positive verdict, live cosine differs
+15	221	strict	positive verdict, live cosine differs
+16	42	local	positive verdict, live cosine differs
+16	46	local	positive verdict, live cosine differs
+16	49	local	positive verdict, live cosine differs
+16	50	local	positive verdict, live cosine differs
+16	51	strict	positive verdict, live cosine differs
+16	52	strict	positive verdict, live cosine differs
+16	61	local	positive verdict, live cosine differs
+16	83	local	positive verdict, live cosine differs
+16	84	strict	positive verdict, live cosine differs
+16	88	strict	positive verdict, live cosine differs
+16	117	notlocal	positive verdict, live cosine differs
+17	40	local	positive verdict, live cosine differs
+17	66	strict	positive verdict, live cosine differs
+17	67	strict	positive verdict, live cosine differs
+17	87	local	positive verdict, live cosine differs
+17	192	local	positive verdict, live cosine differs
+18	38	strict	positive verdict, live cosine differs
+18	42	local	positive verdict, live cosine differs
+18	74	local	positive verdict, live cosine differs
+18	75	local	positive verdict, live cosine differs
+18	80	local	positive verdict, live cosine differs
+18	81	local	positive verdict, live cosine differs
+18	87	local	positive verdict, live cosine differs
+18	88	local	positive verdict, live cosine differs
+18	100	strict	positive verdict, live cosine differs
+18	133	local	positive verdict, live cosine differs
+18	140	local	positive verdict, live cosine differs
+18	159	strict	positive verdict, live cosine differs
+18	163	local	positive verdict, live cosine differs
+19	51	local	positive verdict, live cosine differs
+19	52	local	positive verdict, live cosine differs
+19	54	local	positive verdict, live cosine differs
+19	69	strict	positive verdict, live cosine differs
+19	72	local	positive verdict, live cosine differs
+19	75	local	positive verdict, live cosine differs
+19	91	local	positive verdict, live cosine differs
+19	134	local	positive verdict, live cosine differs
+19	151	local	positive verdict, live cosine differs
+20	65	local	positive verdict, live cosine differs
+20	66	local	positive verdict, live cosine differs
+20	125	local	positive verdict, live cosine differs
+20	140	strict	positive verdict, live cosine differs
+21	51	local	positive verdict, live cosine differs
+21	52	strict	positive verdict, live cosine differs
+21	78	strict	positive verdict, live cosine differs
+21	83	local	positive verdict, live cosine differs
+21	92	local	positive verdict, live cosine differs
+22	53	local	positive verdict, live cosine differs
+22	54	strict	positive verdict, live cosine differs
+22	55	local	positive verdict, live cosine differs
+22	70	strict	positive verdict, live cosine differs
+23	48	strict	positive verdict, live cosine differs
+23	55	local	positive verdict, live cosine differs
+23	57	strict	positive verdict, live cosine differs
+23	66	local	positive verdict, live cosine differs
+24	52	local	positive verdict, live cosine differs
+24	54	local	positive verdict, live cosine differs
+24	55	local	positive verdict, live cosine differs
+24	57	local	positive verdict, live cosine differs
+24	58	strict	positive verdict, live cosine differs
+24	60	local	positive verdict, live cosine differs
+24	61	strict	positive verdict, live cosine differs
+24	74	local	positive verdict, live cosine differs
+24	76	local	positive verdict, live cosine differs
+24	121	notlocal	positive verdict, live cosine differs
+24	149	notlocal	positive verdict, live cosine differs
+25	52	strict	positive verdict, live cosine differs
+25	56	local	positive verdict, live cosine differs
+25	59	local	positive verdict, live cosine differs
+25	64	strict	positive verdict, live cosine differs
+26	54	strict	positive verdict, live cosine differs
+26	57	notlocal	positive verdict, live cosine differs
+26	58	local	positive verdict, live cosine differs
+26	60	local	positive verdict, live cosine differs
+26	61	local	positive verdict, live cosine differs
+26	62	strict	positive verdict, live cosine differs
+26	71	strict	positive verdict, live cosine differs
+27	56	strict	positive verdict, live cosine differs
+27	61	strict	positive verdict, live cosine differs
+27	62	local	positive verdict, live cosine differs
+27	65	strict	positive verdict, live cosine differs
+27	68	strict	positive verdict, live cosine differs
+27	69	strict	positive verdict, live cosine differs
+28	63	local	positive verdict, live cosine differs
+28	65	local	positive verdict, live cosine differs
+28	66	local	positive verdict, live cosine differs
+29	60	strict	positive verdict, live cosine differs
+29	61	local	positive verdict, live cosine differs
+29	62	local	positive verdict, live cosine differs
+29	65	local	positive verdict, live cosine differs
+29	66	local	positive verdict, live cosine differs
+30	62	strict	positive verdict, live cosine differs
+30	64	local	positive verdict, live cosine differs
+30	71	strict	positive verdict, live cosine differs
+31	64	strict	positive verdict, live cosine differs
+31	65	local	positive verdict, live cosine differs
+31	66	local	positive verdict, live cosine differs
+31	69	local	positive verdict, live cosine differs
+32	66	strict	positive verdict, live cosine differs
+11	343	flex	sample: above-cap, d 11-17
+11	344	flex	sample: above-cap, d 11-17
+11	592	flex	sample: above-cap, d 11-17
+13	499	flex	sample: above-cap, d 11-17
+13	500	flex	sample: above-cap, d 11-17
+14	299	flex	sample: above-cap, d 11-17
+15	431	flex	sample: above-cap, d 11-17
+15	466	flex	sample: above-cap, d 11-17
+16	289	flex	sample: above-cap, d 11-17
+17	435	flex	sample: above-cap, d 11-17
+18	286	flex	sample: above-cap, d 18-24
+18	288	flex	sample: above-cap, d 18-24
+20	203	flex	sample: above-cap, d 18-24
+22	353	flex	sample: above-cap, d 18-24
+22	433	flex	sample: above-cap, d 18-24
+23	898	flex	sample: above-cap, d 18-24
+23	900	flex	sample: above-cap, d 18-24
+24	188	flex	sample: above-cap, d 18-24
+24	192	flex	sample: above-cap, d 18-24
+24	283	flex	sample: above-cap, d 18-24
+25	204	flex	sample: above-cap, d 25-32
+26	200	flex	sample: above-cap, d 25-32
+27	211	flex	sample: above-cap, d 25-32
+28	224	flex	sample: above-cap, d 25-32
+28	235	flex	sample: above-cap, d 25-32
+30	136	flex	sample: above-cap, d 25-32
+30	249	flex	sample: above-cap, d 25-32
+30	657	flex	sample: above-cap, d 25-32
+31	104	flex	sample: above-cap, d 25-32
+31	143	flex	sample: above-cap, d 25-32
+3	595	flex	sample: after-failed, d 3-5
+3	727	flex	sample: after-failed, d 3-5
+3	772	flex	sample: after-failed, d 3-5
+3	894	flex	sample: after-failed, d 3-5
+3	910	flex	sample: after-failed, d 3-5
+3	952	flex	sample: after-failed, d 3-5
+3	980	flex	sample: after-failed, d 3-5
+3	983	flex	sample: after-failed, d 3-5
+3	1019	flex	sample: after-failed, d 3-5
+4	108	flex	sample: after-failed, d 3-5
+6	291	flex	sample: after-failed, d 6-10
+7	145	flex	sample: after-failed, d 6-10
+7	161	flex	sample: after-failed, d 6-10
+8	141	flex	sample: after-failed, d 6-10
+9	117	flex	sample: after-failed, d 6-10
+9	174	flex	sample: after-failed, d 6-10
+9	210	flex	sample: after-failed, d 6-10
+10	101	flex	sample: after-failed, d 6-10
+10	248	flex	sample: after-failed, d 6-10
+10	250	flex	sample: after-failed, d 6-10
+11	76	flex	sample: after-failed, d 11-17
+14	336	flex	sample: after-failed, d 11-17
+15	153	flex	sample: after-failed, d 11-17
+17	76	flex	sample: after-failed, d 11-17
+17	107	flex	sample: after-failed, d 11-17
+17	116	flex	sample: after-failed, d 11-17
+17	130	flex	sample: after-failed, d 11-17
+17	168	flex	sample: after-failed, d 11-17
+17	309	flex	sample: after-failed, d 11-17
+17	313	flex	sample: after-failed, d 11-17
+18	110	flex	sample: after-failed, d 18-24
+19	57	flex	sample: after-failed, d 18-24
+19	180	flex	sample: after-failed, d 18-24
+22	52	flex	sample: after-failed, d 18-24
+22	143	flex	sample: after-failed, d 18-24
+23	83	flex	sample: after-failed, d 18-24
+23	108	flex	sample: after-failed, d 18-24
+23	118	flex	sample: after-failed, d 18-24
+23	131	flex	sample: after-failed, d 18-24
+24	97	flex	sample: after-failed, d 18-24
+26	81	flex	sample: after-failed, d 25-32
+26	122	flex	sample: after-failed, d 25-32
+27	125	flex	sample: after-failed, d 25-32
+28	90	flex	sample: after-failed, d 25-32
+28	97	flex	sample: after-failed, d 25-32
+29	99	flex	sample: after-failed, d 25-32
+29	132	flex	sample: after-failed, d 25-32
+30	63	flex	sample: after-failed, d 25-32
+30	98	flex	sample: after-failed, d 25-32
+30	138	flex	sample: after-failed, d 25-32
+3	669	flex	sample: no-proposal-flagged, d 3-5
+3	879	flex	sample: no-proposal-flagged, d 3-5
+4	345	flex	sample: no-proposal-flagged, d 3-5
+4	371	flex	sample: no-proposal-flagged, d 3-5
+4	736	flex	sample: no-proposal-flagged, d 3-5
+4	893	flex	sample: no-proposal-flagged, d 3-5
+4	900	flex	sample: no-proposal-flagged, d 3-5
+5	242	flex	sample: no-proposal-flagged, d 3-5
+5	626	flex	sample: no-proposal-flagged, d 3-5
+5	808	flex	sample: no-proposal-flagged, d 3-5
+6	859	flex	sample: no-proposal-flagged, d 6-10
+6	919	flex	sample: no-proposal-flagged, d 6-10
+6	948	flex	sample: no-proposal-flagged, d 6-10
+7	999	flex	sample: no-proposal-flagged, d 6-10
+8	160	flex	sample: no-proposal-flagged, d 6-10
+8	659	flex	sample: no-proposal-flagged, d 6-10
+8	910	flex	sample: no-proposal-flagged, d 6-10
+9	116	flex	sample: no-proposal-flagged, d 6-10
+9	334	flex	sample: no-proposal-flagged, d 6-10
+9	906	flex	sample: no-proposal-flagged, d 6-10
+11	440	flex	sample: no-proposal-flagged, d 11-17
+11	573	flex	sample: no-proposal-flagged, d 11-17
+12	609	flex	sample: no-proposal-flagged, d 11-17
+13	648	flex	sample: no-proposal-flagged, d 11-17
+13	697	flex	sample: no-proposal-flagged, d 11-17
+13	794	flex	sample: no-proposal-flagged, d 11-17
+14	199	flex	sample: no-proposal-flagged, d 11-17
+14	233	flex	sample: no-proposal-flagged, d 11-17
+16	177	flex	sample: no-proposal-flagged, d 11-17
+17	111	flex	sample: no-proposal-flagged, d 11-17
+18	255	flex	sample: no-proposal-flagged, d 18-24
+18	259	flex	sample: no-proposal-flagged, d 18-24
+19	601	flex	sample: no-proposal-flagged, d 18-24
+21	609	flex	sample: no-proposal-flagged, d 18-24
+21	680	flex	sample: no-proposal-flagged, d 18-24
+22	144	flex	sample: no-proposal-flagged, d 18-24
+23	60	flex	sample: no-proposal-flagged, d 18-24
+23	123	flex	sample: no-proposal-flagged, d 18-24
+23	176	flex	sample: no-proposal-flagged, d 18-24
+23	586	flex	sample: no-proposal-flagged, d 18-24
+25	570	flex	sample: no-proposal-flagged, d 25-32
+27	162	flex	sample: no-proposal-flagged, d 25-32
+28	85	flex	sample: no-proposal-flagged, d 25-32
+29	773	flex	sample: no-proposal-flagged, d 25-32
+30	514	flex	sample: no-proposal-flagged, d 25-32
+30	726	flex	sample: no-proposal-flagged, d 25-32
+30	945	flex	sample: no-proposal-flagged, d 25-32
+31	696	flex	sample: no-proposal-flagged, d 25-32
+32	114	flex	sample: no-proposal-flagged, d 25-32
+32	473	flex	sample: no-proposal-flagged, d 25-32
+3	401	flex	sample: no-proposal-unflagged, d 3-5
+3	435	flex	sample: no-proposal-unflagged, d 3-5
+3	549	flex	sample: no-proposal-unflagged, d 3-5
+3	622	flex	sample: no-proposal-unflagged, d 3-5
+3	696	flex	sample: no-proposal-unflagged, d 3-5
+3	743	flex	sample: no-proposal-unflagged, d 3-5
+3	820	flex	sample: no-proposal-unflagged, d 3-5
+3	963	flex	sample: no-proposal-unflagged, d 3-5
+3	969	flex	sample: no-proposal-unflagged, d 3-5
+5	140	flex	sample: no-proposal-unflagged, d 3-5
+8	124	flex	sample: no-proposal-unflagged, d 6-10
+8	242	flex	sample: no-proposal-unflagged, d 6-10
+8	286	flex	sample: no-proposal-unflagged, d 6-10
+9	173	flex	sample: no-proposal-unflagged, d 6-10
+9	183	flex	sample: no-proposal-unflagged, d 6-10
+9	188	flex	sample: no-proposal-unflagged, d 6-10
+10	133	flex	sample: no-proposal-unflagged, d 6-10
+10	219	flex	sample: no-proposal-unflagged, d 6-10
+10	229	flex	sample: no-proposal-unflagged, d 6-10
+10	281	flex	sample: no-proposal-unflagged, d 6-10
+11	104	flex	sample: no-proposal-unflagged, d 11-17
+11	206	flex	sample: no-proposal-unflagged, d 11-17
+11	1017	flex	sample: no-proposal-unflagged, d 11-17
+12	72	flex	sample: no-proposal-unflagged, d 11-17
+12	119	flex	sample: no-proposal-unflagged, d 11-17
+12	184	flex	sample: no-proposal-unflagged, d 11-17
+12	185	flex	sample: no-proposal-unflagged, d 11-17
+13	318	flex	sample: no-proposal-unflagged, d 11-17
+17	127	flex	sample: no-proposal-unflagged, d 11-17
+17	237	flex	sample: no-proposal-unflagged, d 11-17
+18	83	flex	sample: no-proposal-unflagged, d 18-24
+18	237	flex	sample: no-proposal-unflagged, d 18-24
+19	93	flex	sample: no-proposal-unflagged, d 18-24
+19	280	flex	sample: no-proposal-unflagged, d 18-24
+19	302	flex	sample: no-proposal-unflagged, d 18-24
+19	364	flex	sample: no-proposal-unflagged, d 18-24
+20	70	flex	sample: no-proposal-unflagged, d 18-24
+20	285	flex	sample: no-proposal-unflagged, d 18-24
+20	289	flex	sample: no-proposal-unflagged, d 18-24
+20	1012	flex	sample: no-proposal-unflagged, d 18-24
+27	570	flex	sample: no-proposal-unflagged, d 25-32
+28	67	flex	sample: no-proposal-unflagged, d 25-32
+28	71	flex	sample: no-proposal-unflagged, d 25-32
+28	72	flex	sample: no-proposal-unflagged, d 25-32
+29	69	flex	sample: no-proposal-unflagged, d 25-32

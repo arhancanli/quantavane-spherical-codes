@@ -1,0 +1,8 @@
+# The environment of the census runs (versions 4 to 7), for certify/ of quantavane-spherical-codes.
+# Python 3.9.6 (Apple command-line tools build), one core per process.
+numpy==2.0.2
+scipy==1.13.1
+python-flint==0.6.0
+mpmath==1.3.0
+# figures of paper_v7 only (make_numbers_v7.py):
+matplotlib==3.9.4
