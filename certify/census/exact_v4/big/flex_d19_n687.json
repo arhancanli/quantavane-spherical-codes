@@ -1,0 +1,16 @@
+{
+ "d": 19,
+ "n": 687,
+ "tol": 1e-08,
+ "code_sha256": {
+  "exact_big.py": "f1e88eb11f7d8c9efeeb22d4ba73e0db7bfb01600d3c9ce6563a3f437289444a"
+ },
+ "mode": "flex",
+ "contacts": 346,
+ "points_in_contacts": 392,
+ "rows": 738,
+ "flex_beta": 2.6888794127653695e-14,
+ "flex_radius_l1": 0.3447006023835304,
+ "status": "FLEX confirmed",
+ "seconds": 3.1
+}

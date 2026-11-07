@@ -1,0 +1,19 @@
+{
+ "d": 7,
+ "n": 78,
+ "tol": 1e-10,
+ "code_sha256": {
+  "exact_big.py": "f1e88eb11f7d8c9efeeb22d4ba73e0db7bfb01600d3c9ce6563a3f437289444a"
+ },
+ "mode": "strict",
+ "nV": 64,
+ "m": 672,
+ "iso": 364,
+ "residual_max": 2.9816139631944167e-30,
+ "existence": true,
+ "stress": "uniform",
+ "rank_mod_p": 427,
+ "rank_needed": 427,
+ "status": "STRICT confirmed (exact)",
+ "seconds": 1.4
+}

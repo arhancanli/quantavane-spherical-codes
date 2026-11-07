@@ -1,0 +1,27 @@
+{
+ "d": 3,
+ "n": 1020,
+ "tol": 1e-10,
+ "code_sha256": {
+  "exact_big.py": "f1e88eb11f7d8c9efeeb22d4ba73e0db7bfb01600d3c9ce6563a3f437289444a"
+ },
+ "mode": "hyper",
+ "nV": 1020,
+ "m": 2100,
+ "iso": 2038,
+ "residual_max": 1.0769993795278825e-30,
+ "existence": true,
+ "unknowns": 3061,
+ "coefficients": "least squares",
+ "stress_beta": 5.626446365201495e-10,
+ "stress_min_lower": 2.3487504710289026e-07,
+ "tau_extra": 2.0129761672999423e-30,
+ "kappa": 2.2833238301533184e-11,
+ "rho": 1.6534394854795762e-12,
+ "localmin_displacement": 1.9507060387116477e-17,
+ "gaps_V_failed": 0,
+ "rattlers": 0,
+ "gaps_rattlers_failed_at_stored_positions": 0,
+ "status": "LOCALMIN confirmed, gaps of V",
+ "seconds": 91.9
+}

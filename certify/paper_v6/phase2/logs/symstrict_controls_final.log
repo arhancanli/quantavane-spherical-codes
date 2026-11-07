@@ -1,0 +1,152 @@
+d3_n8 25 STRICT 0.64s
+d3_n9 28 STRICT 0.01s
+d3_n10 31 STRICT 0.02s
+d3_n12 37 STRICT 0.05s
+d4_n10 41 STRICT 0.02s
+d3_n14 43 reduced system not square (14 equations, 13 unknowns) 0.02s
+d4_n11 45 reduced system not square (15 equations, 14 unknowns) 0.01s
+d3_n15 46 no symmetry 0.09s
+d3_n16 49 STRICT 0.01s
+d4_n12 49 STRICT 0.02s
+d3_n20 55 reduced system not square (32 equations, 30 unknowns) 0.05s
+d4_n14 57 reduced system not square (37 equations, 35 unknowns) 0.01s
+d4_n15 61 no symmetry 0.01s
+d5_n12 61 no symmetry 0.01s
+d5_n13 66 reduced system not square (45 equations, 44 unknowns) 0.01s
+d3_n24 73 STRICT 0.1s
+d4_n20 81 reduced system not square (14 equations, 12 unknowns) 0.03s
+d5_n16 81 STRICT 0.74s
+d4_n21 85 reduced system not square (24 equations, 23 unknowns) 0.03s
+d5_n17 86 reduced system not square (17 equations, 16 unknowns) 0.06s
+d5_n18 91 reduced system not square (41 equations, 38 unknowns) 0.01s
+d6_n15 91 no symmetry 0.01s
+d5_n19 96 STRICT 0.11s
+d5_n20 96 reduced system not square (69 equations, 62 unknowns) 0.04s
+d4_n24 97 STRICT 0.68s
+d4_n27 97 reduced system not square (53 equations, 49 unknowns) 0.01s
+d6_n16 97 no symmetry 0.01s
+d6_n17 103 no symmetry 0.05s
+d4_n26 105 no exact model 0.08s
+d6_n20 121 reduced system not square (8 equations, 7 unknowns) 0.1s
+d6_n28 127 STRICT 4.22s
+d7_n18 127 STRICT 0.29s
+d7_n19 134 no symmetry 0.04s
+d7_n20 141 no symmetry 0.04s
+d3_n48 145 reduced system not square (85 equations, 73 unknowns) 0.02s
+d4_n44 145 no symmetry 0.01s
+d5_n30 151 reduced system not square (120 equations, 97 unknowns) 0.08s
+d5_n32 161 no symmetry 0.09s
+d8_n20 161 no symmetry 0.06s
+d6_n27 163 group above the enumeration cap 0.15s
+d7_n24 169 STRICT 0.79s
+d7_n25 169 no symmetry 0.04s
+d5_n36 171 reduced system not square (27 equations, 23 unknowns) 0.06s
+d8_n22 177 reduced system not square (92 equations, 75 unknowns) 0.74s
+d9_n21 190 no exact model 2.08s
+d6_n32 193 group above the enumeration cap 0.12s
+d6_n33 193 STRICT 0.33s
+d8_n24 193 reduced system not square (137 equations, 117 unknowns) 0.05s
+d9_n22 199 no symmetry 0.1s
+d5_n40 201 STRICT 2.53s
+d6_n34 205 reduced system not square (40 equations, 32 unknowns) 0.1s
+d6_n36 217 STRICT 2.46s
+d6_n40 217 no symmetry 0.07s
+d6_n37 223 no symmetry 0.12s
+d7_n39 225 reduced system not square (85 equations, 68 unknowns) 0.11s
+d8_n28 225 no symmetry 0.11s
+d6_n38 229 reduced system not square (122 equations, 103 unknowns) 0.08s
+d5_n50 241 STRICT 1.95s
+d6_n42 253 reduced system not square (18 equations, 13 unknowns) 0.25s
+d8_n33 257 reduced system not square (40 equations, 31 unknowns) 0.17s
+d6_n43 259 reduced system not square (35 equations, 32 unknowns) 0.14s
+d6_n50 265 reduced system not square (210 equations, 173 unknowns) 0.06s
+d11_n28 265 no symmetry 0.17s
+d6_n56 271 no symmetry 0.07s
+d8_n35 273 reduced system not square (190 equations, 137 unknowns) 0.3s
+d10_n28 281 STRICT 1.48s
+d11_n33 287 no symmetry 0.12s
+d6_n58 289 reduced system not square (15 equations, 14 unknowns) 0.2s
+d9_n32 289 group above the enumeration cap 25.74s
+d6_n54 301 STRICT 0.23s
+d8_n38 305 no symmetry 0.13s
+d10_n32 311 no symmetry 0.12s
+d7_n67 330 no symmetry 0.13s
+d11_n30 331 STRICT 3.21s
+d11_n31 331 no symmetry 0.13s
+d12_n29 337 no symmetry 0.08s
+d12_n30 337 no symmetry 0.26s
+d11_n36 342 no exact model 0.49s
+d5_n74 361 STRICT 3.37s
+d12_n32 361 no symmetry 0.11s
+d13_n28 365 reduced system not square (208 equations, 197 unknowns) 0.34s
+d13_n38 378 no symmetry 0.14s
+d11_n35 386 no symmetry 0.25s
+d7_n56 393 group above the enumeration cap 0.34s
+d9_n47 397 reduced system not square (152 equations, 107 unknowns) 0.2s
+d9_n50 397 no symmetry 0.15s
+d5_n90 401 STRICT 5.07s
+d10_n40 401 no exact model 2.38s
+d10_n41 401 no symmetry 0.19s
+d10_n50 401 reduced system not square (174 equations, 133 unknowns) 0.21s
+d12_n34 409 no symmetry found within the time limit 120.11s
+d13_n32 417 reduced system not square (130 equations, 105 unknowns) 120.19s
+d14_n30 421 reduced system not square (207 equations, 191 unknowns) 16.9s
+d6_n72 433 group above the enumeration cap 0.34s
+d9_n52 433 no symmetry 0.17s
+d12_n37 433 reduced system not square (277 equations, 223 unknowns) 0.75s
+d11_n40 441 no symmetry found within the time limit 120.15s
+d11_n41 441 no symmetry 0.39s
+d7_n78 449 group above the enumeration cap 0.61s
+d11_n42 452 reduced system not square (300 equations, 240 unknowns) 0.29s
+d13_n36 469 no exact model 122.06s
+d4_n120 481 group above the enumeration cap 0.5s
+d12_n42 481 no symmetry 1.0s
+d14_n36 505 no symmetry 0.34s
+d8_n64 513 group above the enumeration cap 0.52s
+d10_n59 521 reduced system not square (47 equations, 41 unknowns) 0.63s
+d15_n36 541 no symmetry 0.5s
+d16_n34 545 STRICT 36.46s
+d13_n42 547 no exact model 69.18s
+d13_n44 547 no symmetry 0.31s
+d8_n71 561 group above the enumeration cap 0.85s
+d10_n57 561 STRICT 2.39s
+d8_n83 577 group above the enumeration cap 0.87s
+d12_n50 577 no symmetry 0.49s
+d16_n36 577 no symmetry 5.17s
+d10_n58 581 no symmetry 1.17s
+d14_n42 589 STRICT 74.64s
+d16_n38 609 no symmetry 12.97s
+d12_n51 613 no symmetry 0.27s
+d14_n45 617 no symmetry 1.11s
+d14_n52 617 no symmetry 0.35s
+d13_n48 625 no symmetry found within the time limit 120.34s
+d16_n44 641 no symmetry 0.38s
+d9_n126 649 STRICT 5.48s
+d11_n61 661 no symmetry found within the time limit 120.39s
+d11_n68 705 no exact model 0.91s
+d9_n101 721 reduced system not square (108 equations, 79 unknowns) 2.61s
+d12_n60 721 no symmetry 0.58s
+d18_n40 721 no symmetry 0.48s
+d12_n62 745 reduced system not square (526 equations, 373 unknowns) 0.65s
+d15_n52 751 no symmetry 0.58s
+d19_n40 761 no symmetry found within the time limit 120.55s
+d19_n50 761 no symmetry found within the time limit 120.53s
+d17_n45 766 no symmetry 10.73s
+d16_n48 769 no symmetry 0.96s
+d20_n42 841 no symmetry found within the time limit 120.6s
+d11_n90 848 reduced system not square (787 equations, 444 unknowns) 4.65s
+d15_n57 856 no symmetry 45.35s
+d9_n96 865 group above the enumeration cap 1.17s
+d18_n50 865 no symmetry 0.75s
+d16_n58 881 no symmetry 0.7s
+d7_n126 883 group above the enumeration cap 1.98s
+d17_n52 885 no symmetry 0.78s
+d8_n114 897 reduced system not square (4 equations, 3 unknowns) 10.24s
+d14_n64 897 group above the enumeration cap 121.3s
+d15_n61 901 no symmetry found within the time limit 120.8s
+d17_n53 902 no symmetry 0.7s
+d14_n65 911 no symmetry 0.69s
+d19_n48 913 no symmetry 0.78s
+d14_n75 925 no symmetry 0.68s
+d17_n55 936 no symmetry 4.7s
+d20_n47 941 no symmetry 0.66s

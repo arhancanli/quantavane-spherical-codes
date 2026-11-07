@@ -1,0 +1,29 @@
+d10_n40 Q STRICT (exact) 0.76s
+d11_n40 Q (Gram matrix) the uniform stress is not in equilibrium 0.01s
+d13_n104 Q STRICT (exact) 7.02s
+d14_n30 Q (Gram matrix) the uniform stress is not in equilibrium 0.01s
+d15_n128 Q STRICT (exact) 27.21s
+d16_n34 Q (Gram matrix) the uniform stress is not in equilibrium 0.01s
+d17_n64 Q(sqrt 2) no exact positive stress found 0.24s
+d19_n102 Q (Gram matrix) the uniform stress is not in equilibrium 0.03s
+d19_n40 Q (Gram matrix) the uniform stress is not in equilibrium 0.01s
+d20_n42 Q (Gram matrix) the uniform stress is not in equilibrium 0.01s
+d20_n56 Q (Gram matrix) STRICT (exact Gram) 2.91s
+d20_n81 Q (Gram matrix) STRICT (exact Gram) 12.11s
+d21_n162 Q (Gram matrix) STRICT (exact Gram) 117.67s
+d22_n100 Q (Gram matrix) STRICT (exact Gram) 27.93s
+certify/census/exact_strict.py:414: RuntimeWarning: divide by zero encountered in matmul
+  G = X @ X.T
+certify/census/exact_strict.py:414: RuntimeWarning: overflow encountered in matmul
+  G = X @ X.T
+certify/census/exact_strict.py:414: RuntimeWarning: invalid value encountered in matmul
+  G = X @ X.T
+d3_n12 Q(sqrt 5) STRICT (exact) 0.01s
+d3_n9 Q (Gram matrix) the uniform stress is not in equilibrium 0.0s
+d4_n10 Q (Gram matrix) STRICT (exact Gram) 0.0s
+d4_n12 Q (Gram matrix) the uniform stress is not in equilibrium 0.0s
+d5_n90 Q STRICT (exact) 0.34s
+d7_n126 Q STRICT (exact) 2.15s
+d7_n358 Q STRICT (exact) 10.52s
+d7_n78 Q STRICT (exact) 0.58s
+d8_n240 Q STRICT (exact) 15.75s

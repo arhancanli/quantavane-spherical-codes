@@ -1,0 +1,340 @@
+d3_n17 52 STRICT 0.59s
+d4_n16 65 no symmetry 0.01s
+d4_n17 69 STRICT 0.08s
+d4_n22 89 no symmetry 0.01s
+d3_n32 97 no symmetry 0.02s
+d3_n34 103 STRICT 0.1s
+d5_n23 106 no symmetry 0.01s
+d3_n38 109 STRICT 0.06s
+d5_n22 111 no symmetry 0.03s
+d6_n19 115 reduced system not square (83 equations, 80 unknowns) 0.06s
+d3_n40 118 no symmetry 0.01s
+d4_n32 121 no symmetry 0.04s
+d6_n22 121 no symmetry 0.01s
+d5_n25 126 STRICT 0.07s
+d6_n21 127 no symmetry 0.05s
+d3_n44 133 no symmetry 0.04s
+d4_n35 133 no symmetry 0.01s
+d5_n27 136 reduced system not square (103 equations, 88 unknowns) 0.02s
+d3_n46 139 no symmetry 0.01s
+d5_n28 141 no symmetry 0.06s
+d3_n52 145 reduced system not square (51 equations, 49 unknowns) 0.01s
+d5_n29 146 reduced system not square (107 equations, 93 unknowns) 0.06s
+d7_n21 148 no symmetry 0.02s
+d4_n40 149 STRICT 0.18s
+d4_n38 153 no symmetry 0.04s
+d8_n19 153 no symmetry 0.05s
+d3_n56 157 no symmetry 0.01s
+d3_n58 169 no symmetry 0.06s
+d3_n57 172 no symmetry 0.04s
+d3_n61 175 STRICT 0.18s
+d3_n60 181 no symmetry 0.06s
+d7_n26 183 no symmetry 0.03s
+d8_n23 185 no symmetry 0.02s
+d3_n62 187 no symmetry 0.07s
+d5_n38 191 no symmetry 0.02s
+d5_n45 196 no symmetry 0.02s
+d3_n66 199 reduced system not square (102 equations, 100 unknowns) 0.02s
+d3_n69 199 no symmetry 0.01s
+d8_n25 201 no symmetry 0.17s
+d8_n26 209 no symmetry 0.05s
+d7_n31 211 no symmetry 0.09s
+d3_n72 217 STRICT 0.09s
+d5_n44 221 reduced system not square (47 equations, 45 unknowns) 0.05s
+d3_n76 223 no symmetry 0.07s
+d7_n32 225 no symmetry 0.02s
+d9_n25 226 no symmetry 0.06s
+d8_n29 233 no symmetry 0.1s
+d9_n26 235 no symmetry 0.05s
+d7_n34 239 reduced system not square (153 equations, 135 unknowns) 0.08s
+d7_n41 239 reduced system not square (161 equations, 135 unknowns) 0.13s
+d5_n48 241 no symmetry 0.16s
+d10_n26 241 no symmetry 0.13s
+d6_n41 247 no symmetry 0.09s
+d8_n31 249 no symmetry 0.06s
+d3_n84 253 no symmetry 0.16s
+d3_n90 253 no symmetry 0.13s
+d6_n49 253 STRICT 0.52s
+d3_n89 256 no symmetry 0.14s
+d6_n45 259 reduced system not square (182 equations, 176 unknowns) 0.03s
+d6_n47 259 no symmetry 0.16s
+d5_n52 261 reduced system not square (171 equations, 164 unknowns) 0.1s
+d3_n87 262 reduced system not square (132 equations, 131 unknowns) 0.09s
+d6_n48 265 no symmetry 0.16s
+d11_n24 265 reduced system not square (193 equations, 189 unknowns) 0.14s
+d3_n92 271 reduced system not square (93 equations, 91 unknowns) 0.17s
+d5_n58 271 no symmetry 0.11s
+d10_n27 271 no symmetry 0.1s
+d3_n97 277 no symmetry 0.07s
+d5_n57 281 reduced system not square (105 equations, 81 unknowns) 0.11s
+d5_n70 281 STRICT 0.48s
+d3_n99 286 no symmetry 0.07s
+d11_n26 287 no symmetry 0.06s
+d3_n96 289 no symmetry 0.12s
+d4_n74 289 no symmetry 0.1s
+d10_n29 291 no symmetry 0.06s
+d5_n60 296 no symmetry 0.11s
+d9_n35 298 STRICT 0.74s
+d6_n55 301 reduced system not square (111 equations, 103 unknowns) 0.1s
+d3_n105 307 no symmetry 0.14s
+d6_n62 307 reduced system not square (138 equations, 126 unknowns) 0.11s
+d5_n65 311 no symmetry 0.11s
+d10_n31 311 no symmetry 0.09s
+d8_n39 313 no symmetry 0.09s
+d5_n64 316 no symmetry 0.09s
+d5_n69 316 reduced system not square (192 equations, 190 unknowns) 0.11s
+d5_n67 321 no symmetry 0.06s
+d9_n37 325 no symmetry 0.16s
+d3_n117 334 no symmetry 0.09s
+d3_n118 337 no symmetry 0.09s
+d12_n28 337 no symmetry 0.12s
+d9_n39 343 no symmetry 0.09s
+d6_n60 349 no symmetry 0.1s
+d9_n40 352 no symmetry 0.15s
+d11_n32 353 no symmetry 0.09s
+d3_n124 355 no symmetry 0.09s
+d5_n76 356 no symmetry 0.11s
+d3_n121 361 no symmetry 0.08s
+d8_n45 361 no symmetry 0.17s
+d10_n36 361 no symmetry 0.1s
+d5_n75 366 no symmetry 0.11s
+d12_n36 373 no symmetry 0.16s
+d13_n29 378 no symmetry 0.16s
+d9_n44 379 no symmetry 0.12s
+d3_n128 385 no symmetry 0.08s
+d8_n48 385 no symmetry 0.1s
+d8_n49 393 no symmetry 0.14s
+d6_n76 397 no symmetry 0.32s
+d7_n57 400 no symmetry 0.12s
+d11_n37 408 no symmetry 0.14s
+d3_n140 409 no symmetry 0.11s
+d10_n44 411 STRICT 1.35s
+d9_n48 415 no symmetry 0.35s
+d11_n46 419 no symmetry 0.17s
+d8_n53 425 no symmetry 0.13s
+d13_n33 430 no symmetry 0.12s
+d10_n45 431 no symmetry 0.11s
+d6_n77 433 reduced system not square (159 equations, 145 unknowns) 0.17s
+d8_n54 433 no symmetry 0.17s
+d14_n31 435 no symmetry 0.15s
+d10_n46 441 reduced system not square (259 equations, 249 unknowns) 0.16s
+d7_n63 442 no symmetry 0.16s
+d13_n34 443 no symmetry 0.13s
+d6_n90 445 reduced system not square (164 equations, 153 unknowns) 0.19s
+d14_n32 449 no symmetry 0.18s
+d3_n153 451 STRICT 0.8s
+d15_n33 451 no symmetry 0.22s
+d6_n78 457 reduced system not square (390 equations, 293 unknowns) 0.2s
+d6_n85 457 no symmetry 0.16s
+d12_n38 457 no symmetry 0.23s
+d9_n54 460 reduced system not square (275 equations, 244 unknowns) 0.19s
+d6_n79 463 reduced system not square (178 equations, 158 unknowns) 0.23s
+d6_n92 463 STRICT 1.72s
+d11_n43 463 no symmetry 0.15s
+d3_n156 469 no symmetry 0.16s
+d6_n89 469 STRICT 0.64s
+d7_n80 477 no symmetry 0.16s
+d3_n159 478 no symmetry 0.12s
+d6_n81 481 reduced system not square (195 equations, 163 unknowns) 0.24s
+d6_n96 481 no symmetry 0.19s
+d13_n37 482 no symmetry 0.22s
+d3_n168 487 reduced system not square (164 equations, 163 unknowns) 0.19s
+d6_n97 487 no symmetry 0.15s
+d3_n166 493 no symmetry 0.16s
+d3_n165 496 no symmetry 0.1s
+d5_n99 496 no symmetry 0.14s
+d5_n100 501 no symmetry 0.17s
+d3_n176 505 no symmetry 0.1s
+d12_n43 505 no symmetry 0.33s
+d15_n34 511 no symmetry 0.19s
+d3_n173 514 no symmetry 0.12s
+d9_n57 514 no symmetry 0.23s
+d6_n86 517 reduced system not square (195 equations, 180 unknowns) 0.19s
+d12_n45 517 no symmetry 0.37s
+d14_n37 519 no symmetry 0.2s
+d13_n40 521 no symmetry 0.24s
+d6_n118 523 no symmetry 0.19s
+d9_n60 523 no symmetry 0.21s
+d15_n35 526 no symmetry 0.24s
+d11_n49 529 no symmetry 0.2s
+d9_n59 532 no symmetry 0.28s
+d3_n180 541 STRICT 0.42s
+d9_n61 541 no symmetry 0.5s
+d7_n79 547 reduced system not square (247 equations, 229 unknowns) 0.21s
+d9_n97 550 reduced system not square (251 equations, 184 unknowns) 0.41s
+d12_n46 553 no symmetry 0.7s
+d15_n40 556 no symmetry 0.26s
+d11_n51 562 no symmetry 0.28s
+d6_n103 565 no symmetry 0.23s
+d9_n63 568 no symmetry 0.23s
+d8_n73 569 no symmetry 0.24s
+d6_n104 571 STRICT 0.68s
+d9_n64 577 no symmetry 0.27s
+d7_n97 582 no symmetry 0.38s
+d6_n108 583 STRICT 0.83s
+d9_n65 586 no symmetry 0.24s
+d7_n92 589 no symmetry 0.26s
+d8_n74 593 no symmetry 0.21s
+d6_n106 595 no symmetry 0.69s
+d7_n87 596 no symmetry 0.96s
+d13_n54 599 no symmetry 0.26s
+d8_n75 601 no symmetry 0.26s
+d8_n76 609 no symmetry 0.23s
+d3_n212 613 no symmetry 0.18s
+d12_n53 613 no symmetry 0.27s
+d17_n37 613 no symmetry 0.29s
+d7_n90 617 no symmetry 0.31s
+d4_n156 625 no symmetry 0.21s
+d16_n39 625 no symmetry 0.28s
+d7_n96 631 reduced system not square (192 equations, 165 unknowns) 0.28s
+d15_n42 631 no symmetry 0.29s
+d9_n74 640 no symmetry 0.77s
+d8_n85 641 reduced system not square (631 equations, 453 unknowns) 0.41s
+d14_n46 645 no symmetry 0.3s
+d17_n38 647 no symmetry 0.32s
+d12_n54 649 no symmetry 0.27s
+d13_n50 651 no symmetry 0.46s
+d3_n218 655 no symmetry 0.21s
+d14_n47 659 no symmetry 0.41s
+d6_n110 661 reduced system not square (271 equations, 227 unknowns) 0.33s
+d15_n44 661 no symmetry 0.49s
+d4_n167 665 no symmetry 0.32s
+d6_n111 667 reduced system not square (560 equations, 432 unknowns) 0.32s
+d10_n68 671 no symmetry 1.8s
+d6_n112 673 reduced system not square (17 equations, 16 unknowns) 0.8s
+d14_n48 673 no symmetry 0.36s
+d13_n52 677 no symmetry 0.41s
+d6_n115 679 no symmetry 0.22s
+d8_n86 681 no symmetry 0.4s
+d10_n74 681 no symmetry 1.77s
+d3_n230 685 no symmetry 0.26s
+d14_n49 687 no symmetry 0.37s
+d10_n69 691 no symmetry 1.89s
+d9_n77 694 no symmetry 0.4s
+d17_n41 698 no symmetry 0.34s
+d9_n79 703 reduced system not square (204 equations, 181 unknowns) 0.31s
+d3_n236 709 no symmetry 0.27s
+d8_n91 713 no symmetry 0.32s
+d6_n121 721 no symmetry 0.29s
+d16_n45 721 no symmetry 0.71s
+d8_n95 729 no symmetry 0.34s
+d10_n73 731 no symmetry 0.37s
+d12_n61 733 no symmetry 2.2s
+d5_n155 736 no symmetry 0.32s
+d16_n46 737 no symmetry 0.44s
+d18_n41 739 no symmetry 0.54s
+d6_n129 745 no symmetry 0.34s
+d12_n64 745 no symmetry 0.44s
+d10_n75 751 no symmetry 0.42s
+d13_n58 755 no symmetry 0.36s
+d14_n54 757 no symmetry 0.49s
+d10_n76 761 no symmetry 0.44s
+d13_n59 768 no symmetry 0.4s
+d12_n67 769 no symmetry 0.47s
+d11_n71 771 no symmetry 0.39s
+d19_n41 780 no symmetry found within the time limit 120.47s
+d13_n62 781 no symmetry 0.41s
+d14_n56 785 no symmetry 0.34s
+d18_n44 793 no symmetry 0.52s
+d19_n42 799 no symmetry 0.51s
+d3_n270 811 reduced system not square (15 equations, 14 unknowns) 0.59s
+d3_n280 811 reduced system not square (164 equations, 163 unknowns) 0.31s
+d12_n77 817 no symmetry 0.76s
+d13_n63 820 no symmetry 0.5s
+d19_n44 837 no symmetry 0.73s
+d8_n120 841 no symmetry 0.49s
+d18_n48 847 no symmetry 0.67s
+d11_n78 848 no symmetry 0.55s
+d16_n55 849 no symmetry 0.58s
+d19_n45 856 no symmetry 0.79s
+d9_n104 865 no symmetry 0.73s
+d11_n80 881 no symmetry 1.24s
+d7_n127 883 STRICT 4.68s
+d7_n128 890 reduced system not square (300 equations, 190 unknowns) 0.74s
+d3_n302 895 no symmetry 0.39s
+d15_n67 901 no symmetry 0.68s
+d17_n56 902 no symmetry 0.69s
+d11_n83 914 no symmetry 0.61s
+d7_n136 939 reduced system not square (155 equations, 109 unknowns) 0.95s
+d9_n105 946 no symmetry 0.52s
+d9_n106 955 no symmetry 0.54s
+d19_n51 970 no symmetry 0.9s
+d18_n55 973 no symmetry 0.81s
+d20_n49 981 no symmetry 1.68s
+d15_n66 991 no symmetry 0.72s
+d7_n143 995 no symmetry 1.0s
+d12_n91 997 no symmetry 0.75s
+d15_n69 1006 no symmetry 0.75s
+d14_n72 1009 no symmetry 0.65s
+d15_n68 1021 no symmetry 0.66s
+d7_n148 1023 STRICT 7.87s
+d3_n352 1039 no symmetry 0.57s
+d19_n55 1046 no symmetry 1.5s
+d11_n98 1057 no symmetry 0.94s
+d18_n59 1063 no symmetry 1.95s
+d7_n165 1072 no symmetry 13.78s
+d14_n77 1079 no symmetry 5.03s
+d12_n92 1081 no symmetry 0.96s
+d3_n380 1126 no symmetry 0.68s
+d10_n113 1131 no symmetry 0.94s
+d10_n114 1141 no symmetry 1.02s
+d7_n168 1163 no symmetry 19.68s
+d14_n91 1177 no symmetry 1.13s
+d7_n169 1184 no symmetry 13.63s
+d22_n55 1211 no symmetry 1.06s
+d24_n52 1249 no symmetry 1.76s
+d23_n55 1266 no symmetry 1.19s
+d23_n56 1289 no symmetry 1.3s
+d20_n65 1301 no symmetry 1.57s
+d3_n446 1303 no symmetry 0.94s
+d12_n121 1321 reduced system not square (1075 equations, 705 unknowns) 1.92s
+d24_n55 1321 no symmetry 2.15s
+d18_n74 1333 no symmetry 1.61s
+d15_n95 1336 no symmetry 1.29s
+d20_n68 1361 no symmetry 1.92s
+d19_n72 1369 no symmetry 2.32s
+d25_n56 1376 no symmetry 2.09s
+d18_n80 1405 no symmetry 1.78s
+d3_n480 1441 STRICT 2.72s
+d22_n68 1453 no symmetry 11.55s
+d25_n59 1476 no symmetry 1.59s
+d15_n99 1486 no symmetry 2.03s
+d23_n65 1496 no symmetry 1.62s
+d26_n58 1509 no symmetry 1.82s
+d26_n60 1561 no symmetry 3.12s
+d18_n88 1585 no symmetry 2.45s
+d24_n67 1609 no symmetry 1.86s
+d29_n61 1625 no symmetry found within the time limit 122.15s
+d23_n72 1657 no symmetry 13.13s
+d27_n62 1675 no symmetry 3.22s
+d27_n63 1702 no symmetry 2.84s
+d19_n91 1711 no symmetry 3.62s
+d3_n582 1732 no symmetry 2.28s
+d18_n101 1747 no symmetry 29.02s
+d29_n62 1770 no symmetry found within the time limit 122.95s
+d24_n74 1777 no symmetry 11.5s
+d14_n152 1793 no exact model 10.51s
+d15_n135 1816 no symmetry 42.88s
+d18_n105 1819 no symmetry 32.8s
+d3_n616 1822 no symmetry 2.4s
+d3_n619 1837 no symmetry 2.28s
+d20_n93 1861 no symmetry 4.26s
+d29_n65 1886 no symmetry 6.08s
+d15_n143 1921 no symmetry 3.85s
+d21_n92 1933 no symmetry 29.51s
+d30_n65 1951 no symmetry found within the time limit 123.77s
+d3_n681 2014 no symmetry 3.24s
+d3_n692 2017 STRICT 8.44s
+d31_n66 2047 no symmetry 4.48s
+d16_n169 2097 no symmetry 7.78s
+d15_n157 2116 no symmetry 4.76s
+d18_n133 2179 no symmetry 7.68s
+d32_n69 2209 no symmetry found within the time limit 125.12s
+d15_n151 2236 no symmetry 6.13s
+d23_n104 2393 no symmetry 8.69s
+d20_n125 2501 no symmetry found within the time limit 128.93s
+d3_n852 2557 STRICT 13.11s
+d20_n141 2821 no symmetry found within the time limit 132.83s
+d19_n151 2851 no symmetry 14.04s
+d18_n163 2917 no symmetry 203.72s
+d3_n1020 3061 STRICT 21.27s

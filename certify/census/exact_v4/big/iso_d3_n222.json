@@ -1,0 +1,25 @@
+{
+ "d": 3,
+ "n": 222,
+ "tol": 1e-10,
+ "code_sha256": {
+  "exact_big.py": "f1e88eb11f7d8c9efeeb22d4ba73e0db7bfb01600d3c9ce6563a3f437289444a"
+ },
+ "mode": "iso",
+ "nV": 220,
+ "m": 438,
+ "iso": 438,
+ "residual_max": 4.450105630683882e-30,
+ "existence": true,
+ "unknowns": 661,
+ "c_lo_e30": 969434787485280047402549158203,
+ "c_hi_e30": 969434787485280047402549158204,
+ "stress_beta": 2.6271709984673457e-11,
+ "stress_min_lower": 1.8379873932388043e-06,
+ "stress_positive": true,
+ "gaps_V_failed": 0,
+ "rattlers": 2,
+ "gaps_rattlers_failed_at_stored_positions": 0,
+ "status": "PASS existence+stress, gaps of V",
+ "seconds": 3.3
+}

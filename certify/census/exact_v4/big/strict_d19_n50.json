@@ -1,0 +1,20 @@
+{
+ "d": 19,
+ "n": 50,
+ "tol": 1e-10,
+ "code_sha256": {
+  "exact_big.py": "f1e88eb11f7d8c9efeeb22d4ba73e0db7bfb01600d3c9ce6563a3f437289444a"
+ },
+ "mode": "strict",
+ "nV": 40,
+ "m": 620,
+ "iso": 550,
+ "residual_max": 2.512977869434447e-30,
+ "existence": true,
+ "stress_min_exact_rel": 0.7209302325581395,
+ "stress": "rational (exact solution near a linear program's)",
+ "rank_mod_p": 589,
+ "rank_needed": 589,
+ "status": "STRICT confirmed (exact)",
+ "seconds": 8.5
+}

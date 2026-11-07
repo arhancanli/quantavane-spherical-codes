@@ -1,0 +1,1 @@
+{"d": 25, "n": 55, "code_sha256": {"exact_strict.py": "b6dd7da8cf7e1ea1be927a0719c25cbfe9067c1481f6381abe41dc468c8e63e5"}, "field": "Q (Gram matrix)", "gram_deviation_from_stored": 1.6653345369377348e-16, "contacts": 1275, "nV": 55, "rattlers": 0, "cos": "1/25", "isostatic_count": 1021, "status": "the uniform stress is not in equilibrium", "cpu_seconds": 0.02}

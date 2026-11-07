@@ -1,0 +1,4 @@
+2026-11-06T22:19:44Z certify start
+2026-11-06T22:20:42Z certify restarted on 3 lanes
+2026-11-07T01:35:39Z census restarted for the remaining entries: 2 lanes, --mem-limit-mb 1800 (driver de9662edd93a16e7)
+2026-11-07T02:13:37Z census complete (16,265 entries)

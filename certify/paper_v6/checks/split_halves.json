@@ -1,0 +1,35 @@
+{
+ "program": "check_split_halves.py",
+ "code_sha256": {
+  "check_split_halves.py": "97bf4d81973b2506e12ef71927eeb19cdc1ad8189d6da892105254297f0f74bc",
+  "core.py": "235f33c1b6a21935ef669615cb2b62133d62aa7d14f95b78c1eafd17f88eb67d"
+ },
+ "entries": [
+  {
+   "d": 8,
+   "n": 72,
+   "core_status": "ok",
+   "core_rank": 8,
+   "components": 2,
+   "sizes": [
+    36,
+    36
+   ],
+   "antipodal_pairs": 36,
+   "status": "HALVES ANTIPODAL, CORE RANK d"
+  },
+  {
+   "d": 9,
+   "n": 330,
+   "core_status": "ok",
+   "core_rank": 9,
+   "components": 2,
+   "sizes": [
+    120,
+    120
+   ],
+   "antipodal_pairs": 120,
+   "status": "HALVES ANTIPODAL, CORE RANK d"
+  }
+ ]
+}

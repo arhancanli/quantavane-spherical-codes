@@ -1,8 +1,9 @@
-# Certified local optimality in a table of spherical codes: the programs
+# Certified local optimality of spherical codes: the programs
 
-The programs and outputs of the paper *Certified local optimality in a table of spherical codes, and a jammed code that
-is not infinitesimally jammed* (A. Canli, version 5, November 2026). They apply to the archived version of Cohn's table
-of spherical codes (DSpace@MIT handle 1721.1/153543, data as of 31 July 2026), entries with 3 <= d <= 32 and N <= 1024.
+The programs and outputs of the paper *Certified local optimality of spherical codes* (A. Canli, census version 6,
+November 2026; the version submitted to Mathematics of Computation on 6 November 2026 is an earlier version). They apply
+to the archived version of Cohn's table of spherical codes (DSpace@MIT handle 1721.1/153543, data as of 31 July 2026),
+entries with 3 <= d <= 32 and N <= 1024. Section, theorem and table numbers below are those of the paper.
 
 **Licence.** Everything in this directory (`certify/`) is released under the MIT licence (`certify/LICENSE`,
 Copyright (c) 2026 Arhan Canli (Quantavane)). The table's data remain Cohn's; the repository's other directories have
@@ -11,123 +12,92 @@ their own licence (`LICENSE` at the top).
 **What is trusted.** Every function is marked TRUSTED (its result enters a decision, with exact integer or rational
 arithmetic, arithmetic in a number field, ball arithmetic with rigorous radii, or floating point with rigorous error
 bounds formed only from individual products) or UNTRUSTED (it only proposes candidates: contacts, rattlers, Newton steps,
-approximate inverses, subsets, coefficients of stresses, recognised numbers, colourings, flex patterns). Whatever a
-program reports as proved is proved whichever candidates it was given.
+approximate inverses, subsets, coefficients of stresses, recognised numbers, automorphisms and models of
+representations, colourings, flex patterns). Whatever a program reports as proved is proved whichever candidates it was
+given. Table 1 of the paper lists the arithmetic of every step.
 
 ## What each program proves
 
-Version 4 (the census, `census/`):
+The census (`census/`, outputs of version 4, used unchanged by the paper):
 
-- `cq.py` + `sphcert.py`: `PASS` (isostatic graph: an exact configuration with exactly the proposed contacts exists within
-  the printed distance, a strict local minimum, explicit constants), `LOCALMIN` (hyperstatic graph: a local minimum
-  within the printed distance), `NONOPT` (the exact equal-contact configuration is not a local minimum), `FLEX` (the
-  diagnostic of Proposition 4.2: no configuration within the printed l1 radius carries a nonzero stress on the pairs
-  within tau; a statement about a neighbourhood, not about an exact configuration).
-- `strict.py`: `STRICT` on a LOCALMIN entry (the Gram matrix recognised in Q(c*) and verified exactly).
-- `exact_strict.py`: the classical criterion with no floating point in any decision, for exact coordinates or a rational
-  Gram matrix. `exact_big.py`: a second program (exact integers and rationals) that re-checks a sample.
+- `cq.py` + `sphcert.py`: `PASS` (isostatic graph, Theorem 3.4: an exact configuration with exactly the proposed
+  contacts exists within the printed distance; a strict local minimum, with the explicit constants of Theorem 3.8),
+  `LOCALMIN` (hyperstatic graph, Theorem 3.10: a local minimum within the printed distance of the zero P' of the square
+  subsystem, plus the tube `localmin_displacement`), `NONOPT` (Proposition 3.5: the exact equal-contact configuration
+  of the proposed graph is not a local minimum), `FLEX` (Theorem 4.1, the negative certificate: no configuration within
+  the printed l1 radius h carries a nonzero stress on the pairs within tau; with the tolerance this proves that no local
+  minimum lies within delta = min(h/sqrt d, tau'/4) of the stored code; `paper_v6/recount/flexgram.py` computes tau').
+- `strict.py`: `STRICT` on a LOCALMIN entry (Section 3.6: the Gram matrix recognised in Q(c*), verified exactly, then
+  Theorem 3.13).
+- `exact_strict.py`: Theorem 2.4 with no floating point in any decision (Proposition 3.18), for exact coordinates or a
+  rational Gram matrix. `exact_big.py`: a second program (exact integers and rationals) that re-checks a sample.
+- `run_census.py`: the rule of Section 5.1. It has two SHA-256 values in the outputs: 4a7435... for the first 15,992
+  entries and de9662... for the last 273, which added the memory watchdog (`--mem-limit-mb`); the certifiers are the same.
 
-Version 5 (`v5/`):
+The analyses of the entries with an exact cosine (`v5/`, Section 5.6): `core.py` (the exact core), `subspace.py` (flat
+cores, Proposition 2.7), `rigidity.py` (split contact graphs, Proposition 2.8; bar-rigid cores, Theorem 2.4),
+`distances.py` (certified distances of the exact-only confirmations), `maxcos_exact.py`, `families.py` (untrusted),
+`summarize_v5.py`, and the helpers `kfield.py`, `tower.py`, `dist.py`, `exact2.py`. (`recognise116.py` and `jam116.py`
+belong to the separate note on (22,116); the paper does not use them.)
 
-- `core.py`: the exact contact core of an entry: the core's Gram matrix recognised in Q or Q(sqrt D) (untrusted) and
-  verified exactly with its rank, the rattlers kept at their stored positions and proved to touch nothing (ball
-  arithmetic), and the certified distance to the stored code.
-- `subspace.py`: `NOT A LOCAL MINIMUM (flat core ...)`: the core spans a proper subspace and the cosine is positive
-  (Proposition 2.10); one explicit tilted configuration is checked below c.
-- `rigidity.py`: `STRICT` (bar-rigid core with an exact strictly positive stress; Theorem 2.5) or `LOCAL, NOT STRICT`
-  (split contact graph, each component bar-rigid with a positive stress; Proposition 2.11).
-- `recognise116.py` (untrusted) and `jam116.py` (trusted): the entry (22,116) is jammed but not infinitesimally jammed
-  (Theorem 5.1): exact arithmetic in the field Q(sqrt145, s1, s2) of degree 8 (`tower.py`).
-- `distances.py`: certified distances for the exact-only confirmations of version 4.
-- `maxcos_exact.py`: the exact largest cosine of a code given by decimals. `families.py`: numerical (untrusted) evidence
-  on the continuous families. `summarize_v5.py`: every version 5 number and table of the paper. `release_list.py`: the
-  release plan and `v5/MANIFEST_v5.tsv`.
-- `kfield.py` (Q(sqrt D)), `tower.py` (a tower of quadratic fields), `dist.py` (exactly orthogonal rational rotations),
-  `exact2.py` (shared helpers: recognition, ranks over F_p, the second-order form).
+Version 6 (`paper_v6/`):
+
+- `phase2/symstrict.py`: `STRICT` on a LOCALMIN entry by symmetry (Section 3.7, Theorem 3.15): an exact model of the
+  code's symmetry over Q(sqrt D), checked exactly, a Krawczyk test on the symmetry-reduced system in Arb ball
+  arithmetic, then (S'), the span and the rattler gaps by the kernel of `cq.py` and `strict.py`. `--red model|perm|swap`
+  runs the red controls of Section 5.4. `phase2/sym_survey.py`: the untrusted survey of the symmetries.
+- `recount/flexgram.py`: the separation tau' of the negative certificate (Theorem 4.1), recomputed with no dense BLAS
+  product in any bound; `make_numbers_v6.py` takes delta = min(h/sqrt d, tau'/4) from its output.
+- `recount/arbcheck.py`: an independent re-check of a sample of existence proofs in Arb ball arithmetic (Section 5.5).
+- `recount/diag_fail.py`: the untrusted diagnosis of the existence failures (Section 5.7).
+- `checks/check_same_gram.py`, `checks/check_split_halves.py`: two exact identity checks used in Sections 5.5 and 5.6.
+- `make_numbers_v6.py`: every number and table of the paper, from released files only, and `VERIFY_numbers.md`.
 
 Every output records the SHA-256 of the programs that produced it (`code_sha256`).
 
 ## Rerunning every number of the paper
 
-You need Python 3.9 with NumPy 2.0.2, SciPy 1.13.1, python-flint 0.6.0 and mpmath 1.3.0 (the paths used here are set at
-the top of each program; edit them for your installation), and the data set:
+You need Python 3.9 with NumPy 2.0.2, SciPy 1.13.1, python-flint 0.6.0 and mpmath 1.3.0, and the data set:
 
     zsh certify/census/fetch_snapshot.sh SNAPDIR          # downloads table.txt, data-1..12.txt, checks every MD5
     python3 -I certify/census/snapshot.py SNAPDIR         # data.txt and census/index.tsv
 
-Then:
+The census (about 4 CPU hours, then 1 for the strictness stage; outputs are released, so this is optional):
 
-    zsh certify/census/run_all.sh SNAPDIR classify        # contacts and rattlers at every tolerance (classify.jsonl)
-    zsh certify/census/run_all.sh SNAPDIR certify         # the census certificates (results_v4/), about 4 CPU hours
-    zsh certify/census/run_all.sh SNAPDIR strict          # the strictness stage (strict_v4/)
-    zsh certify/census/run_all.sh SNAPDIR exact           # exact_strict.py and the exact_big.py sample (exact_v4/)
-    PAPER=path/to/paper zsh certify/census/run_all.sh SNAPDIR post    # v4_numbers.tex, v4_tab_*.tex, validate_v4.tsv
-    zsh certify/v5/run_v5.sh SNAPDIR path/to/paper        # everything of version 5 (about half an hour) and
-                                                          # v5_numbers.tex, v5_tab_*.tex, RELEASE_FILES.tsv
+    zsh certify/census/run_all.sh SNAPDIR classify
+    zsh certify/census/run_all.sh SNAPDIR certify
+    zsh certify/census/run_all.sh SNAPDIR strict
+    zsh certify/census/run_all.sh SNAPDIR exact
+    zsh certify/census/run_all.sh SNAPDIR post
+    zsh certify/v5/run_v5.sh SNAPDIR OUTDIR
 
-The paper's LaTeX source inputs `v4_numbers.tex`, `v4_text.tex`, `v4_tab_strict.tex`, `v5_numbers.tex` and the
-`v5_tab_*.tex` tables; every number in it comes from these files. One certificate alone:
+Version 6 (about one CPU hour) and the numbers of the paper:
+
+    export QV_CERTIFY=$PWD/certify QV_SNAP=SNAPDIR
+    zsh certify/paper_v6/run_v6.sh SNAPDIR               # survey, diag, sym, controls, red, checks, numbers
+
+`make_numbers_v6.py` writes `v6_numbers.tex` and the tables `v6_tab_*.tex`, which the paper's source inputs; every
+number of the paper comes from these files. One certificate alone:
 
     python3 -I certify/census/cq.py CODE.txt D N --tol 1e-10 [--flex] [--json OUT.json]
-    python3 -I certify/v5/subspace.py SNAPDIR D N OUT.json [--disc D]
-    python3 -I certify/v5/rigidity.py SNAPDIR D N OUT.json [--disc D]
-    python3 -I certify/v5/recognise116.py SNAPDIR REC.json && python3 -I certify/v5/jam116.py SNAPDIR REC.json OUT.json
+    python3 -I certify/paper_v6/phase2/symstrict.py OUTDIR --only D_N
 
 The floating-point steps can differ in the last bits between machines, so a rerun can give slightly different
-enclosures; whatever is reported as proved is proved either way. NumPy built against Apple's Accelerate may print
-"divide by zero / overflow / invalid value encountered in matmul" warnings from untrusted matrix-vector products; they
-come from the library's handling of subnormal intermediate values in code whose results are only candidates, and they
-do not affect any decision.
+enclosures; whatever is reported as proved is proved either way.
 
-## The trusted kernel (the paper, Section 3.7)
+## The trusted kernel
 
-`up(s) = fl(fl(s(1 + 2^-29)) + 2^-996)` bounds from above any sum of at most 2^20 nonnegative products computed in any
-order (the paper's Lemma 3.14(a)); part (b) bounds the error of a computed sum of products by gamma_k sum|a_i b_i| + k eta0.
-"sum" is a floating-point sum in any order; arrays are in double precision unless marked exact; C is processed in blocks
-of 128 rows or columns.
-
-- **K1** Exact: F(z~) as rationals. F_f = round to nearest; F_err = |F_f| 2^-52 + eta0. z^ = fl(z~),
-  delta = |z^| 2^-52 + eta0, J0 = DF(z^) (exact).
-- **K2** u_J = up(row sums of |J0|); a_Delta = up(Delta(delta) 1); b_Delta = Delta(1) 1 (2d or 0, exact).
-- **K3** For each row i of C: Ybar_i = up(|fl(sum_j C_ij F_f,j)| + up(gamma_{U+1} up(sum_j |C_ij||F_f,j|)) +
-  up(sum_j |C_ij| F_err,j)) [(b) for the first term]; P_i = fl(C_i J0) (sparse), E^_i = fl(e_i - P_i);
-  a_i = up(up(up(sum_j |E^_ij|)) + up(gamma_{U+1} up(sum_j |C_ij| u_J,j)) + up(sum_j |C_ij| a_Delta,j))
-  [(b) for the rounding of P]; b_i = up(2d up(sum over the rows F_i, F_ij of |C_ij|));
-  nu_i = up(sum_j |C_ij|), nuE_i = up(sum over the rows F_ij, F_st of |C_ij|).
-- **K4** r = up(2 max Ybar); beta_i = up(a_i + up(r b_i)); eps_i = up(Ybar_i + up(beta_i r)). Require eps_i < r for all i
-  (otherwise retry with r = up(4 max Ybar / (1 - max beta)), at most three times). This is (K); beta_K = max beta_i.
-- **K5** (epsilon-inflation) For r' = q/2, q/4, ... with q ~ min_i (1 - a_i)/b_i: the first r' that passes K4's test is r_u.
-- **S1** y~ ~ J0^-T b (untrusted), b = -e_gamma, or for a hyperstatic graph b = -e_gamma - sum_f lambda_f grad F_f(p^)
-  with a radius b_rad covering its rounding and the enclosure of p. Delta_r = Delta(up(delta + r)) (sparse).
-  Res = up(up(up(|fl(b - J0^T y~)|) + up(gamma_{U+1} up(|J0|^T |y~|))) + up(Delta_r^T |y~|) + b_rad) [(b)].
-- **S2** For each column j of C: w_j = up(sum_i |C_ij| Res_i); Q_j = fl(J0 C_j), E^ = fl(e_j - Q_j);
-  s_j = up(up(up(sum_i |E^_ij|)) + up(gamma_{U+1} up(sum_i v_J,i |C_ij|)) + up(sum_i v_Delta,i |C_ij|)) with v_J, v_Delta
-  the upper bounds of the column sums of |J0| and Delta_r.
-- **S3** beta_S = max s, require beta_S < 1; wbar = up(up(max w) / ((1 - beta_S)(1 - 2^-50))); s = up(w + up(s wbar)).
-  Require y~_e > s_e for every contact e (taken as the next float below y~_e - s_e). This is (S); omega_- is the smallest
-  of these lower bounds (and of the lambda_f).
-- **P** Choose d points by pivoted QR (untrusted), B their rows of z^, C_B ~ B^-1; require every row sum of
-  up(up(|fl(I - C_B B)|) + up(gamma_d up(|C_B||B|)) + up(|C_B| (delta + eps)_B)) to be below 1.
-- **G** Every inner product is bounded in floating point by (b) with the distances eps; a pair not placed below
-  gamma~ - eps_gamma is decided in rational arithmetic; a rattler enters only through the exact rational |Y_r|^2.
-- **Q** mu = up(max nu / ((1 - beta_K)(1 - 2^-50))), mu_p = max_{i <= nd} up(nuE_i + up(beta_i mu)),
-  delta_xi = up(max |p^ - xi| + max(delta + eps)), theta = up(2 n delta_xi mu_p); if theta < 1: sigma, kappa, rho of
-  Theorem 3.6 rounded down; D(X_V) <= up(sqrt(sum(|p^ - xi| + e_X + delta + eps)^2)), rounded up, where e_X bounds the
-  distance between xi and the exactly normalised stored code.
-- **F** (Proposition 4.2) L exact in floating point; for each block of columns of C: P = fl(L C_blk) (sparse),
-  E^ = fl(I - P); the row sums of |I - LC| are bounded by up(up(sum |E^|)) + up(gamma_2d up(|L| up(|C| 1))) [(b)];
-  ||C||_inf <= max up(|C| 1); h rounded down.
+The pseudocode of the floating-point kernel (steps K1-K5, S1-S3, P, G, Q, F) is Appendix A of the paper; it is part of
+the proofs. `up(s) = fl(fl(s(1 + 2^-29)) + 2^-996)` bounds from above any sum of at most 2^20 nonnegative products
+computed in any order (Lemma 3.19(a)).
 
 ## Files: git and Zenodo
 
-`RELEASE_FILES.tsv` lists every file of `certify/` with its size and destination. Programs, documentation and the small
-outputs go to git (under 20 MB in all): `census/strict_v4/`, `census/exact_v4/`, `census/index.tsv`,
-`census/snapshot_files.json`, `census/summary_v4.json`, `census/validate_v4.tsv`, `census/MANIFEST_v4.tsv`,
-`census/logs/*v4*`, and all of `v5/` (programs, `v5/out/`, `v5/live/`, `v5/MANIFEST_v5.tsv`). The one-file-per-entry
-census outputs `census/results_v4/` (16,265 files, about 23 MB), the proposal file `census/classify.jsonl` (16 MB) and the
-outputs of version 2 of the paper (`results/`, `lists/`, `logs/` at this level) go to the Zenodo deposit
-**[DOI to be inserted by the author]**, which also holds an archive of the whole directory at the version of the paper.
-Superseded version 3 outputs (see `.gitignore`) go nowhere.
+Everything the paper uses is in git: the programs, `census/index.tsv`, `census/snapshot_files.json`, the per-entry
+outputs `census/results_v4/` (16,265 files), `census/strict_v4/`, `census/exact_v4/`, `census/summary_v4.json`,
+`census/validate_v4.tsv`, `census/classify.jsonl`, `census/MANIFEST_v4.tsv`, `census/logs/*v4*`, all of `v5/`, and all of
+`paper_v6/`. The Zenodo deposit **[DOI]** holds a copy of the directory at the version of the paper. Superseded version
+3 outputs (see `.gitignore`) go nowhere.
 
 ## Earlier versions
 

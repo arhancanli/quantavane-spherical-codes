@@ -1,0 +1,44 @@
+d10_n58 Q (Gram matrix) the uniform stress is not in equilibrium 0.42s
+d11_n166 Q STRICT (exact) 39.2s
+d11_n30 Q (Gram matrix) the uniform stress is not in equilibrium 0.01s
+d13_n28 Q (Gram matrix) the uniform stress is not in equilibrium 0.01s
+d13_n42 Q (Gram matrix) the uniform stress is not in equilibrium 0.01s
+d14_n42 Q (Gram matrix) STRICT (exact Gram) 0.43s
+d14_n64 Q (Gram matrix) STRICT (exact Gram) 2.18s
+d14_n70 Q (Gram matrix) STRICT (exact Gram) 2.84s
+d16_n288 Q STRICT (exact) 329.52s
+d18_n96 Q (Gram matrix) the uniform stress is not in equilibrium 0.02s
+d19_n60 Q (Gram matrix) the uniform stress is not in equilibrium 0.01s
+d20_n105 Q (Gram matrix) STRICT (exact Gram) 25.86s
+d20_n120 Q (Gram matrix) STRICT (exact Gram) 34.36s
+d20_n60 Q (Gram matrix) the uniform stress is not in equilibrium 0.02s
+d20_n82 Q (Gram matrix) the uniform stress is not in equilibrium 0.02s
+d21_n112 Q (Gram matrix) STRICT (exact Gram) 41.44s
+d21_n50 Q (Gram matrix) STRICT (exact Gram) 2.04s
+d21_n77 Q (Gram matrix) STRICT (exact Gram) 10.99s
+d22_n275 Q (Gram matrix) STRICT (exact Gram) 679.48s
+d22_n891 Q(sqrt 3) rigidity matrix above the memory limit 94.87s
+d23_n552 Q (Gram matrix) rigidity matrix above the memory limit 0.82s
+d24_n50 Q (Gram matrix) the uniform stress is not in equilibrium 0.02s
+d25_n55 Q (Gram matrix) the uniform stress is not in equilibrium 0.02s
+d28_n58 Q (Gram matrix) the uniform stress is not in equilibrium 0.03s
+certify/census/exact_strict.py:414: RuntimeWarning: divide by zero encountered in matmul
+  G = X @ X.T
+certify/census/exact_strict.py:414: RuntimeWarning: overflow encountered in matmul
+  G = X @ X.T
+certify/census/exact_strict.py:414: RuntimeWarning: invalid value encountered in matmul
+  G = X @ X.T
+d4_n120 Q(sqrt 5) STRICT (exact) 0.61s
+d4_n24 Q STRICT (exact) 0.03s
+d5_n16 Q STRICT (exact) 0.03s
+d5_n40 Q STRICT (exact) 0.08s
+d6_n20 Q (Gram matrix) the uniform stress is not in equilibrium 0.0s
+d6_n27 Q(sqrt 3) STRICT (exact) 0.08s
+d6_n32 Q STRICT (exact) 0.12s
+d6_n72 Q(sqrt 3) STRICT (exact) 0.41s
+d7_n182 Q STRICT (exact) 3.56s
+d7_n56 Q STRICT (exact) 0.35s
+d8_n64 Q STRICT (exact) 0.48s
+d9_n146 Q STRICT (exact) 8.78s
+d9_n306 Q STRICT (exact) 36.97s
+d9_n96 Q STRICT (exact) 1.8s

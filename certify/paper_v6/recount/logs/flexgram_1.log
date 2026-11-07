@@ -1,0 +1,6 @@
+certify/paper_v6/recount/flexgram.py:33: RuntimeWarning: divide by zero encountered in matmul
+  G[i0:i0 + 256] = X[i0:i0 + 256] @ X.T
+certify/paper_v6/recount/flexgram.py:33: RuntimeWarning: overflow encountered in matmul
+  G[i0:i0 + 256] = X[i0:i0 + 256] @ X.T
+certify/paper_v6/recount/flexgram.py:33: RuntimeWarning: invalid value encountered in matmul
+  G[i0:i0 + 256] = X[i0:i0 + 256] @ X.T

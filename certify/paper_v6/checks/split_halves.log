@@ -1,0 +1,3 @@
+{'d': 8, 'n': 72, 'core_status': 'ok', 'core_rank': 8, 'components': 2, 'sizes': [36, 36], 'antipodal_pairs': 36, 'status': 'HALVES ANTIPODAL, CORE RANK d'}
+{'d': 9, 'n': 330, 'core_status': 'ok', 'core_rank': 9, 'components': 2, 'sizes': [120, 120], 'antipodal_pairs': 120, 'status': 'HALVES ANTIPODAL, CORE RANK d'}
+EXIT 0
