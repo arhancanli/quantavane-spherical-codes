@@ -1,0 +1,36 @@
+# state written by editor or agent plugins into the working folder
+.claude-flow/
+.swarm/
+ruvector.db
+agentdb.rvf
+agentdb.rvf.idmap.json
+# Python
+__pycache__/
+*.pyc
+# partial outputs of a stopped run
+*.part
+# census outputs of version 3 of the paper (several unstamped versions of cq.py; superseded by results_v4/ etc.)
+census/results/
+census/results_over_cap/
+census/exact/
+census/candidates/
+census/candidates.tsv
+census/improve/
+census/uploaded_results/
+census/summary.json
+census/text.json
+census/records.json
+census/validate.tsv
+census/cap.json
+census/classify_[0-3].jsonl
+census/run_codes.py
+census/run_improve.sh
+census/run_exact2.sh
+census/improve.py
+census/check_candidates.py
+census/records_v3.py
+census/post.sh
+census/paper_out/
+# logs of version 3 runs (the version 4 logs are kept)
+census/logs/*
+!census/logs/*v4*

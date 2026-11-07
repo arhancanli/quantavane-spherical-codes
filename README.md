@@ -19,6 +19,9 @@ others the table's own polishing pass has since listed a slightly better code.
   `python3 -I records/make_table.py` writes numbers.tex, table.tex, examples.tex and headline.json in records/.
 - `observations/`: the scripts and run records behind the paper's section "Observations", with the outputs they give
   (see observations/README.md).
+- `certify/`: computer-assisted certificates that the codes lie next to exact strict local optima of the largest
+  cosine (interval Newton test with rigorous floating-point error bounds), one per code, with the programs that make
+  and analyse them (see certify/README.md).
 
 Paper: A. Canli, Improved spherical codes in dimensions 3 to 32 (in preparation).
 

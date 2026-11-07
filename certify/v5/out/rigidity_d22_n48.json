@@ -1,0 +1,15 @@
+{
+ "d": 22,
+ "n": 48,
+ "program": "rigidity.py",
+ "code_sha256": {
+  "rigidity.py": "9fc205202901b38f4fe0a4f64d66a471ef41a09601a5c5a6b577344a2c966d7e",
+  "core.py": "235f33c1b6a21935ef669615cb2b62133d62aa7d14f95b78c1eafd17f88eb67d",
+  "exact2.py": "68c9500bf841ab31c857e6adb6bd71f0a04030c7c7c2698fb238b0827f0b2df8",
+  "kfield.py": "2fc1f2291fc8a10ecc6df83c729082c437572a9f87e64637ba71b0c4f1dd9b54",
+  "dist.py": "61b0d495db2167be9da2708681a756d5101ea5225149749b4d8984bda9765e02"
+ },
+ "disc": 145,
+ "seconds_core": 0.1,
+ "status": "core Gram matrix not recognised (value -0.364777765)"
+}

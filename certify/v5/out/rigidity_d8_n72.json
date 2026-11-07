@@ -1,0 +1,43 @@
+{
+ "d": 8,
+ "n": 72,
+ "program": "rigidity.py",
+ "code_sha256": {
+  "rigidity.py": "9fc205202901b38f4fe0a4f64d66a471ef41a09601a5c5a6b577344a2c966d7e",
+  "core.py": "235f33c1b6a21935ef669615cb2b62133d62aa7d14f95b78c1eafd17f88eb67d",
+  "exact2.py": "68c9500bf841ab31c857e6adb6bd71f0a04030c7c7c2698fb238b0827f0b2df8",
+  "kfield.py": "2fc1f2291fc8a10ecc6df83c729082c437572a9f87e64637ba71b0c4f1dd9b54",
+  "dist.py": "61b0d495db2167be9da2708681a756d5101ea5225149749b4d8984bda9765e02"
+ },
+ "disc": 1,
+ "seconds_core": 0.9,
+ "core_size": 72,
+ "rattlers": 0,
+ "core_rank": 8,
+ "cos": "5/14",
+ "contacts": 504,
+ "gram_distinct_values": 5,
+ "gram_recognition_deviation": 2.220446049250313e-16,
+ "rattler_pairs_not_below_c": 0,
+ "rattler_max_minus_c_upper": null,
+ "dist_ls_upper": 3.965671558598358e-15,
+ "dist_coord_upper": 6.586302459631962e-16,
+ "seconds_rank": 1.1,
+ "prime": 2147483629,
+ "rank_mod_p": 520,
+ "cols": 576,
+ "kernel_dim_upper": 56,
+ "components": [
+  36,
+  36
+ ],
+ "kernel_vectors": 56,
+ "kernel_vectors_independent": true,
+ "flex_space_exact": true,
+ "nontrivial_flexes": 28,
+ "stress": "uniform",
+ "H_identically_zero": true,
+ "H_pos_def": false,
+ "status": "LOCAL, NOT STRICT (components each bar-rigid with a strictly positive stress; not jammed)",
+ "seconds": 64.3
+}

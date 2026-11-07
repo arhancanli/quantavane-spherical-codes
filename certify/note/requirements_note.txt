@@ -1,0 +1,6 @@
+# Python packages used by certify/note/ and by certify/v5/jam116.py (the versions of the recorded runs).
+# The programs were run with CPython 3.9.6 on macOS (arm64).
+numpy==2.0.2
+mpmath==1.3.0
+python-flint==0.6.0
+cypari==2.5.7          # bundles PARI/GP 2.15.4; the GP scripts also run unchanged in gp 2.15.4 (gp -q after DATA = "path/to/data/")
