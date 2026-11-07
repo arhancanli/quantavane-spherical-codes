@@ -1,0 +1,813 @@
+{
+ "program": "family.py",
+ "seconds": 75.4,
+ "results": [
+  {
+   "case": 13,
+   "q": 17,
+   "group": "PGammaL",
+   "kinds": [
+    "A",
+    "P",
+    "Q"
+   ],
+   "eps": "det",
+   "mode": [
+    "dims",
+    [
+     17,
+     18
+    ]
+   ],
+   "N": 276,
+   "orbit_sizes": [
+    272,
+    2,
+    2
+   ],
+   "orbitals": 40,
+   "types": [
+    [
+     1,
+     3,
+     "det"
+    ],
+    [
+     16,
+     1,
+     ""
+    ],
+    [
+     16,
+     1,
+     ""
+    ],
+    [
+     18,
+     2,
+     ""
+    ],
+    [
+     17,
+     1,
+     ""
+    ],
+    [
+     16,
+     1,
+     ""
+    ],
+    [
+     1,
+     3,
+     "triv"
+    ],
+    [
+     18,
+     2,
+     ""
+    ],
+    [
+     16,
+     1,
+     ""
+    ],
+    [
+     18,
+     2,
+     ""
+    ],
+    [
+     16,
+     1,
+     ""
+    ],
+    [
+     16,
+     1,
+     ""
+    ],
+    [
+     16,
+     1,
+     ""
+    ],
+    [
+     16,
+     1,
+     ""
+    ],
+    [
+     17,
+     1,
+     ""
+    ]
+   ],
+   "profiles": 6,
+   "optimised": [
+    {
+     "profile_dims": [
+      1,
+      1,
+      1,
+      17,
+      18
+     ],
+     "dim": 38,
+     "largest_cosine": 0.19023295255526637,
+     "polish_residual": 8.326672684688674e-17
+    },
+    {
+     "profile_dims": [
+      1,
+      1,
+      1,
+      18,
+      17
+     ],
+     "dim": 38,
+     "largest_cosine": 0.19132240621080102,
+     "polish_residual": 1.1102230246251565e-16
+    },
+    {
+     "profile_dims": [
+      1,
+      1,
+      1,
+      18,
+      17
+     ],
+     "dim": 38,
+     "largest_cosine": 0.19726109960947288,
+     "polish_residual": 2.498001805406602e-16
+    },
+    {
+     "profile_dims": [
+      1,
+      1,
+      1,
+      18,
+      17
+     ],
+     "dim": 38,
+     "largest_cosine": 0.22524926646567126,
+     "polish_residual": 5.551115123125783e-17
+    },
+    {
+     "profile_dims": [
+      1,
+      1,
+      1,
+      17,
+      18
+     ],
+     "dim": 38,
+     "largest_cosine": 0.24444444444444446,
+     "polish_residual": 1.942890293094024e-16
+    },
+    {
+     "profile_dims": [
+      1,
+      1,
+      1,
+      18,
+      17
+     ],
+     "dim": 38,
+     "largest_cosine": 0.2592592592592593,
+     "polish_residual": 1.6653345369377348e-16
+    }
+   ],
+   "analysed": [
+    {
+     "N": 276,
+     "dim": 38,
+     "largest_cosine": 0.19023295255526718,
+     "orbital_spread": 1.4155343563970746e-15,
+     "contact_orbits": 3,
+     "contacts": 4896,
+     "gap_below_contacts": 0.013708580724839436,
+     "rank": 38,
+     "degrees_by_orbit": [
+      36,
+      0,
+      0
+     ],
+     "orbit_sizes": [
+      272,
+      2,
+      2
+     ],
+     "rattler_orbits": [
+      1,
+      2
+     ],
+     "invariant_stress_dimension": 1,
+     "strictly_positive_stress": true,
+     "maxmin_invariant_stress_times_E": 0.6439517135013011,
+     "equilibrium_residual": 8.361272444267156e-16,
+     "linear_sectors": {
+      "triv": {
+       "m_T": 9,
+       "m_K": 1,
+       "m_E": 3,
+       "count_T_minus_K_minus_E": 5,
+       "flex_dim_mod_rotations": 6,
+       "H_eigs_maxmin_stress": [
+        -9.840930241919413e-21,
+        2.9512156346793175e-25,
+        1.7106418249248797e-20,
+        0.0012192303966428789,
+        0.0012192303966428821,
+        0.005954169466505383
+       ]
+      },
+      "det": {
+       "m_T": 9,
+       "m_K": 2,
+       "m_E": 2,
+       "count_T_minus_K_minus_E": 5,
+       "flex_dim_mod_rotations": 5,
+       "H_eigs_maxmin_stress": [
+        -7.531315672597429e-35,
+        -8.706089902805882e-36,
+        0.0012192303966428782,
+        0.005954169466505377,
+        0.005954169466505393
+       ]
+      },
+      "M": {
+       "m_T": 9,
+       "m_K": 2,
+       "m_E": 2,
+       "count_T_minus_K_minus_E": 5,
+       "flex_dim_mod_rotations": 5,
+       "H_eigs_maxmin_stress": [
+        -7.531315672597429e-35,
+        -8.706089902805882e-36,
+        0.0012192303966428782,
+        0.005954169466505377,
+        0.005954169466505393
+       ]
+      }
+     },
+     "profile_dims": [
+      1,
+      1,
+      1,
+      17,
+      18
+     ],
+     "polish_residual": 8.326672684688674e-17
+    },
+    {
+     "N": 276,
+     "dim": 38,
+     "largest_cosine": 0.19132240621080182,
+     "orbital_spread": 1.970645868709653e-15,
+     "contact_orbits": 5,
+     "contacts": 6121,
+     "gap_below_contacts": 0.027360537280748692,
+     "rank": 38,
+     "degrees_by_orbit": [
+      45,
+      1,
+      0
+     ],
+     "orbit_sizes": [
+      272,
+      2,
+      2
+     ],
+     "rattler_orbits": [
+      2
+     ],
+     "invariant_stress_dimension": 1,
+     "strictly_positive_stress": false,
+     "maxmin_invariant_stress_times_E": -0.0,
+     "equilibrium_residual": 1.20497215038785e-15,
+     "linear_sectors": {
+      "triv": {
+       "m_T": 9,
+       "m_K": 1,
+       "m_E": 5,
+       "count_T_minus_K_minus_E": 3,
+       "flex_dim_mod_rotations": 4,
+       "H_eigs_maxmin_stress": [
+        -1.3078188705606391e-18,
+        -1.947318656002908e-35,
+        -4.223063264319312e-36,
+        0.005946158777861756
+       ]
+      },
+      "det": {
+       "m_T": 9,
+       "m_K": 2,
+       "m_E": 3,
+       "count_T_minus_K_minus_E": 4,
+       "flex_dim_mod_rotations": 4,
+       "H_eigs_maxmin_stress": [
+        -1.1418004129051156e-18,
+        -1.2549804104905308e-34,
+        -2.5125982882351444e-35,
+        0.005946158777861752
+       ]
+      },
+      "M": {
+       "m_T": 9,
+       "m_K": 2,
+       "m_E": 3,
+       "count_T_minus_K_minus_E": 4,
+       "flex_dim_mod_rotations": 4,
+       "H_eigs_maxmin_stress": [
+        -1.1418004129051156e-18,
+        -1.2549804104905308e-34,
+        -2.5125982882351444e-35,
+        0.005946158777861752
+       ]
+      }
+     },
+     "profile_dims": [
+      1,
+      1,
+      1,
+      18,
+      17
+     ],
+     "polish_residual": 1.1102230246251565e-16
+    },
+    {
+     "N": 276,
+     "dim": 38,
+     "largest_cosine": 0.19726109960947397,
+     "orbital_spread": 1.7486012637846216e-15,
+     "contact_orbits": 4,
+     "contacts": 5032,
+     "gap_below_contacts": 0.009129667968425098,
+     "rank": 38,
+     "degrees_by_orbit": [
+      37,
+      0,
+      0
+     ],
+     "orbit_sizes": [
+      272,
+      2,
+      2
+     ],
+     "rattler_orbits": [
+      1,
+      2
+     ],
+     "invariant_stress_dimension": 1,
+     "strictly_positive_stress": true,
+     "maxmin_invariant_stress_times_E": 0.738311011425842,
+     "equilibrium_residual": 5.095750210681871e-18,
+     "linear_sectors": {
+      "triv": {
+       "m_T": 9,
+       "m_K": 1,
+       "m_E": 4,
+       "count_T_minus_K_minus_E": 4,
+       "flex_dim_mod_rotations": 5,
+       "H_eigs_maxmin_stress": [
+        -4.208059681959362e-18,
+        -3.653515908804031e-36,
+        -3.3832027658266718e-37,
+        1.2890179629836864e-34,
+        0.005902491914636214
+       ]
+      },
+      "det": {
+       "m_T": 9,
+       "m_K": 2,
+       "m_E": 3,
+       "count_T_minus_K_minus_E": 4,
+       "flex_dim_mod_rotations": 5,
+       "H_eigs_maxmin_stress": [
+        -2.9815559743351603e-18,
+        -1.284065736285879e-34,
+        -5.702602910237906e-37,
+        0.0024824295196331707,
+        0.005902491914636219
+       ]
+      },
+      "M": {
+       "m_T": 9,
+       "m_K": 2,
+       "m_E": 3,
+       "count_T_minus_K_minus_E": 4,
+       "flex_dim_mod_rotations": 5,
+       "H_eigs_maxmin_stress": [
+        -2.9815559743351603e-18,
+        -1.284065736285879e-34,
+        -5.702602910237906e-37,
+        0.0024824295196331707,
+        0.005902491914636219
+       ]
+      }
+     },
+     "profile_dims": [
+      1,
+      1,
+      1,
+      18,
+      17
+     ],
+     "polish_residual": 2.498001805406602e-16
+    }
+   ]
+  },
+  {
+   "case": 14,
+   "q": 19,
+   "group": "PGammaL",
+   "kinds": [
+    "A",
+    "P",
+    "Q"
+   ],
+   "eps": "det",
+   "mode": [
+    "dims",
+    [
+     19,
+     20
+    ]
+   ],
+   "N": 346,
+   "orbit_sizes": [
+    342,
+    2,
+    2
+   ],
+   "orbitals": 39,
+   "types": [
+    [
+     1,
+     3,
+     "triv"
+    ],
+    [
+     18,
+     1,
+     ""
+    ],
+    [
+     19,
+     1,
+     ""
+    ],
+    [
+     18,
+     1,
+     ""
+    ],
+    [
+     20,
+     2,
+     ""
+    ],
+    [
+     18,
+     1,
+     ""
+    ],
+    [
+     20,
+     2,
+     ""
+    ],
+    [
+     18,
+     1,
+     ""
+    ],
+    [
+     18,
+     1,
+     ""
+    ],
+    [
+     1,
+     2,
+     "det"
+    ],
+    [
+     18,
+     1,
+     ""
+    ],
+    [
+     18,
+     1,
+     ""
+    ],
+    [
+     20,
+     2,
+     ""
+    ],
+    [
+     18,
+     1,
+     ""
+    ],
+    [
+     20,
+     2,
+     ""
+    ],
+    [
+     18,
+     1,
+     ""
+    ]
+   ],
+   "profiles": 4,
+   "optimised": [
+    {
+     "profile_dims": [
+      1,
+      1,
+      1,
+      19,
+      20
+     ],
+     "dim": 42,
+     "largest_cosine": 0.19761592836217162,
+     "polish_residual": 2.7755575615628914e-17
+    },
+    {
+     "profile_dims": [
+      1,
+      1,
+      1,
+      19,
+      20
+     ],
+     "dim": 42,
+     "largest_cosine": 0.22529715613980425,
+     "polish_residual": 8.326672684688674e-17
+    },
+    {
+     "profile_dims": [
+      1,
+      1,
+      1,
+      19,
+      20
+     ],
+     "dim": 42,
+     "largest_cosine": 0.241538086918961,
+     "polish_residual": 5.551115123125783e-17
+    },
+    {
+     "profile_dims": [
+      1,
+      1,
+      1,
+      19,
+      20
+     ],
+     "dim": 42,
+     "largest_cosine": 0.2434877649042459,
+     "polish_residual": 8.326672684688674e-17
+    }
+   ],
+   "analysed": [
+    {
+     "N": 346,
+     "dim": 42,
+     "largest_cosine": 0.19761592836217298,
+     "orbital_spread": 2.5227216149392717e-15,
+     "contact_orbits": 3,
+     "contacts": 8550,
+     "gap_below_contacts": 0.00038977907128381895,
+     "rank": 42,
+     "degrees_by_orbit": [
+      50,
+      0,
+      0
+     ],
+     "orbit_sizes": [
+      342,
+      2,
+      2
+     ],
+     "rattler_orbits": [
+      1,
+      2
+     ],
+     "invariant_stress_dimension": 1,
+     "strictly_positive_stress": true,
+     "maxmin_invariant_stress_times_E": 0.22998189958843962,
+     "equilibrium_residual": 5.204170427930421e-18,
+     "linear_sectors": {
+      "triv": {
+       "m_T": 7,
+       "m_K": 1,
+       "m_E": 3,
+       "count_T_minus_K_minus_E": 3,
+       "flex_dim_mod_rotations": 4,
+       "H_eigs_maxmin_stress": [
+        -1.2892367767969494e-35,
+        -1.2917258079245095e-41,
+        0.0,
+        0.004692304512501908
+       ]
+      },
+      "det": {
+       "m_T": 6,
+       "m_K": 2,
+       "m_E": 0,
+       "count_T_minus_K_minus_E": 4,
+       "flex_dim_mod_rotations": 4,
+       "H_eigs_maxmin_stress": [
+        -4.419008617421988e-23,
+        3.845019426943174e-21,
+        0.004692304512501905,
+        0.004692304512501907
+       ]
+      },
+      "M": {
+       "m_T": 6,
+       "m_K": 2,
+       "m_E": 0,
+       "count_T_minus_K_minus_E": 4,
+       "flex_dim_mod_rotations": 4,
+       "H_eigs_maxmin_stress": [
+        -4.419008617421988e-23,
+        3.845019426943174e-21,
+        0.004692304512501905,
+        0.004692304512501907
+       ]
+      }
+     },
+     "profile_dims": [
+      1,
+      1,
+      1,
+      19,
+      20
+     ],
+     "polish_residual": 2.7755575615628914e-17
+    },
+    {
+     "N": 346,
+     "dim": 42,
+     "largest_cosine": 0.22529715613980536,
+     "orbital_spread": 2.2065682614424986e-15,
+     "contact_orbits": 3,
+     "contacts": 8550,
+     "gap_below_contacts": 0.05217055127790576,
+     "rank": 42,
+     "degrees_by_orbit": [
+      50,
+      0,
+      0
+     ],
+     "orbit_sizes": [
+      342,
+      2,
+      2
+     ],
+     "rattler_orbits": [
+      1,
+      2
+     ],
+     "invariant_stress_dimension": 1,
+     "strictly_positive_stress": true,
+     "maxmin_invariant_stress_times_E": 0.31621445174755414,
+     "equilibrium_residual": 5.246522075293136e-18,
+     "linear_sectors": {
+      "triv": {
+       "m_T": 7,
+       "m_K": 1,
+       "m_E": 3,
+       "count_T_minus_K_minus_E": 3,
+       "flex_dim_mod_rotations": 4,
+       "H_eigs_maxmin_stress": [
+        -5.764093064067703e-37,
+        -3.0006978055573422e-40,
+        0.0,
+        0.0045304259874865156
+       ]
+      },
+      "det": {
+       "m_T": 6,
+       "m_K": 2,
+       "m_E": 0,
+       "count_T_minus_K_minus_E": 4,
+       "flex_dim_mod_rotations": 4,
+       "H_eigs_maxmin_stress": [
+        -3.252098365113955e-19,
+        4.344093124109673e-20,
+        0.004530425987486516,
+        0.004530425987486519
+       ]
+      },
+      "M": {
+       "m_T": 6,
+       "m_K": 2,
+       "m_E": 0,
+       "count_T_minus_K_minus_E": 4,
+       "flex_dim_mod_rotations": 4,
+       "H_eigs_maxmin_stress": [
+        -3.252098365113955e-19,
+        4.344093124109673e-20,
+        0.004530425987486516,
+        0.004530425987486519
+       ]
+      }
+     },
+     "profile_dims": [
+      1,
+      1,
+      1,
+      19,
+      20
+     ],
+     "polish_residual": 8.326672684688674e-17
+    },
+    {
+     "N": 346,
+     "dim": 42,
+     "largest_cosine": 0.24153808691896192,
+     "orbital_spread": 2.0261570199409107e-15,
+     "contact_orbits": 3,
+     "contacts": 8550,
+     "gap_below_contacts": 0.040369899718062485,
+     "rank": 42,
+     "degrees_by_orbit": [
+      50,
+      0,
+      0
+     ],
+     "orbit_sizes": [
+      342,
+      2,
+      2
+     ],
+     "rattler_orbits": [
+      1,
+      2
+     ],
+     "invariant_stress_dimension": 1,
+     "strictly_positive_stress": true,
+     "maxmin_invariant_stress_times_E": 0.5192260864870106,
+     "equilibrium_residual": 7.990894315732315e-17,
+     "linear_sectors": {
+      "triv": {
+       "m_T": 7,
+       "m_K": 1,
+       "m_E": 3,
+       "count_T_minus_K_minus_E": 3,
+       "flex_dim_mod_rotations": 4,
+       "H_eigs_maxmin_stress": [
+        -4.5257817958871297e-35,
+        -6.13599562676204e-39,
+        0.0,
+        0.004435449784099632
+       ]
+      },
+      "det": {
+       "m_T": 6,
+       "m_K": 2,
+       "m_E": 1,
+       "count_T_minus_K_minus_E": 3,
+       "flex_dim_mod_rotations": 4,
+       "H_eigs_maxmin_stress": [
+        -1.5268325607879165e-19,
+        6.047273305943843e-20,
+        0.004435449784099642,
+        0.004435449784099644
+       ]
+      },
+      "M": {
+       "m_T": 6,
+       "m_K": 2,
+       "m_E": 1,
+       "count_T_minus_K_minus_E": 3,
+       "flex_dim_mod_rotations": 4,
+       "H_eigs_maxmin_stress": [
+        -1.5268325607879165e-19,
+        6.047273305943843e-20,
+        0.004435449784099642,
+        0.004435449784099644
+       ]
+      }
+     },
+     "profile_dims": [
+      1,
+      1,
+      1,
+      19,
+      20
+     ],
+     "polish_residual": 5.551115123125783e-17
+    }
+   ]
+  }
+ ]
+}

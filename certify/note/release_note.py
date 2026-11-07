@@ -58,7 +58,8 @@ def main():
                   "# committed. To commit and push these files in one step, from the repository root:\n"
                   "#   git add -- $(awk -F'\\t' '!/^#/ {print $1}' certify/note/RELEASE_note.tsv) && "
                   "git commit -m 'certify: note and version 5 certificates' && git push\n"
-                  "# Then tag the release and archive it on Zenodo (the DOI goes into the note, macro \\ZenodoDOI).\n"
+                  "# The note cites the public commit in the macros \\CertCommit and \\CertCommitFull of note.tex;\n"
+                  "# after pushing these files, update them to the new commit if it is to be cited.\n"
                   "# Manifests checked: v5/MANIFEST_v5.tsv %d files, %d mismatches; note/MANIFEST_note.tsv %d files, %d "
                   "mismatches.\n" % (n5, len(bad5), nn, len(badn)))
         total = 0

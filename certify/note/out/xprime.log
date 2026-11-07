@@ -1,0 +1,12 @@
+A_spanning_subset_size = 21
+A_lies_in_span_of_LA = 1
+t0_new_numeric = -0.676039864469807387003206025759465201310633810126345848801811
+t1_new_numeric = -0.441320045176730870998931324746844932896455396624551383732730
+t0_new_tower = [-3/8, -1/40, 0, 0, 0, 0, 0, 0]
+t1_new_tower = [-13/24, 1/120, 0, 0, 0, 0, 0, 0]
+t0_new_plus_t1_new_equals_t0_plus_t1 = 1
+changed_pairs = 80
+classes_of_PQ_pairs = [[1, 0], [0, 1]]
+contacts = 4042
+generators_of_AutXstar_preserve_Xprime = 4
+written = certify/note/data_xprime/

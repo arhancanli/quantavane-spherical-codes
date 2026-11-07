@@ -1,0 +1,585 @@
+{
+ "program": "family_table.py",
+ "range": {
+  "snapdir": "SNAPDIR (the archived table, DSpace@MIT 1721.1/153543)",
+  "out": "out/family/table_near.json",
+  "dmin": 22,
+  "dmax": 22,
+  "nmax": 100,
+  "kmax": 60,
+  "notes": ""
+ },
+ "entries": 31,
+ "structured": [
+  {
+   "d": 22,
+   "n": 45,
+   "notes": "T. Ericson and V. Zinoviev, Codes on Euclidean spheres, North-Holland Mathematical Library 63, North-Holland Publishing Co., Amsterdam, 2001.",
+   "classes": 4,
+   "class_spread": 4.440892098500626e-16,
+   "aut_order": 1124000727777607680000,
+   "orbit_sizes": [
+    22,
+    22,
+    1
+   ],
+   "runs_in_stored_order": 4,
+   "stored_order_grouped_by_orbits": true,
+   "contacts": 715,
+   "largest_cosine": 0.03561897467909769,
+   "rattlers": 0,
+   "degrees": [
+    22,
+    42
+   ],
+   "rank_core": 22,
+   "flexes_mod_rotations": 0,
+   "singular_values_around_gap": [
+    8.382043678572448e-16,
+    0.7406398693901964
+   ],
+   "stress_dimension": 1,
+   "maxmin_stress_times_E": 0.19009050910248212,
+   "equilibrium_residual": 3.030345072096985e-17,
+   "strictly_positive_stress": true
+  },
+  {
+   "d": 22,
+   "n": 47,
+   "notes": "Henry Cohn, 2026, continuous family of codes without rattlers.",
+   "classes": 16,
+   "class_spread": 2.220446049250313e-16,
+   "aut_order": 4,
+   "orbit_sizes": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    1,
+    4,
+    4,
+    1,
+    4,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "runs_in_stored_order": 32,
+   "stored_order_grouped_by_orbits": true,
+   "contacts": 915,
+   "largest_cosine": 0.04696227033184452,
+   "rattlers": 0,
+   "degrees": [
+    33,
+    37,
+    38,
+    39,
+    40
+   ],
+   "rank_core": 22,
+   "flexes_mod_rotations": 1,
+   "singular_values_around_gap": [
+    5.204823767248751e-15,
+    0.17289436955138393
+   ],
+   "stress_dimension": 160,
+   "maxmin_stress_times_E": 0.02396550390099496,
+   "equilibrium_residual": 1.713039432527097e-17,
+   "strictly_positive_stress": true,
+   "H_eigs_min_max": [
+    -3.144186300207963e-18,
+    -3.144186300207963e-18
+   ]
+  },
+  {
+   "d": 22,
+   "n": 48,
+   "notes": "Henry Cohn, 2025, continuous family of codes without rattlers.",
+   "classes": 17,
+   "class_spread": 2.7755575615628914e-16,
+   "aut_order": 2,
+   "orbit_sizes": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "runs_in_stored_order": 44,
+   "stored_order_grouped_by_orbits": true,
+   "contacts": 957,
+   "largest_cosine": 0.0475249152936297,
+   "rattlers": 0,
+   "degrees": [
+    38,
+    39,
+    40,
+    41
+   ],
+   "rank_core": 22,
+   "flexes_mod_rotations": 1,
+   "singular_values_around_gap": [
+    4.91973803242944e-15,
+    0.16163351452798
+   ],
+   "stress_dimension": 181,
+   "maxmin_stress_times_E": 0.0011924563576138029,
+   "equilibrium_residual": 3.7025504190379976e-17,
+   "strictly_positive_stress": true,
+   "H_eigs_min_max": [
+    1.6805133673525319e-18,
+    1.6805133673525319e-18
+   ]
+  },
+  {
+   "d": 22,
+   "n": 49,
+   "notes": "Henry Cohn, 2026.",
+   "classes": 24,
+   "class_spread": 8.214262603445377e-14,
+   "aut_order": 2,
+   "orbit_sizes": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "runs_in_stored_order": 44,
+   "stored_order_grouped_by_orbits": true,
+   "contacts": 956,
+   "largest_cosine": 0.047603596723697676,
+   "rattlers": 1,
+   "degrees": [
+    0,
+    37,
+    38,
+    39,
+    40,
+    41
+   ],
+   "rank_core": 22,
+   "flexes_mod_rotations": 1,
+   "singular_values_around_gap": [
+    5.212608983607885e-15,
+    0.0007794685474126205
+   ],
+   "stress_dimension": 180,
+   "strictly_positive_stress": false
+  },
+  {
+   "d": 22,
+   "n": 61,
+   "notes": "Henry Cohn, 2026, needs more optimization.",
+   "classes": 12,
+   "class_spread": 1.8678392166293634e-12,
+   "aut_order": 384,
+   "orbit_sizes": [
+    24,
+    16,
+    1,
+    1,
+    16,
+    1,
+    1,
+    1
+   ],
+   "runs_in_stored_order": 43,
+   "stored_order_grouped_by_orbits": false
+  },
+  {
+   "d": 22,
+   "n": 62,
+   "notes": "Henry Cohn, 2026, needs more optimization.",
+   "classes": 17,
+   "class_spread": 4.4192796644360044e-10,
+   "aut_order": 384,
+   "orbit_sizes": [
+    24,
+    16,
+    1,
+    16,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "runs_in_stored_order": 48,
+   "stored_order_grouped_by_orbits": false
+  },
+  {
+   "d": 22,
+   "n": 66,
+   "notes": "Henry Cohn, 2026.",
+   "classes": 17,
+   "class_spread": 3.133465709126426e-13,
+   "aut_order": 24,
+   "orbit_sizes": [
+    12,
+    12,
+    6,
+    3,
+    12,
+    3,
+    1,
+    12,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "runs_in_stored_order": 57,
+   "stored_order_grouped_by_orbits": false
+  },
+  {
+   "d": 22,
+   "n": 79,
+   "notes": "Code with 77 points in 21 dimensions, together with two antipodal points orthogonal to it; T. Ericson and V. Zinoviev, Codes on Euclidean spheres, North-Holland Mathematical Library 63, North-Holland Publishing Co., Amsterdam, 2001.",
+   "classes": 4,
+   "class_spread": 3.885780586188048e-16,
+   "aut_order": 1774080,
+   "orbit_sizes": [
+    77,
+    2
+   ],
+   "runs_in_stored_order": 2,
+   "stored_order_grouped_by_orbits": true,
+   "contacts": 2310,
+   "largest_cosine": 0.08333333333333347,
+   "rattlers": 2,
+   "degrees": [
+    0,
+    60
+   ],
+   "rank_core": 21,
+   "flexes_mod_rotations": 56,
+   "singular_values_around_gap": [
+    8.567334794984293e-15,
+    0.8995861109622865
+   ],
+   "stress_dimension": 980,
+   "maxmin_stress_times_E": 0.999999999237139,
+   "equilibrium_residual": 1.1600963245594897e-17,
+   "strictly_positive_stress": true,
+   "H_eigs_min_max": [
+    -0.0034632034644058725,
+    0.02380952380952415
+   ]
+  },
+  {
+   "d": 22,
+   "n": 100,
+   "notes": "P. Delsarte, J. M. Goethals, and J. J. Seidel, Spherical codes and designs, Geometriae Dedicata 6 (1977), 363\u2013388, doi:10.1007/bf03187604; V. I. Leven\u0161te\u012dn, On bounds for packings in n-dimensional Euclidean space (Russian), Dokl. Akad. Nauk SSSR 245 (1979), 1299\u20131303, English translation in Soviet Math. Dokl. 20 (1979), 417\u2013421.",
+   "classes": 2,
+   "class_spread": 3.3306690738754696e-16,
+   "aut_order": 88704000,
+   "orbit_sizes": [
+    100
+   ],
+   "runs_in_stored_order": 1,
+   "stored_order_grouped_by_orbits": true
+  }
+ ],
+ "grouped": [
+  {
+   "d": 22,
+   "n": 45,
+   "notes": "T. Ericson and V. Zinoviev, Codes on Euclidean spheres, North-Holland Mathematical Library 63, North-Holland Publishing Co., Amsterdam, 2001.",
+   "classes": 4,
+   "class_spread": 4.440892098500626e-16,
+   "aut_order": 1124000727777607680000,
+   "orbit_sizes": [
+    22,
+    22,
+    1
+   ],
+   "runs_in_stored_order": 4,
+   "stored_order_grouped_by_orbits": true,
+   "contacts": 715,
+   "largest_cosine": 0.03561897467909769,
+   "rattlers": 0,
+   "degrees": [
+    22,
+    42
+   ],
+   "rank_core": 22,
+   "flexes_mod_rotations": 0,
+   "singular_values_around_gap": [
+    8.382043678572448e-16,
+    0.7406398693901964
+   ],
+   "stress_dimension": 1,
+   "maxmin_stress_times_E": 0.19009050910248212,
+   "equilibrium_residual": 3.030345072096985e-17,
+   "strictly_positive_stress": true
+  },
+  {
+   "d": 22,
+   "n": 47,
+   "notes": "Henry Cohn, 2026, continuous family of codes without rattlers.",
+   "classes": 16,
+   "class_spread": 2.220446049250313e-16,
+   "aut_order": 4,
+   "orbit_sizes": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    1,
+    4,
+    4,
+    1,
+    4,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "runs_in_stored_order": 32,
+   "stored_order_grouped_by_orbits": true,
+   "contacts": 915,
+   "largest_cosine": 0.04696227033184452,
+   "rattlers": 0,
+   "degrees": [
+    33,
+    37,
+    38,
+    39,
+    40
+   ],
+   "rank_core": 22,
+   "flexes_mod_rotations": 1,
+   "singular_values_around_gap": [
+    5.204823767248751e-15,
+    0.17289436955138393
+   ],
+   "stress_dimension": 160,
+   "maxmin_stress_times_E": 0.02396550390099496,
+   "equilibrium_residual": 1.713039432527097e-17,
+   "strictly_positive_stress": true,
+   "H_eigs_min_max": [
+    -3.144186300207963e-18,
+    -3.144186300207963e-18
+   ]
+  },
+  {
+   "d": 22,
+   "n": 48,
+   "notes": "Henry Cohn, 2025, continuous family of codes without rattlers.",
+   "classes": 17,
+   "class_spread": 2.7755575615628914e-16,
+   "aut_order": 2,
+   "orbit_sizes": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "runs_in_stored_order": 44,
+   "stored_order_grouped_by_orbits": true,
+   "contacts": 957,
+   "largest_cosine": 0.0475249152936297,
+   "rattlers": 0,
+   "degrees": [
+    38,
+    39,
+    40,
+    41
+   ],
+   "rank_core": 22,
+   "flexes_mod_rotations": 1,
+   "singular_values_around_gap": [
+    4.91973803242944e-15,
+    0.16163351452798
+   ],
+   "stress_dimension": 181,
+   "maxmin_stress_times_E": 0.0011924563576138029,
+   "equilibrium_residual": 3.7025504190379976e-17,
+   "strictly_positive_stress": true,
+   "H_eigs_min_max": [
+    1.6805133673525319e-18,
+    1.6805133673525319e-18
+   ]
+  },
+  {
+   "d": 22,
+   "n": 49,
+   "notes": "Henry Cohn, 2026.",
+   "classes": 24,
+   "class_spread": 8.214262603445377e-14,
+   "aut_order": 2,
+   "orbit_sizes": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "runs_in_stored_order": 44,
+   "stored_order_grouped_by_orbits": true,
+   "contacts": 956,
+   "largest_cosine": 0.047603596723697676,
+   "rattlers": 1,
+   "degrees": [
+    0,
+    37,
+    38,
+    39,
+    40,
+    41
+   ],
+   "rank_core": 22,
+   "flexes_mod_rotations": 1,
+   "singular_values_around_gap": [
+    5.212608983607885e-15,
+    0.0007794685474126205
+   ],
+   "stress_dimension": 180,
+   "strictly_positive_stress": false
+  },
+  {
+   "d": 22,
+   "n": 79,
+   "notes": "Code with 77 points in 21 dimensions, together with two antipodal points orthogonal to it; T. Ericson and V. Zinoviev, Codes on Euclidean spheres, North-Holland Mathematical Library 63, North-Holland Publishing Co., Amsterdam, 2001.",
+   "classes": 4,
+   "class_spread": 3.885780586188048e-16,
+   "aut_order": 1774080,
+   "orbit_sizes": [
+    77,
+    2
+   ],
+   "runs_in_stored_order": 2,
+   "stored_order_grouped_by_orbits": true,
+   "contacts": 2310,
+   "largest_cosine": 0.08333333333333347,
+   "rattlers": 2,
+   "degrees": [
+    0,
+    60
+   ],
+   "rank_core": 21,
+   "flexes_mod_rotations": 56,
+   "singular_values_around_gap": [
+    8.567334794984293e-15,
+    0.8995861109622865
+   ],
+   "stress_dimension": 980,
+   "maxmin_stress_times_E": 0.999999999237139,
+   "equilibrium_residual": 1.1600963245594897e-17,
+   "strictly_positive_stress": true,
+   "H_eigs_min_max": [
+    -0.0034632034644058725,
+    0.02380952380952415
+   ]
+  }
+ ],
+ "note": "run with --nmax 130 and stopped (7 November 2026, about 13:58 UTC) while processing the first entry with N > 100; every entry with d = 22 and N <= 100 (31 entries) had been processed, so the scope fields were set to N <= 100. A separate run for 101 <= N <= 130 was stopped after 21 minutes inside the linear algebra of its first entry; those 9 entries were not screened"
+}

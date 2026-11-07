@@ -1,4 +1,5 @@
-2026-11-07T11:16:34Z
 STATUS = ALL CHECKS PASSED
-exit 0
-2026-11-07T11:21:21Z
+STATUS = ALL CHECKS PASSED
+"status": "JAMMED, NOT INFINITESIMALLY JAMMED (prestress stable: strict local minimum modulo rotations)"
+"status": "JAMMED, NOT INFINITESIMALLY JAMMED (prestress stable: strict local minimum modulo rotations)"
+RED CONTROLS: 2 of 2 failed as they must (gram: (G) fails; ratio: (H) fails)

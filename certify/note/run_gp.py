@@ -4,7 +4,8 @@
 
   python3 -I certify/note/run_gp.py SCRIPT.gp OUT_BASENAME [FILES_TO_REMOVE_FIRST ...]
 
-The script is executed by PARI's own interpreter (read()), with DATA set to the data/ directory; nothing in this runner
+The script is executed by PARI's own interpreter (read()), with DATA set to the data/ directory (or to the directory
+in the environment variable QV_NOTE_DATA, e.g. data_xprime/ for the second code of Section 7); nothing in this runner
 computes anything. Standard output of the run goes to out/OUT_BASENAME.log; the lines "KEY = value" are collected in
 out/OUT_BASENAME.json together with the PARI version, the wall time, the SHA-256 of the script (taken before the
 run) and of every file in data/ before and after the run. The same scripts run unchanged in the gp program (gp -q, after DATA = "path/to/data/").
@@ -21,7 +22,8 @@ def sha(p):
 
 def main():
     script, base = sys.argv[1], sys.argv[2]
-    data = os.path.join(HERE, "data")
+    data = os.environ.get("QV_NOTE_DATA") or os.path.join(HERE, "data")     # data_xprime/ for the code X'
+    data = os.path.abspath(data)
     for f in sys.argv[3:]:
         p = os.path.join(data, f)
         if os.path.exists(p):

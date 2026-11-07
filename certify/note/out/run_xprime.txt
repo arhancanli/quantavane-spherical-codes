@@ -1,0 +1,2 @@
+PARI stack size set to 500000000 bytes, maximum size set to 4000006144
+{"script": "xprime.gp", "seconds": 3.7, "error": null, "lines": 12}

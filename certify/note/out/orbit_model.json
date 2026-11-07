@@ -1,0 +1,508 @@
+{
+ "program": "orbit_model.py",
+ "orbits": [
+  {
+   "class": 0,
+   "orbits": "PQ",
+   "size": 2,
+   "split": true,
+   "rep": [
+    112,
+    115
+   ],
+   "invariant": [
+    "PQ",
+    "opposite signs"
+   ]
+  },
+  {
+   "class": 1,
+   "orbits": "PQ",
+   "size": 2,
+   "split": true,
+   "rep": [
+    112,
+    113
+   ],
+   "invariant": [
+    "PQ",
+    "same sign"
+   ]
+  },
+  {
+   "class": 2,
+   "orbits": "BB",
+   "size": 40,
+   "split": false,
+   "rep": [
+    72,
+    88
+   ],
+   "invariant": [
+    "BB",
+    "same point",
+    1
+   ]
+  },
+  {
+   "class": 3,
+   "orbits": "AB",
+   "size": 360,
+   "split": true,
+   "rep": [
+    0,
+    72
+   ],
+   "invariant": [
+    "AB",
+    "z in O",
+    2
+   ]
+  },
+  {
+   "class": 3,
+   "orbits": "AB",
+   "size": 360,
+   "split": true,
+   "rep": [
+    0,
+    77
+   ],
+   "invariant": [
+    "AB",
+    "z not in O",
+    2
+   ]
+  },
+  {
+   "class": 4,
+   "orbits": "BP",
+   "size": 40,
+   "split": true,
+   "rep": [
+    72,
+    114
+   ],
+   "invariant": [
+    "BP",
+    "opposite signs"
+   ]
+  },
+  {
+   "class": 5,
+   "orbits": "AA",
+   "size": 180,
+   "split": true,
+   "rep": [
+    0,
+    41
+   ],
+   "invariant": [
+    "AA",
+    1,
+    "same"
+   ]
+  },
+  {
+   "class": 5,
+   "orbits": "AA",
+   "size": 180,
+   "split": false,
+   "rep": [
+    0,
+    47
+   ],
+   "invariant": [
+    "AA",
+    4,
+    "different"
+   ]
+  },
+  {
+   "class": 5,
+   "orbits": "AA",
+   "size": 360,
+   "split": false,
+   "rep": [
+    0,
+    2
+   ],
+   "invariant": [
+    "AA",
+    3,
+    "different"
+   ]
+  },
+  {
+   "class": 6,
+   "orbits": "BB",
+   "size": 180,
+   "split": false,
+   "rep": [
+    72,
+    78
+   ],
+   "invariant": [
+    "BB",
+    "different points",
+    2
+   ]
+  },
+  {
+   "class": 7,
+   "orbits": "AQ",
+   "size": 72,
+   "split": true,
+   "rep": [
+    0,
+    113
+   ],
+   "invariant": [
+    "AQ",
+    "same sign"
+   ]
+  },
+  {
+   "class": 8,
+   "orbits": "BB",
+   "size": 20,
+   "split": true,
+   "rep": [
+    72,
+    91
+   ],
+   "invariant": [
+    "BB",
+    "same point",
+    0
+   ]
+  },
+  {
+   "class": 9,
+   "orbits": "AP",
+   "size": 72,
+   "split": true,
+   "rep": [
+    0,
+    112
+   ],
+   "invariant": [
+    "AP",
+    "same sign"
+   ]
+  },
+  {
+   "class": 10,
+   "orbits": "AB",
+   "size": 360,
+   "split": true,
+   "rep": [
+    0,
+    78
+   ],
+   "invariant": [
+    "AB",
+    "z not in O",
+    0
+   ]
+  },
+  {
+   "class": 10,
+   "orbits": "AB",
+   "size": 360,
+   "split": true,
+   "rep": [
+    0,
+    83
+   ],
+   "invariant": [
+    "AB",
+    "z in O",
+    0
+   ]
+  },
+  {
+   "class": 11,
+   "orbits": "BQ",
+   "size": 40,
+   "split": true,
+   "rep": [
+    72,
+    115
+   ],
+   "invariant": [
+    "BQ",
+    "opposite signs"
+   ]
+  },
+  {
+   "class": 12,
+   "orbits": "AA",
+   "size": 36,
+   "split": false,
+   "rep": [
+    0,
+    45
+   ],
+   "invariant": [
+    "AA",
+    0,
+    "different"
+   ]
+  },
+  {
+   "class": 12,
+   "orbits": "AA",
+   "size": 360,
+   "split": true,
+   "rep": [
+    0,
+    1
+   ],
+   "invariant": [
+    "AA",
+    2,
+    "same"
+   ]
+  },
+  {
+   "class": 12,
+   "orbits": "AA",
+   "size": 720,
+   "split": false,
+   "rep": [
+    0,
+    3
+   ],
+   "invariant": [
+    "AA",
+    2,
+    "different"
+   ]
+  },
+  {
+   "class": 12,
+   "orbits": "AA",
+   "size": 720,
+   "split": true,
+   "rep": [
+    0,
+    4
+   ],
+   "invariant": [
+    "AA",
+    3,
+    "same"
+   ]
+  },
+  {
+   "class": 12,
+   "orbits": "AB",
+   "size": 720,
+   "split": true,
+   "rep": [
+    0,
+    73
+   ],
+   "invariant": [
+    "AB",
+    "z not in O",
+    1
+   ]
+  },
+  {
+   "class": 12,
+   "orbits": "AB",
+   "size": 720,
+   "split": true,
+   "rep": [
+    0,
+    79
+   ],
+   "invariant": [
+    "AB",
+    "z in O",
+    1
+   ]
+  },
+  {
+   "class": 12,
+   "orbits": "AP",
+   "size": 72,
+   "split": true,
+   "rep": [
+    0,
+    114
+   ],
+   "invariant": [
+    "AP",
+    "opposite signs"
+   ]
+  },
+  {
+   "class": 12,
+   "orbits": "AQ",
+   "size": 72,
+   "split": true,
+   "rep": [
+    0,
+    115
+   ],
+   "invariant": [
+    "AQ",
+    "opposite signs"
+   ]
+  },
+  {
+   "class": 12,
+   "orbits": "BB",
+   "size": 180,
+   "split": false,
+   "rep": [
+    72,
+    77
+   ],
+   "invariant": [
+    "BB",
+    "different points",
+    0
+   ]
+  },
+  {
+   "class": 12,
+   "orbits": "BB",
+   "size": 360,
+   "split": true,
+   "rep": [
+    72,
+    73
+   ],
+   "invariant": [
+    "BB",
+    "different points",
+    1
+   ]
+  },
+  {
+   "class": 12,
+   "orbits": "BP",
+   "size": 40,
+   "split": true,
+   "rep": [
+    72,
+    112
+   ],
+   "invariant": [
+    "BP",
+    "same sign"
+   ]
+  },
+  {
+   "class": 12,
+   "orbits": "BQ",
+   "size": 40,
+   "split": true,
+   "rep": [
+    72,
+    113
+   ],
+   "invariant": [
+    "BQ",
+    "same sign"
+   ]
+  },
+  {
+   "class": 12,
+   "orbits": "PP",
+   "size": 1,
+   "split": false,
+   "rep": [
+    112,
+    114
+   ],
+   "invariant": [
+    "PP",
+    "opposite signs"
+   ]
+  },
+  {
+   "class": 12,
+   "orbits": "QQ",
+   "size": 1,
+   "split": false,
+   "rep": [
+    113,
+    115
+   ],
+   "invariant": [
+    "QQ",
+    "opposite signs"
+   ]
+  }
+ ],
+ "invariants_distinct": true,
+ "invariant_alone_distinct": true,
+ "example": {
+  "pentad_finite_points_(a,b)=a+bw": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    2
+   ]
+  ],
+  "lines_meeting_O_in_three_points": {
+   "1": [
+    [
+     [
+      0,
+      2
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      2
+     ]
+    ]
+   ],
+   "w": [
+    [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ]
+    ]
+   ]
+  },
+  "beta0_point_index": 94,
+  "pentad_point_index": 5,
+  "sign_of_pentad": 1,
+  "sign_of_beta0": 1,
+  "class_of_the_pair": [
+   "AB",
+   "z in O",
+   2
+  ]
+ }
+}

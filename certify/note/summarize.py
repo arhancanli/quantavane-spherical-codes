@@ -6,8 +6,8 @@ note comes from structure.gp and check.gp, which are exact).
 
   python3 -I certify/note/summarize.py NOTEDIR
 
-Reads data/*.gp, data/stored_d22_n116.txt, out/aut116.json, out/construct.json, out/structure.json, out/check.json
-and out/jam116_rerun.json. Computes the representative F of the flex orthogonal to the infinitesimal rotations (from the
+Reads data/*.gp, data/stored_d22_n116.txt, out/aut116.json, out/construct.json, out/structure.json, out/check.json,
+out/jam116_rerun.json and out/orbit_model.json. Computes the representative F of the flex orthogonal to the infinitesimal rotations (from the
 exact first-order Gram change S and the stored code: F = X B + Z with Z = (I - Pi) S X Gamma^-1, B + B^T =
 Gamma^-1 X^T S X Gamma^-1, Gamma B symmetric, Gamma = X^T X), its norm, the representative that fixes the orbit A,
 how each orbit moves, and the second-order quantities normalised by |F|^2. Writes NOTEDIR/note_numbers.tex and the
@@ -201,6 +201,65 @@ def main():
         "H_maxmin_over_normF2_total1": Hmm_u, "vertices": vert, "H_range_over_normF2": [min(Hs), max(Hs)],
         "ip_with_u0": ip_u0,
     }
+    # ---------------------------------------------------------------- Remark 2.7: bars and struts for omega* (total 1)
+    om = [float(ev(c)) for c in OM]
+    wE = np.zeros(n)
+    Ea = np.array([a for a, b, t in EL]); Eb = np.array([b for a, b, t in EL])
+    omE = np.array([om[t - 1] for a, b, t in EL])
+    np.add.at(wE, Ea, omE); np.add.at(wE, Eb, omE)
+    cf = float(c)
+    def bars_struts(Y):
+        bar = (1 - cf) * float(np.sum(wE * np.sum(Y * Y, axis=1)))
+        strut = float(np.sum(omE * np.sum((Y[Ea] - Y[Eb]) ** 2, axis=1)))
+        return bar, strut
+    barF, strutF = bars_struts(Fu)
+    barA, strutA = bars_struts(FAu)
+    summary.update(total_weight_omega_star=float(omE.sum()), bar_F=barF, strut_F=strutF, H_F=barF - strutF,
+                   bar_FA=barA, strut_FA=strutA, H_FA=barA - strutA)
+    # ---------------------------------------------------------------- the max-min invariant stresses form a segment
+    # exact: omega*(t) = omega* + t * 20 sigma_A (Table 4 scaling) keeps the entries 1 on the orbits 6, 12 and the
+    # total weight, and stays >= 1 until orbit 4 reaches 1 at t1 = (omega*_4 - 1)/2
+    sc_ = st["stress_scaled_min1_tower"]
+    scv_ = [[Fraction(x.strip()) for x in grp.split(",")] for grp in re.findall(r"\[([^\[\]]+)\]", sc_)]
+    sig20 = [Fraction(x.strip()) * 20 for x in st["sigma_A_on_types"].strip("[]").split(",")]
+    assert sig20[:4] == [20, 4, -1, -2] and all(x == 0 for x in sig20[4:])
+    one = [Fraction(1)] + [Fraction(0)] * 7
+    t1 = [(a - b) / 2 for a, b in zip(scv_[3], one)]
+    endp = [[a + sig20[j] * b for a, b in zip(scv_[j], t1)] for j in range(14)]
+    assert endp[3] == one and all(float(ev(e)) >= 1 - 1e-12 for e in endp)
+    summary["maxmin_segment_t1"] = float(ev(t1))
+    summary["maxmin_other_endpoint"] = [float(ev(e)) for e in endp]
+    # floating point (UNTRUSTED): the face of maximisers is exactly this segment (LP over the invariant stresses,
+    # computed from the stored code: equilibrium at one point of each orbit, in the 14 contact orbits)
+    from scipy.optimize import linprog
+    orbs_c = [o for o in aut["orbitals"] if o["class"] == 12]
+    reps_ = [A[0], B[0], P[0], Q[0]]
+    sizes_ = np.array([o["size"] for o in orbs_c], dtype=float)
+    lab_ = -np.ones((n, n), dtype=int)
+    for j, o in enumerate(orbs_c):
+        for a, b, _ in o["pairs"]:
+            lab_[a, b] = lab_[b, a] = j
+    Gs = X @ X.T
+    mu_s = float(np.max(Gs[lab_ >= 0]))
+    EQ = np.vstack([np.array([[(X[lab_[a] == j] - mu_s * X[a]).sum(axis=0)[k] for j in range(14)] for k in range(d)])
+                    for a in reps_])
+    _, sv_, Vt_ = np.linalg.svd(EQ)
+    Ns = Vt_[int((sv_ > 1e-9 * sv_.max()).sum()):].T
+    assert Ns.shape[1] == 3
+    # in the scaling of Table 4: minimise the total weight subject to omega >= 1 (the same problem, rescaled)
+    lp = linprog(sizes_ @ Ns, A_ub=-Ns, b_ub=-np.ones(14), bounds=[(None, None)] * 3, method="highs")
+    Tstar = float(lp.fun)
+    sigv = np.array([float(x) for x in sig20])
+    zs = np.linalg.lstsq(Ns, sigv, rcond=None)[0]
+    perp = np.linalg.svd(np.vstack([sizes_ @ Ns, zs]))[2][-1]          # transverse to sigma_A, total weight fixed
+    width = []
+    for sgn in (1, -1):
+        r = linprog(-sgn * perp, A_ub=np.vstack([-Ns, (sizes_ @ Ns)[None, :]]),
+                    b_ub=np.concatenate([-np.ones(14), [Tstar * (1 + 1e-12)]]), bounds=[(None, None)] * 3, method="highs")
+        width.append(float(perp @ r.x))
+    summary["maxmin_face_transverse_width"] = abs(width[0] - width[1]) / float(np.linalg.norm(Ns @ zs))
+    summary["maxmin_total_weight_scaled_lp"] = Tstar
+    summary["maxmin_value_lp_times_E"] = float(4042 / Tstar)
     json.dump(summary, open(os.path.join(O, "summary.json"), "w"), indent=1)
     # ---------------------------------------------------------------- LaTeX: macros
     f6 = lambda x: f"{x:.6f}"
@@ -234,6 +293,14 @@ def main():
         "FUP": f"{summary['motion_unit_flex_orthogonal_to_rotations']['P'][0]:.4f}",
         "FUQ": f"{summary['motion_unit_flex_orthogonal_to_rotations']['Q'][0]:.4f}",
         "FANorm": f"{summary['norm_representative_fixing_A_over_unit']:.3f}",
+        "BarF": f"{summary['bar_F']:.5f}", "StrutF": f"{summary['strut_F']:.5f}", "HF": f"{summary['H_F']:.5f}",
+        "BarFA": f"{summary['bar_FA']:.5f}", "StrutFA": f"{summary['strut_FA']:.5f}",
+        "HShare": f"{100 * summary['H_F'] / summary['bar_F']:.0f}",
+        "SegT": f"{summary['maxmin_segment_t1']:.4f}",
+        "SegEndOne": f"{summary['maxmin_other_endpoint'][0]:.4f}",
+        "SegEndTwo": f"{summary['maxmin_other_endpoint'][1]:.4f}",
+        "SegEndThree": f"{summary['maxmin_other_endpoint'][2]:.4f}",
+        "FaceWidth": sci(max(summary['maxmin_face_transverse_width'], 1e-300), 0),
     }
     # the minimal polynomial of s1 + s2 (check.gp), with integer coefficients
     from math import lcm
@@ -279,6 +346,12 @@ def main():
     mac["HScaledExact"] = tex_elt(tower("H_scaled_min1_tower"))
     mac["HScaled"] = f'{float(pnum(st["H_scaled_min1_numeric"])):.4f}'
     mac["StressTotalScaled"] = f'{float(pnum(st["stress_scaled_total_weight_numeric"])):.1f}'
+    mac["SegTExact"] = tex_elt(t1)
+    ms = lambda key: [int(x) for x in st[key].strip("[]").split(",")]
+    lin_rows = [("trivial", "$\\Gamma$", ms("mult_trivial_[T,rot,E]"), 0),
+                ("$\\varepsilon$", "$M_{10}$", ms("mult_eps_[T,rot,E]"), 1),
+                ("$\\varepsilon_{S}$", "$S_6$", ms("mult_epsS6_[T,rot,E]"), 0),
+                ("$\\varepsilon_{P}$", "$\\mathrm{PGL}(2,9)$", ms("mult_epsPGL_[T,rot,E]"), 0)]
     with open(os.path.join(notedir, "note_numbers.tex"), "w") as f:
         f.write("% written by certify/note/summarize.py from the outputs of the exact programs; do not edit\n")
         for k_, v in mac.items():
@@ -307,8 +380,35 @@ def main():
         f.write("% written by certify/note/summarize.py; do not edit\n\\begin{tabular}{lllll}\n\\toprule\n"
                 "class & points & pairs & $\\pm$ value of $S$ on the two halves & numerically \\\\\n\\midrule\n")
         f.write("\n".join(frows) + "\n\\bottomrule\n\\end{tabular}\n")
+    # ---------------------------------------------------------------- LaTeX: the linear characters (Proposition 4.2)
+    with open(os.path.join(notedir, "tab_linear.tex"), "w") as f:
+        f.write("% written by certify/note/summarize.py; do not edit\n\\begin{tabular}{llrrrrr}\n\\toprule\n"
+                "character & kernel & $m_\\psi(T)$ & $m_\\psi(K)$ & $m_\\psi(\\R^E)$ & difference & flexes mod $K$ \\\\\n"
+                "\\midrule\n")
+        for nm, ker, (mt, mk, me), fx in lin_rows:
+            f.write(f"{nm} & {ker} & {mt} & {mk} & {me} & ${mt - mk - me}$ & {fx} \\\\\n")
+        f.write("\\bottomrule\n\\end{tabular}\n")
     # ---------------------------------------------------------------- LaTeX: contact orbits and stresses
     cnames = st["contact_orbit_names"].strip("[]").replace('"', "").split(", ")
+    om_model = json.load(open(os.path.join(O, "orbit_model.json")))
+    assert om_model["invariants_distinct"]
+    cmodel = [o for o in om_model["orbits"] if o["class"] == 12]
+    assert [f"{o['orbits']}{o['size']}{'s' if o['split'] else ''}" for o in cmodel] == cnames
+    def describe(o):
+        inv = o["invariant"]
+        if inv[0] == "AA":
+            same = {"same": "same $A_6$-orbit", "different": "other $A_6$-orbit"}[inv[2]]
+            return f"$O,O'$: $|O\\cap O'|={inv[1]}$" + (f", {same}" if inv[1] != 0 else "")
+        if inv[0] == "AB":
+            return "$O,\\beta$: " + ("$z\\in O$" if inv[1] == "z in O" else "$z\\notin O$")
+        if inv[0] == "BB":
+            return ("$\\beta,\\beta'$: $z\\ne z'$, moved pair " +
+                    ("disjoint from" if inv[2] == 0 else "shares one pencil with") + " that of $\\beta'$")
+        if inv[0] in ("AP", "AQ"):
+            return f"$O,{inv[0][1].lower()}_\\eta$: $O\\in A_{{-\\eta}}$"
+        if inv[0] in ("BP", "BQ"):
+            return f"$\\beta,{inv[0][1].lower()}_\\eta$: $\\beta\\in B_\\eta$"
+        return {"PP": "$p_+p_-$", "QQ": "$q_+q_-$"}[inv[0]]
     sc = st["stress_scaled_min1_tower"]
     scv = [[Fraction(x.strip()) for x in grp.split(",")] for grp in re.findall(r"\[([^\[\]]+)\]", sc)]
     sigA = [Fraction(x.strip()) for x in st["sigma_A_on_types"].strip("[]").split(",")]
@@ -316,11 +416,12 @@ def main():
     for t, nm in enumerate(cnames):
         split = nm.endswith("s")
         base = nm[:-1] if split else nm
-        srows.append(f"{t + 1} & {base[0]}{base[1]} & {base[2:]} & {'yes' if split else 'no'} & ${float(ev(scv[t])):.5f}$ & "
+        srows.append(f"{t + 1} & {base[0]}{base[1]} & {describe(cmodel[t])} & {base[2:]}{'$^*$' if split else ''} & "
+                     f"${float(ev(scv[t])):.5f}$ & "
                      f"${(sigA[t] * 20).numerator if (sigA[t] * 20).denominator == 1 else sigA[t] * 20}$ \\\\")
     with open(os.path.join(notedir, "tab_stress.tex"), "w") as f:
-        f.write("% written by certify/note/summarize.py; do not edit\n\\begin{tabular}{rlrlll}\n\\toprule\n"
-                "& points & contacts & splits under $M_{10}$ & $\\omega^*$ (smallest entry 1) & $20\\,\\sigma_A$ \\\\\n\\midrule\n")
+        f.write("% written by certify/note/summarize.py; do not edit\n\\begin{tabular}{rllrrr}\n\\toprule\n"
+                "& & the pairs in the model (Table~\\ref{tab:model}) & contacts & $\\omega^*$ & $20\\,\\sigma_A$ \\\\\n\\midrule\n")
         f.write("\n".join(srows) + "\n\\bottomrule\n\\end{tabular}\n")
     erows = [f"{t + 1} & ${tex_elt(scv[t])}$ \\\\" for t in range(len(cnames))]
     with open(os.path.join(notedir, "tab_stress_exact.tex"), "w") as f:

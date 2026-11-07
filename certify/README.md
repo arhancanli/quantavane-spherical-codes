@@ -134,3 +134,27 @@ Superseded version 3 outputs (see `.gitignore`) go nowhere.
 `run_batch.py`, `analysis.py`, `exact_check.py`, `lp_dual.py`, `make_lists.py`, `dedup.py`, `lists/` and `results/` at this
 level belong to version 2 of the paper (certificates of the codes we uploaded) and are kept for that record. Version 3
 outputs are superseded by version 4 and are not part of the release.
+
+## The note: a jammed spherical code that is not infinitesimally jammed (`note/`)
+
+The programs of the note *A jammed spherical code that is not infinitesimally jammed* (A. Canli). Rerun everything with
+
+    zsh certify/note/run_note.sh SNAPDIR NOTEDIR     # about fifteen minutes on one core
+
+which runs, in order: `extract.py` (the stored entry), `classes.py` (classes and the 13 exact values, from the version 5
+recognition), `aut116.py` (the group by individualisation and refinement), `construct.py` (the model in the circle
+geometry of PG(1,9)), `orbit_model.py` (each orbit on pairs described in the model; Tables 1 and 5), `structure.gp` (the
+flex, the stresses, the characters), `check.gp` (the second exact verification, including the count of the 1440
+automorphisms by backtracking: 147,129 nodes), `v5/jam116.py` (the first exact verification), then for the second code
+X' of Section 7 `xprime.gp` (the exact data of X' in `data_xprime/`), `structure.gp` and `check_xprime.gp` on that
+directory (`QV_NOTE_DATA=data_xprime`), `jam_xprime.py` (the second, independent check of X': an adapted copy of
+`v5/jam116.py` in Python with ball arithmetic, which recomputes X' from X* itself and must agree with `data_xprime/`)
+and its two red controls (`--red gram`, `--red ratio`, which must fail: run_note.sh stops if either passes), and finally
+`summarize.py`, `family_summary.py` (numbers and tables) and `manifest.py`. The last lines printed are the two GP
+STATUS lines, the two Python statuses and the red-control line. On the author's machine (loaded) the GP scripts take two to four minutes each and `jam116.py` about a
+minute.
+
+The floating-point searches of Section 7 are run separately (hours): `zsh certify/note/run_family.sh SNAPDIR` runs
+`family.py` (Gamma-invariant codes from PGammaL(2,q) and subgroups: the restarts for X* and X', then the cases of its
+table `CASES`) and `family_table.py` (the entries of the table in dimension 22 with N <= 100); their outputs are in
+`note/out/family/`. Nothing in them is a certificate; the note states which results are floating point.

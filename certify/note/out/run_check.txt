@@ -1,2 +1,2 @@
 PARI stack size set to 500000000 bytes, maximum size set to 4000006144
-{"script": "check.gp", "seconds": 147.4, "error": null, "lines": 35}
+{"script": "check.gp", "seconds": 238.3, "error": null, "lines": 35}

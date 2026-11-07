@@ -1,0 +1,515 @@
+{
+ "0": {
+  "q": 9,
+  "group": "PGammaL",
+  "kinds": [
+   "A",
+   "B4",
+   "P",
+   "Q"
+  ],
+  "N": 116,
+  "profiles": 15,
+  "best": {
+   "profile_dims": [
+    1,
+    1,
+    1,
+    10,
+    9
+   ],
+   "dim": 22,
+   "largest_cosine": 0.11735990964653842,
+   "polish_residual": 3.191891195797325e-16
+  },
+  "verdict": "$X^*$"
+ },
+ "1": {
+  "q": 9,
+  "group": "PGammaL",
+  "kinds": [
+   "A",
+   "B2",
+   "P",
+   "Q"
+  ],
+  "N": 96,
+  "profiles": 21,
+  "best": {
+   "profile_dims": [
+    1,
+    1,
+    1,
+    9,
+    9
+   ],
+   "dim": 21,
+   "largest_cosine": 0.33333333333333354,
+   "polish_residual": 1.1102230246251565e-16
+  },
+  "verdict": "rattlers"
+ },
+ "2": {
+  "q": 9,
+  "group": "PGammaL",
+  "kinds": [
+   "A",
+   "P",
+   "Q"
+  ],
+  "N": 76,
+  "profiles": 15,
+  "best": {
+   "profile_dims": [
+    1,
+    1,
+    1,
+    16,
+    9
+   ],
+   "dim": 28,
+   "largest_cosine": 0.06976744186046493,
+   "polish_residual": 5.551115123125783e-17
+  },
+  "verdict": "rattlers"
+ },
+ "3": {
+  "q": 9,
+  "group": "PGL",
+  "kinds": [
+   "A",
+   "B4",
+   "P",
+   "Q"
+  ],
+  "N": 116,
+  "profiles": 21,
+  "best": {
+   "profile_dims": [
+    1,
+    1,
+    1,
+    9,
+    10
+   ],
+   "dim": 22,
+   "largest_cosine": 0.1173599096465386,
+   "polish_residual": 5.551115123125783e-16
+  },
+  "verdict": "$X^*$"
+ },
+ "4": {
+  "q": 9,
+  "group": "PSigmaL",
+  "kinds": [
+   "A",
+   "B4",
+   "P",
+   "Q"
+  ],
+  "N": 116,
+  "profiles": 31,
+  "best": {
+   "profile_dims": [
+    1,
+    1,
+    1,
+    5,
+    5,
+    9
+   ],
+   "dim": 22,
+   "largest_cosine": 0.11735990964654026,
+   "polish_residual": 3.524958103184872e-15
+  },
+  "verdict": "$X^*$"
+ },
+ "5": {
+  "q": 25,
+  "group": "PGammaL",
+  "kinds": [
+   "A",
+   "B6",
+   "P",
+   "Q"
+  ],
+  "N": 760,
+  "profiles": 15,
+  "best": {
+   "profile_dims": [
+    1,
+    1,
+    1,
+    26,
+    25
+   ],
+   "dim": 54,
+   "largest_cosine": 0.27272727272727276,
+   "polish_residual": 1.1102230246251565e-16
+  },
+  "verdict": "rattlers"
+ },
+ "6": {
+  "q": 25,
+  "group": "PGammaL",
+  "kinds": [
+   "A",
+   "B3",
+   "P",
+   "Q"
+  ],
+  "N": 760,
+  "profiles": 10,
+  "best": {
+   "profile_dims": [
+    1,
+    1,
+    1,
+    25,
+    26
+   ],
+   "dim": 54,
+   "largest_cosine": 0.23076923076923228,
+   "polish_residual": 4.6074255521944e-15
+  },
+  "verdict": "rattlers"
+ },
+ "7": {
+  "q": 25,
+  "group": "PGammaL",
+  "kinds": [
+   "A",
+   "P",
+   "Q"
+  ],
+  "N": 604,
+  "profiles": 10,
+  "best": {
+   "profile_dims": [
+    1,
+    1,
+    1,
+    26,
+    25
+   ],
+   "dim": 54,
+   "largest_cosine": 0.15384615384615383,
+   "polish_residual": 0.0
+  },
+  "verdict": "rattlers"
+ },
+ "8": {
+  "q": 25,
+  "group": "PGammaL",
+  "kinds": [
+   "A",
+   "B6",
+   "P",
+   "Q"
+  ],
+  "N": 760,
+  "profiles": 15,
+  "best": {
+   "profile_dims": [
+    1,
+    1,
+    1,
+    26,
+    25
+   ],
+   "dim": 54,
+   "largest_cosine": 0.24999999999999994,
+   "polish_residual": 2.7755575615628914e-17
+  },
+  "verdict": "rattlers"
+ },
+ "9": {
+  "q": 25,
+  "group": "PGammaL",
+  "kinds": [
+   "A",
+   "B3",
+   "P",
+   "Q"
+  ],
+  "N": 760,
+  "profiles": 10,
+  "best": {
+   "profile_dims": [
+    1,
+    1,
+    1,
+    25,
+    26
+   ],
+   "dim": 54,
+   "largest_cosine": 0.23076923076923114,
+   "polish_residual": 3.608224830031759e-16
+  },
+  "verdict": "rattlers"
+ },
+ "10": {
+  "q": 7,
+  "group": "PGammaL",
+  "kinds": [
+   "A",
+   "P",
+   "Q"
+  ],
+  "N": 46,
+  "profiles": 10,
+  "best": {
+   "profile_dims": [
+    1,
+    1,
+    1,
+    7,
+    6
+   ],
+   "dim": 16,
+   "largest_cosine": 0.1380711874576984,
+   "polish_residual": 5.551115123125783e-17
+  },
+  "verdict": "rattlers"
+ },
+ "11": {
+  "q": 11,
+  "group": "PGammaL",
+  "kinds": [
+   "A",
+   "P",
+   "Q"
+  ],
+  "N": 114,
+  "profiles": 28,
+  "best": {
+   "profile_dims": [
+    1,
+    1,
+    1,
+    12,
+    10
+   ],
+   "dim": 25,
+   "largest_cosine": 0.1505536708612954,
+   "polish_residual": 1.3877787807814457e-16
+  },
+  "verdict": "no positive stress"
+ },
+ "12": {
+  "q": 13,
+  "group": "PGammaL",
+  "kinds": [
+   "A",
+   "P",
+   "Q"
+  ],
+  "N": 160,
+  "profiles": 45,
+  "best": {
+   "profile_dims": [
+    1,
+    1,
+    1,
+    13,
+    14
+   ],
+   "dim": 30,
+   "largest_cosine": 0.16279069767441864,
+   "polish_residual": 8.326672684688674e-17
+  },
+  "verdict": "rattlers"
+ },
+ "13": {
+  "q": 17,
+  "group": "PGammaL",
+  "kinds": [
+   "A",
+   "P",
+   "Q"
+  ],
+  "N": 276,
+  "profiles": 6,
+  "best": {
+   "profile_dims": [
+    1,
+    1,
+    1,
+    17,
+    18
+   ],
+   "dim": 38,
+   "largest_cosine": 0.19023295255526637,
+   "polish_residual": 8.326672684688674e-17
+  },
+  "verdict": "rattlers"
+ },
+ "14": {
+  "q": 19,
+  "group": "PGammaL",
+  "kinds": [
+   "A",
+   "P",
+   "Q"
+  ],
+  "N": 346,
+  "profiles": 4,
+  "best": {
+   "profile_dims": [
+    1,
+    1,
+    1,
+    19,
+    20
+   ],
+   "dim": 42,
+   "largest_cosine": 0.19761592836217162,
+   "polish_residual": 2.7755575615628914e-17
+  },
+  "verdict": "rattlers"
+ },
+ "15": {
+  "q": 27,
+  "group": "PGammaL",
+  "kinds": [
+   "A",
+   "P",
+   "Q"
+  ],
+  "N": 706,
+  "profiles": 1,
+  "best": {
+   "profile_dims": [
+    1,
+    1,
+    1,
+    26,
+    27
+   ],
+   "dim": 56,
+   "largest_cosine": 0.14285714285714285,
+   "polish_residual": 8.326672684688674e-17
+  },
+  "verdict": "rattlers"
+ },
+ "16": {
+  "q": 16,
+  "group": "PGammaL",
+  "kinds": [
+   "B5",
+   "P",
+   "Q"
+  ],
+  "N": 174,
+  "profiles": 6,
+  "best": {
+   "profile_dims": [
+    1,
+    1,
+    1,
+    34,
+    34
+   ],
+   "dim": 71,
+   "largest_cosine": 0.08209951522176791,
+   "polish_residual": 5.259681579161679e-15
+  },
+  "verdict": "rattlers"
+ },
+ "table": {
+  "entries": 31,
+  "structured": 9,
+  "grouped": 5,
+  "with_flexes": [
+   [
+    22,
+    47,
+    1,
+    0,
+    true,
+    [
+     -3.144186300207963e-18,
+     -3.144186300207963e-18
+    ]
+   ],
+   [
+    22,
+    48,
+    1,
+    0,
+    true,
+    [
+     1.6805133673525319e-18,
+     1.6805133673525319e-18
+    ]
+   ],
+   [
+    22,
+    49,
+    1,
+    1,
+    false,
+    null
+   ],
+   [
+    22,
+    79,
+    56,
+    2,
+    true,
+    [
+     -0.0034632034644058725,
+     0.02380952380952415
+    ]
+   ]
+  ]
+ },
+ "macros": {
+  "FamStarts": 100,
+  "FamReachStar": 51,
+  "FamReachPrime": 10,
+  "FamOther": 39,
+  "FamOtherMin": "0.1387",
+  "FamGapLowStar": "7.4\\cdot10^{-15}",
+  "FamGapHighStar": "0.340",
+  "FamHStar": "2.163\\cdot10^{-3}",
+  "FamMaxminStar": "0.2658",
+  "FamFlexStar": 1,
+  "FamGapLowPrime": "7.4\\cdot10^{-15}",
+  "FamGapHighPrime": "0.344",
+  "FamHPrime": "2.499\\cdot10^{-3}",
+  "FamMaxminPrime": "0.2817",
+  "FamFlexPrime": 1,
+  "FamGapLow": "7.4\\cdot10^{-15}",
+  "FamGapHigh": "0.340",
+  "FamH": "2.163\\cdot10^{-3}",
+  "XpChanged": "80",
+  "XpAut": "1440",
+  "XpRankModp": "923",
+  "XpPrime": "1{,}073{,}741{,}891",
+  "XpMinDeg": "57",
+  "XpH": "0.2659",
+  "XpRatio": "1.499",
+  "XpThreshold": "0.5635",
+  "XpMaxmin": "0.2817",
+  "XpAlphaSign": "<",
+  "XpBetaSign": ">",
+  "XpSeconds": 219,
+  "XpPyRank": "2{,}320",
+  "XpPyPrime": "2{,}147{,}483{,}477",
+  "XpRedGram": "G does not have rank d",
+  "XpRedRatio": "H not positive",
+  "TabNmax": 100,
+  "TabAutTimeout": 0,
+  "TabAutTimeoutList": "none",
+  "TabAutText": "",
+  "TabEntries": 31,
+  "TabStructured": 9,
+  "TabGrouped": 5,
+  "TabFlex": 4,
+  "TabRattlers": 2,
+  "TabNoStress": 1,
+  "TabFlexList": "$(22,47)$, $(22,48)$, $(22,49)$, $(22,79)$",
+  "TabFlexText": "infinitesimal flexes modulo rotations of the contact framework of the core (the points that are not rattlers) only for $(22,47)$ (a member of a continuous family, as the table notes, $H=0$ on a flex), $(22,48)$ (a member of a continuous family, as the table notes, $H=0$ on a flex), $(22,49)$ (1 rattler, no strictly positive stress), $(22,79)$ (56 flexes, 2 rattlers, $H<0$ on a flex); $H$ is computed for a max-min stress"
+ }
+}
