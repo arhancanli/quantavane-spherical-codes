@@ -1,0 +1,27 @@
+% written by make_numbers_v8.py; do not edit
+\begin{tabular}{lrrrrrrr}
+\toprule
+ & \multicolumn{5}{c}{dimension $d$} & & \\ \cmidrule(lr){2-6}
+ & 3--5 & 6--10 & 11--17 & 18--24 & 25--32 & all & unmarked \\
+\midrule
+entries & 3{,}028 & 3{,}455 & 3{,}658 & 1{,}856 & 4{,}268 & 16{,}265 & 3{,}021 \\
+\midrule
+strict local minimum & 724 & 182 & 160 & 128 & 43 & 1{,}237 & 1{,}211 \\
+\quad isostatic (Thm.~\ref{thm:check}) & 660 & 81 & 49 & 20 & 29 & 839 & 825 \\
+\quad recognised Gram matrix (Sec.~\ref{sec:recog}) & 36 & 70 & 80 & 66 & 6 & 258 & 250 \\
+\quad symmetry (Thm.~\ref{thm:sym}) & 28 & 21 & 0 & 0 & 0 & 49 & 46 \\
+\quad exact arithmetic (Prop.~\ref{prop:exact}) & 0 & 0 & 1 & 2 & 0 & 3 & 3 \\
+\quad exact core, bar-rigid (Sec.~\ref{sec:open}) & 0 & 1 & 1 & 0 & 0 & 2 & 2 \\
+\quad exact, above the size limit (Sec.~\ref{sec:above}) & 0 & 9 & 29 & 40 & 8 & 86 & 85 \\
+local min., strictness open (Thm.~\ref{thm:hyper}) & 173 & 210 & 140 & 83 & 24 & 630 & 562 \\
+local min., not strict (Prop.~\ref{prop:split}) & 0 & 2 & 0 & 0 & 0 & 2 & 2 \\
+not a local min., flat core (Prop.~\ref{prop:flat}) & 0 & 0 & 3 & 24 & 24 & 51 & 51 \\
+equal-contact config.\ not a local min.\ (Prop.~\ref{prop:nonopt}) & 2 & 0 & 0 & 0 & 0 & 2 & 2 \\
+\midrule
+no local min.\ within $\delta$, resolved (Thm.~\ref{thm:flex}) & 2{,}076 & 2{,}936 & 2{,}788 & 1{,}195 & 2{,}594 & 11{,}589 & 1{,}006 \\
+\multicolumn{8}{l}{no verdict:} \\
+\quad negative certificate unresolved & 49 & 96 & 185 & 192 & 371 & 893 & 85 \\
+\quad attempts failed or did not apply & 3 & 21 & 17 & 28 & 13 & 82 & 49 \\
+\quad above the size limit & 1 & 8 & 365 & 206 & 1{,}199 & 1{,}779 & 53 \\
+\bottomrule
+\end{tabular}

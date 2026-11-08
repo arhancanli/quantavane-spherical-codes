@@ -1,0 +1,40 @@
+13 entries
+core done 13 313 ok 2.1
+rank done 13 313 3978 4056 10.1
+13 313 undecided: no balanced stress constant on the classes (the exact square solve is not tried above 800 columns) 160.4
+core done 13 339 ok 2.0
+rank done 13 339 3978 4056 9.7
+13 339 undecided: no balanced stress constant on the classes (the exact square solve is not tried above 800 columns) 289.0
+core done 6 1002 ok 6.9
+rank done 6 1002 4227 4242 12.0
+6 1002 STRICT (bar-rigid core with a strictly positive stress; Theorem 2.4) 18.9
+core done 13 383 ok 2.5
+rank done 13 383 4641 4797 53.6
+13 383 undecided: no balanced stress constant on the classes (the exact square solve is not tried above 800 columns) 56.2
+core done 19 464 ok 4.3
+rank done 19 464 5130 5301 21.7
+19 464 stopped: time above 900 s 900.8
+core done 15 425 ok 3.4
+rank done 15 425 5655 5760 24.3
+15 425 stopped: time above 900 s 900.6
+core done 14 496 ok 4.1
+rank done 14 496 6349 6440 33.2
+14 496 STRICT (bar-rigid core with a strictly positive stress; Theorem 2.4) 179.6
+core done 29 235 ok 3.9
+rank done 29 235 6380 6786 40.7
+29 235 undecided: no balanced stress constant on the classes (the exact square solve is not tried above 800 columns) 763.2
+core done 14 600 ok 6.9
+rank done 14 600 8309 8400 73.4
+14 600 stopped: time above 900 s 900.8
+core done 9 1024 ok 12.4
+rank done 9 1024 9180 9216 91.2
+9 1024 stopped: time above 900 s 900.3
+core done 10 1024 ok 19.0
+rank done 10 1024 10195 10240 173.4
+10 1024 stopped: time above 900 s 900.2
+core done 16 715 ok 16.5
+rank done 16 715 10120 10240 227.7
+16 715 stopped: memory above 1500 MB 465.0
+core done 32 528 ok 16.4
+rank done 32 528 14864 15360 591.6
+32 528 stopped: time above 900 s 900.4

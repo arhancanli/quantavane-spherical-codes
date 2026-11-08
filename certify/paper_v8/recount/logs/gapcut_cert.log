@@ -1,0 +1,54 @@
+7 177 FAIL existence (Krawczyk) None 0.08
+7 633 FAIL existence (Krawczyk) None 0.01
+9 210 FAIL existence (Krawczyk) None 0.3
+10 129 FAIL existence (Krawczyk) None 0.35
+16 130 FAIL existence (Krawczyk) None 0.31
+18 73 FAIL existence (Krawczyk) None 0.42
+18 82 FAIL existence (Krawczyk) None 0.51
+21 57 FAIL existence (Krawczyk) None 0.1
+21 61 FAIL existence (Krawczyk) None 0.17
+22 72 FAIL existence (Krawczyk) None 0.33
+6 133 FAIL existence (Krawczyk) None 0.08
+7 46 FAIL existence (Krawczyk) None 0.02
+7 47 FAIL existence (Krawczyk) None 0.01
+7 160 FAIL existence (Krawczyk) None 0.16
+7 170 FAIL existence (Krawczyk) None 0.25
+9 117 FAIL existence (Krawczyk) None 0.2
+15 153 FAIL existence (Krawczyk) None 0.36
+22 50 hyperstatic: no positive stress found None 65.73
+22 57 FAIL existence (Krawczyk) None 0.25
+22 117 FAIL existence (Krawczyk) None 0.58
+3 340 FAIL existence (Krawczyk) None 0.15
+3 389 FAIL existence (Krawczyk) None 0.12
+4 281 hyperstatic: no positive stress found None 0.21
+8 139 FAIL existence (Krawczyk) None 0.15
+10 102 FAIL existence (Krawczyk) None 0.16
+14 81 FAIL existence (Krawczyk) None 0.12
+15 76 FAIL existence (Krawczyk) None 0.11
+17 69 FAIL existence (Krawczyk) None 0.21
+17 106 FAIL existence (Krawczyk) None 0.31
+20 69 FAIL existence (Krawczyk) None 0.45
+3 326 FAIL existence (Krawczyk) None 0.13
+3 327 FAIL existence (Krawczyk) None 0.14
+3 379 FAIL existence (Krawczyk) None 0.18
+3 384 FAIL existence (Krawczyk) None 0.21
+3 428 FAIL existence (Krawczyk) None 0.26
+3 478 FAIL existence (Krawczyk) None 0.38
+4 325 FAIL existence (Krawczyk) None 0.29
+4 340 FAIL existence (Krawczyk) None 0.34
+6 202 FAIL existence (Krawczyk) None 0.28
+14 93 FAIL existence (Krawczyk) None 0.25
+7 89 FAIL stress,kappa None 0.1
+7 99 FAIL existence (Krawczyk) None 0.07
+8 72 FAIL existence (Krawczyk) None 0.05
+8 84 FAIL existence (Krawczyk) None 0.06
+9 131 FAIL existence (Krawczyk) None 0.18
+22 49 FAIL existence (Krawczyk) None 0.22
+22 61 FAIL existence (Krawczyk) None 0.5
+22 66 FAIL existence (Krawczyk) None 0.58
+23 50 FAIL existence (Krawczyk) None 0.28
+24 56 FAIL existence (Krawczyk) None 0.29
+7 95 FAIL existence (Krawczyk) None 0.05
+6 132 FAIL existence (Krawczyk) None 0.06
+8 87 FAIL kappa None 0.11
+17 77 FAIL existence (Krawczyk) None 0.48

@@ -1,0 +1,18 @@
+6 entries
+core done 29 451 ok 7.3
+rank done 29 451 11194 11600 168.6
+29 451 STRICT (bar-rigid core with a strictly positive stress; Theorem 2.4) 563.1
+core done 13 1024 ok 16.2
+rank done 13 1024 13207 13312 563.9
+13 1024 undecided: no balanced stress constant on the classes (the exact square solve is not tried above 800 columns) 571.5
+core done 15 1024 ok 21.4
+rank done 15 1024 13230 13335 415.9
+15 1024 stopped: memory above 1500 MB 461.1
+core done 24 581 ok 19.4
+rank done 24 581 13500 13776 536.7
+24 581 stopped: memory above 1500 MB 580.8
+core done 18 1024 ok 31.4
+rank done 18 1024 14499 14652 638.6
+18 1024 stopped: memory above 1500 MB 884.2
+core done 19 1024 ok 22.4
+19 1024 stopped: time above 900 s 901.0

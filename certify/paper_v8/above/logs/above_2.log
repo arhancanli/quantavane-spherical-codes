@@ -1,0 +1,54 @@
+core done 28 568 a rattler is not shown below c 8.0
+28 568 core: a rattler is not shown below c 9.2
+core done 16 1024 ok 18.0
+rank done 16 1024 16264 16384 439.0
+16 1024 STRICT (bar-rigid core with a strictly positive stress; Theorem 2.4) 449.7
+core done 29 576 ok 10.9
+rank done 29 576 16298 16704 437.2
+29 576 STRICT (bar-rigid core with a strictly positive stress; Theorem 2.4) 448.7
+core done 20 840 ok 12.2
+rank done 20 840 12830 13020 243.2
+20 840 STRICT (bar-rigid core with a strictly positive stress; Theorem 2.4) 253.9
+core done 32 528 ok 9.4
+rank done 32 528 14864 15360 382.8
+32 528 undecided: no balanced stress constant on the classes (the exact square solve is not tried above 800 columns) 389.6
+core done 19 896 ok 15.7
+rank done 19 896 16853 17024 481.5
+19 896 STRICT (bar-rigid core with a strictly positive stress; Theorem 2.4) 492.3
+core done 17 1024 ok 17.7
+rank done 17 1024 17272 17408 514.7
+17 1024 STRICT (bar-rigid core with a strictly positive stress; Theorem 2.4) 527.1
+core done 21 850 ok 13.0
+rank done 21 850 15540 15750 389.5
+21 850 STRICT (bar-rigid core with a strictly positive stress; Theorem 2.4) 394.8
+core done 18 1024 ok 15.4
+rank done 18 1024 14499 14652 311.9
+18 1024 undecided: no balanced stress constant on the classes (the exact square solve is not tried above 800 columns) 318.0
+core done 19 1024 ok 19.2
+rank done 19 1024 19285 19456 718.5
+19 1024 undecided: no balanced stress constant on the classes (the exact square solve is not tried above 800 columns) 732.3
+core done 22 891 ok 17.5
+rank done 22 891 19371 19602 770.0
+22 891 STRICT (bar-rigid core with a strictly positive stress; Theorem 2.4) 779.9
+core done 30 656 ok 14.8
+rank done 30 656 19229 19680 1748.6
+30 656 undecided: not shown bar-rigid (rank mod p below the bound) 1767.7
+core done 20 1002 ok 26.7
+rank done 20 1002 16010 16200 780.6
+20 1002 STRICT (bar-rigid core with a strictly positive stress; Theorem 2.4) 805.2
+core done 21 974 ok 31.1
+rank done 21 974 16800 17010 958.5
+21 974 STRICT (bar-rigid core with a strictly positive stress; Theorem 2.4) 984.9
+core done 23 894 ok 32.8
+23 894 NOT LOCAL, FLAT CORE (the exact core spans a proper subspace; Proposition 2.7) 34.0
+core done 31 688 ok 20.8
+31 688 undecided: rank test above 20000 columns 21.6
+core done 21 1024 ok 20.9
+rank done 21 1024 17871 18081 1045.3
+21 1024 STRICT (bar-rigid core with a strictly positive stress; Theorem 2.4) 1074.0
+core done 24 896 ok 29.6
+24 896 NOT LOCAL, FLAT CORE (the exact core spans a proper subspace; Proposition 2.7) 30.6
+core done 25 900 ok 28.5
+25 900 NOT LOCAL, FLAT CORE (the exact core spans a proper subspace; Proposition 2.7) 29.5
+core done 22 1024 ok 38.7
+22 1024 undecided: rank test above 20000 columns 39.6

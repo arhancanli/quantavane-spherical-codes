@@ -1,0 +1,1 @@
+{"d": 18, "n": 1024, "disc": 1, "program_sha256": "6f68d9f63db33b5a6a87913eadfae7901a287f2610731c612ea676df158109a8", "max_classes": 2000, "status": "stopped: memory above 1500 MB", "peak_rss_mb_sampled": 2097, "wall": 884.2}

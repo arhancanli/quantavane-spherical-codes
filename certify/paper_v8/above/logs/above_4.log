@@ -1,0 +1,8 @@
+core done 32 704 ok 27.7
+32 704 undecided: rank test above 20000 columns 28.8
+core done 26 903 a rattler is not shown below c 30.2
+26 903 core: a rattler is not shown below c 32.9
+core done 23 1024 ok 38.3
+23 1024 NOT LOCAL, FLAT CORE (the exact core spans a proper subspace; Proposition 2.7) 39.2
+core done 27 907 ok 29.4
+27 907 NOT LOCAL, FLAT CORE (the exact core spans a proper subspace; Proposition 2.7) 30.2

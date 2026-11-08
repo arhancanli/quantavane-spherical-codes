@@ -1,0 +1,74 @@
+73 entries
+10 114 LOCALMIN [(1e-12, 'FAIL gaps', None)] 1.2
+10 69 LOCALMIN [(1e-10, 'FAIL existence (Krawczyk)', None), (1e-12, 'FAIL existence (Krawczyk)', None), (1e-13, 'FAIL existence (Krawczyk)', None), (1e-09, 'FAIL existence (Krawczyk)', None), (1e-08, 'hyperstatic: no positive stress found', None)] 0.7
+10 75 LOCALMIN [(1e-13, 'hyperstatic: no positive stress found', None)] 0.2
+11 80 LOCALMIN [(1e-07, 'FAIL stress,kappa', None)] 0.7
+12 91 LOCALMIN [(1e-10, 'FAIL gaps', None), (1e-09, 'FAIL stress,kappa', None), (1e-07, 'FAIL stress,kappa', None)] 0.7
+13 34 LOCALMIN [(1e-07, 'FAIL gaps', None)] 0.0
+14 151 LOCALMIN [(1e-10, 'FAIL existence (Krawczyk)', None), (1e-09, 'FAIL existence (Krawczyk)', None)] 1.7
+14 153 LOCALMIN [(1e-10, 'hyperstatic: no positive stress found', None), (1e-11, 'hyperstatic: no positive stress found', None)] 5.9
+14 50 PASS [(1e-07, 'FAIL existence (Krawczyk)', None)] 0.1
+14 75 LOCALMIN [(1e-13, 'FAIL existence (Krawczyk)', None)] 0.1
+14 91 LOCALMIN [(1e-11, 'hyperstatic: no positive stress found', None)] 1.1
+15 129 LOCALMIN [(1e-13, 'FAIL gaps', None)] 30.2
+15 136 LOCALMIN [(1e-13, 'hyperstatic: no positive stress found', None)] 7.0
+15 143 LOCALMIN [(1e-12, 'FAIL stress,gaps,kappa', None)] 5.5
+15 151 LOCALMIN [(1e-10, 'FAIL existence (Krawczyk)', None), (1e-11, 'FAIL existence (Krawczyk)', None), (1e-09, 'FAIL existence (Krawczyk)', None), (1e-08, 'FAIL stress,gaps,kappa', None)] 55.2
+15 156 LOCALMIN [(1e-12, 'FAIL stress,gaps,kappa', None), (1e-09, 'hyperstatic: no positive stress found', None)] 34.3
+15 63 PASS [(1e-10, 'FAIL gaps', None), (1e-11, 'FAIL gaps', None), (1e-09, 'FAIL stress,kappa', None), (1e-08, 'FAIL stress,kappa', None), (1e-07, 'FAIL stress,kappa', None)] 1.0
+15 95 LOCALMIN [(1e-10, 'FAIL existence (Krawczyk)', None), (1e-11, 'FAIL existence (Krawczyk)', None)] 0.4
+16 103 LOCALMIN [(1e-13, 'FAIL gaps', None)] 1.2
+16 83 LOCALMIN [(1e-10, 'FAIL gaps', None), (1e-11, 'FAIL existence (Krawczyk)', None)] 3.9
+17 115 LOCALMIN [(1e-13, 'hyperstatic: no positive stress found', None)] 5.0
+17 87 LOCALMIN [(1e-10, 'hyperstatic: no positive stress found', None), (1e-09, 'FAIL stress,gaps,kappa', None), (1e-08, 'hyperstatic: no positive stress found', None)] 74.8
+18 108 LOCALMIN [(1e-11, 'FAIL existence (Krawczyk)', None), (1e-12, 'FAIL existence (Krawczyk)', None)] 2.1
+18 133 LOCALMIN [(1e-10, 'FAIL existence (Krawczyk)', None), (1e-11, 'FAIL existence (Krawczyk)', None)] 2.1
+18 159 LOCALMIN [(1e-12, 'FAIL gaps', None), (1e-13, 'hyperstatic: no positive stress found', None)] 16.5
+18 71 LOCALMIN [(1e-13, 'FAIL gaps', None)] 0.5
+18 75 LOCALMIN [(1e-11, 'FAIL existence (Krawczyk)', None), (1e-12, 'FAIL existence (Krawczyk)', None)] 0.5
+18 80 LOCALMIN [(1e-11, 'FAIL existence (Krawczyk)', None), (1e-13, 'FAIL existence (Krawczyk)', None)] 1.1
+18 87 LOCALMIN [(1e-11, 'hyperstatic: no positive stress found', None)] 0.6
+19 133 LOCALMIN [(1e-13, 'hyperstatic: no positive stress found', None)] 3.4
+19 150 LOCALMIN [(1e-11, 'hyperstatic: no positive stress found', None), (1e-12, 'FAIL existence (Krawczyk)', None)] 40.8
+19 52 LOCALMIN [(1e-13, 'FAIL existence (Krawczyk)', None)] 0.2
+19 69 LOCALMIN [(1e-11, 'FAIL existence (Krawczyk)', None)] 0.3
+19 75 LOCALMIN [(1e-10, 'FAIL existence (Krawczyk)', None), (1e-11, 'FAIL existence (Krawczyk)', None), (1e-12, 'FAIL existence (Krawczyk)', None)] 1.4
+20 125 LOCALMIN [(1e-13, 'hyperstatic: no positive stress found', None)] 2.1
+20 140 LOCALMIN [(1e-11, 'FAIL existence (Krawczyk)', None)] 1.6
+20 50 PASS [(1e-07, 'FAIL kappa', None)] 0.2
+20 93 LOCALMIN [(1e-11, 'FAIL gaps', None), (1e-12, 'hyperstatic: no positive stress found', None), (1e-13, 'FAIL existence (Krawczyk)', None)] 8.2
+21 78 LOCALMIN [(1e-13, 'FAIL stress,gaps,kappa', None)] 6.7
+21 84 LOCALMIN [(1e-11, 'FAIL existence (Krawczyk)', None)] 1.0
+21 92 LOCALMIN [(1e-11, 'FAIL gaps', None), (1e-12, 'FAIL existence (Krawczyk)', None)] 12.2
+23 104 LOCALMIN [(1e-12, 'FAIL existence (Krawczyk)', None)] 2.2
+24 52 LOCALMIN [(1e-13, 'FAIL gaps', None)] 0.5
+24 74 LOCALMIN [(1e-10, 'FAIL existence (Krawczyk)', None), (1e-11, 'FAIL existence (Krawczyk)', None), (1e-12, 'FAIL existence (Krawczyk)', None)] 2.3
+28 61 LOCALMIN [(1e-13, 'FAIL gaps', None)] 0.8
+29 66 LOCALMIN [(1e-10, 'FAIL existence (Krawczyk)', None), (1e-09, 'FAIL existence (Krawczyk)', None), (1e-08, 'FAIL gaps', None)] 4.2
+3 1003 PASS [(1e-07, 'FAIL kappa', None)] 2.7
+3 269 PASS [(1e-07, 'FAIL gaps', None)] 0.6
+3 302 LOCALMIN [(1e-10, 'FAIL existence (Krawczyk)', None)] 0.1
+3 431 PASS [(1e-08, 'FAIL gaps', None)] 1.5
+3 470 PASS [(1e-08, 'FAIL gaps', None)] 1.8
+3 531 PASS [(1e-07, 'FAIL kappa', None)] 0.5
+3 556 PASS [(1e-07, 'FAIL kappa', None)] 0.6
+3 581 PASS [(1e-07, 'FAIL stress,kappa', None)] 0.6
+3 586 PASS [(1e-07, 'FAIL stress,kappa', None)] 0.6
+3 619 LOCALMIN [(1e-13, 'FAIL gaps', None)] 0.7
+3 642 PASS [(1e-07, 'FAIL kappa', None)] 0.8
+3 730 PASS [(1e-07, 'FAIL kappa', None)] 1.2
+3 742 PASS [(1e-07, 'FAIL stress,kappa', None)] 1.2
+3 790 PASS [(1e-07, 'FAIL stress,kappa', None)] 1.4
+3 817 PASS [(1e-07, 'FAIL kappa', None)] 1.5
+3 914 PASS [(1e-07, 'FAIL stress,gaps,kappa', None)] 2.1
+3 957 LOCALMIN [(1e-09, 'FAIL existence (Krawczyk)', None)] 1.3
+3 990 PASS [(1e-07, 'FAIL kappa', None)] 2.6
+6 115 LOCALMIN [(1e-07, 'FAIL stress,kappa', None)] 0.1
+6 129 LOCALMIN [(1e-13, 'FAIL gaps', None)] 0.1
+6 90 LOCALMIN [(1e-09, 'hyperstatic: no positive stress found', None)] 0.1
+7 143 LOCALMIN [(1e-10, 'FAIL existence (Krawczyk)', None), (1e-11, 'FAIL existence (Krawczyk)', None), (1e-12, 'FAIL existence (Krawczyk)', None), (1e-09, 'FAIL gaps', None)] 0.7
+7 165 LOCALMIN [(1e-10, 'FAIL stress,gaps,kappa', None), (1e-11, 'FAIL stress,gaps,kappa', None), (1e-12, 'hyperstatic: no positive stress found', None)] 7.5
+7 169 LOCALMIN [(1e-12, 'hyperstatic: no positive stress found', None), (1e-13, 'hyperstatic: no positive stress found', None)] 5.0
+7 42 PASS [(1e-10, 'FAIL gaps', None), (1e-11, 'FAIL gaps', None)] 0.1
+7 70 PASS [(1e-07, 'FAIL gaps', None)] 0.1
+8 88 PASS [(1e-09, 'FAIL gaps', None)] 0.1

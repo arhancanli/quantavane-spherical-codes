@@ -1,0 +1,54 @@
+{"d": 7, "n": 177, "tol": 1.3690279876410472e-07, "stratum": "FLEX, spread 0-1e-07", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.08}
+{"d": 7, "n": 633, "tol": 7.977659088886924e-10, "stratum": "FLEX, spread 0-1e-07", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.01}
+{"d": 9, "n": 210, "tol": 1.6151970871902677e-09, "stratum": "FLEX, spread 0-1e-07", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.3}
+{"d": 10, "n": 129, "tol": 4.007821404194978e-07, "stratum": "FLEX, spread 0-1e-07", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.35}
+{"d": 16, "n": 130, "tol": 1.0116763302092657e-08, "stratum": "FLEX, spread 0-1e-07", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.31}
+{"d": 18, "n": 73, "tol": 0.0017719889354562562, "stratum": "FLEX, spread 0-1e-07", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.42}
+{"d": 18, "n": 82, "tol": 6.011741095837686e-06, "stratum": "FLEX, spread 0-1e-07", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.51}
+{"d": 21, "n": 57, "tol": 1.8544173141510356e-09, "stratum": "FLEX, spread 0-1e-07", "first_pass": "FAIL existence (Krawczyk)", "kind": "isostatic", "cpu_seconds": 0.1}
+{"d": 21, "n": 61, "tol": 2.2589220979862823e-09, "stratum": "FLEX, spread 0-1e-07", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.17}
+{"d": 22, "n": 72, "tol": 3.187115917707706e-08, "stratum": "FLEX, spread 0-1e-07", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.33}
+{"d": 6, "n": 133, "tol": 7.47350403018654e-06, "stratum": "FLEX, spread 1e-07-1e-06", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.08}
+{"d": 7, "n": 46, "tol": 3.978289940531621e-07, "stratum": "FLEX, spread 1e-07-1e-06", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.02}
+{"d": 7, "n": 47, "tol": 2.5569302969374874e-07, "stratum": "FLEX, spread 1e-07-1e-06", "first_pass": "FAIL existence (Krawczyk)", "kind": "isostatic", "cpu_seconds": 0.01}
+{"d": 7, "n": 160, "tol": 3.164306798808525e-07, "stratum": "FLEX, spread 1e-07-1e-06", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.16}
+{"d": 7, "n": 170, "tol": 2.2107921562875e-06, "stratum": "FLEX, spread 1e-07-1e-06", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.25}
+{"d": 9, "n": 117, "tol": 1.561712999559317e-06, "stratum": "FLEX, spread 1e-07-1e-06", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.2}
+{"d": 15, "n": 153, "tol": 3.271239759350397e-07, "stratum": "FLEX, spread 1e-07-1e-06", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.36}
+{"d": 22, "n": 50, "tol": 1.4191362941447933e-05, "stratum": "FLEX, spread 1e-07-1e-06", "first_pass": "hyperstatic: no positive stress found", "kind": "hyperstatic", "cpu_seconds": 65.73}
+{"d": 22, "n": 57, "tol": 4.7401830606946804e-06, "stratum": "FLEX, spread 1e-07-1e-06", "first_pass": "FAIL existence (Krawczyk)", "kind": "isostatic", "cpu_seconds": 0.25}
+{"d": 22, "n": 117, "tol": 4.0411313368543533e-07, "stratum": "FLEX, spread 1e-07-1e-06", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.58}
+{"d": 3, "n": 340, "tol": 9.39504001429281e-06, "stratum": "FLEX, spread 1e-06-1e-05", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.15}
+{"d": 3, "n": 389, "tol": 4.059930241551157e-06, "stratum": "FLEX, spread 1e-06-1e-05", "first_pass": "FAIL existence (Krawczyk)", "kind": "isostatic", "cpu_seconds": 0.12}
+{"d": 4, "n": 281, "tol": 4.265707077011349e-06, "stratum": "FLEX, spread 1e-06-1e-05", "first_pass": "hyperstatic: no positive stress found", "kind": "hyperstatic", "cpu_seconds": 0.21}
+{"d": 8, "n": 139, "tol": 1.8190006863538777e-06, "stratum": "FLEX, spread 1e-06-1e-05", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.15}
+{"d": 10, "n": 102, "tol": 1.0056440870098715e-05, "stratum": "FLEX, spread 1e-06-1e-05", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.16}
+{"d": 14, "n": 81, "tol": 5.912415961471795e-05, "stratum": "FLEX, spread 1e-06-1e-05", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.12}
+{"d": 15, "n": 76, "tol": 6.507697265498158e-06, "stratum": "FLEX, spread 1e-06-1e-05", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.11}
+{"d": 17, "n": 69, "tol": 8.04598264715628e-06, "stratum": "FLEX, spread 1e-06-1e-05", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.21}
+{"d": 17, "n": 106, "tol": 2.9519968461899637e-06, "stratum": "FLEX, spread 1e-06-1e-05", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.31}
+{"d": 20, "n": 69, "tol": 0.0012679027884816285, "stratum": "FLEX, spread 1e-06-1e-05", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.45}
+{"d": 3, "n": 326, "tol": 4.746725974352772e-05, "stratum": "FLEX, spread 1e-05-0.0001", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.13}
+{"d": 3, "n": 327, "tol": 4.8173385431060645e-05, "stratum": "FLEX, spread 1e-05-0.0001", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.14}
+{"d": 3, "n": 379, "tol": 5.967604748030597e-05, "stratum": "FLEX, spread 1e-05-0.0001", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.18}
+{"d": 3, "n": 384, "tol": 2.188055102037012e-05, "stratum": "FLEX, spread 1e-05-0.0001", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.21}
+{"d": 3, "n": 428, "tol": 5.843980340791699e-05, "stratum": "FLEX, spread 1e-05-0.0001", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.26}
+{"d": 3, "n": 478, "tol": 7.9586004719856e-05, "stratum": "FLEX, spread 1e-05-0.0001", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.38}
+{"d": 4, "n": 325, "tol": 4.817984223776106e-05, "stratum": "FLEX, spread 1e-05-0.0001", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.29}
+{"d": 4, "n": 340, "tol": 9.814955467879471e-05, "stratum": "FLEX, spread 1e-05-0.0001", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.34}
+{"d": 6, "n": 202, "tol": 5.0176829239800824e-05, "stratum": "FLEX, spread 1e-05-0.0001", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.28}
+{"d": 14, "n": 93, "tol": 9.021432529780771e-05, "stratum": "FLEX, spread 1e-05-0.0001", "first_pass": "FAIL existence (Krawczyk)", "kind": "isostatic", "cpu_seconds": 0.25}
+{"d": 7, "n": 89, "tol": 3.7269368147185844e-10, "stratum": "failed, spread 0-1e-07", "first_pass": "FAIL stress,kappa", "kind": "hyperstatic", "cpu_seconds": 0.1}
+{"d": 7, "n": 99, "tol": 9.257864003187066e-09, "stratum": "failed, spread 0-1e-07", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.07}
+{"d": 8, "n": 72, "tol": 0.03571428571428584, "stratum": "failed, spread 0-1e-07", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.05}
+{"d": 8, "n": 84, "tol": 2.0455207747072102e-07, "stratum": "failed, spread 0-1e-07", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.06}
+{"d": 9, "n": 131, "tol": 9.381417864773312e-11, "stratum": "failed, spread 0-1e-07", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.18}
+{"d": 22, "n": 49, "tol": 5.799323112010146e-09, "stratum": "failed, spread 0-1e-07", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.22}
+{"d": 22, "n": 61, "tol": 0.015566651746661015, "stratum": "failed, spread 0-1e-07", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.5}
+{"d": 22, "n": 66, "tol": 0.010081147871733125, "stratum": "failed, spread 0-1e-07", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.58}
+{"d": 23, "n": 50, "tol": 0.059837416345103527, "stratum": "failed, spread 0-1e-07", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.28}
+{"d": 24, "n": 56, "tol": 1.9613298606890872e-06, "stratum": "failed, spread 0-1e-07", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.29}
+{"d": 7, "n": 95, "tol": 6.819754504727715e-07, "stratum": "failed, spread 1e-07-1e-06", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.05}
+{"d": 6, "n": 132, "tol": 1.1696676940120554e-05, "stratum": "failed, spread 1e-06-1e-05", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.06}
+{"d": 8, "n": 87, "tol": 3.228645837866084e-05, "stratum": "failed, spread 1e-06-1e-05", "first_pass": "FAIL kappa", "kind": "hyperstatic", "cpu_seconds": 0.11}
+{"d": 17, "n": 77, "tol": 0.00685141690645491, "stratum": "failed, spread 1e-05-0.0001", "first_pass": "FAIL existence (Krawczyk)", "kind": "hyperstatic", "cpu_seconds": 0.48}

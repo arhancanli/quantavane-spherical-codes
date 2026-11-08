@@ -1,111 +1,102 @@
 # Certified local optimality of spherical codes: the programs
 
-The programs and outputs of the paper *Certified local optimality of spherical codes* (A. Canli, census version 6,
-November 2026; the version submitted to Mathematics of Computation on 6 November 2026 is an earlier version). They apply
-to the archived version of Cohn's table of spherical codes (DSpace@MIT handle 1721.1/153543, data as of 31 July 2026),
-entries with 3 <= d <= 32 and N <= 1024. Section, theorem and table numbers below are those of the paper.
+The programs and outputs of the paper *Certified local optimality of spherical codes: a census of Cohn's table*
+(A. Canli, census version 8, November 2026; the version submitted to Mathematics of Computation on 6 November 2026 is an
+earlier version). They apply to the archived version of Cohn's table of spherical codes (DSpace@MIT handle
+1721.1/153543, data as of 31 July 2026), entries with 3 <= d <= 32 and N <= 1024. Section, theorem and table numbers
+below are those of version 8 of the paper.
 
 **Licence.** Everything in this directory (`certify/`) is released under the MIT licence (`certify/LICENSE`,
 Copyright (c) 2026 Arhan Canli (Quantavane)). The table's data remain Cohn's; the repository's other directories have
 their own licence (`LICENSE` at the top).
 
-**What is trusted.** Every function is marked TRUSTED (its result enters a decision, with exact integer or rational
-arithmetic, arithmetic in a number field, ball arithmetic with rigorous radii, or floating point with rigorous error
-bounds formed only from individual products) or UNTRUSTED (it only proposes candidates: contacts, rattlers, Newton steps,
-approximate inverses, subsets, coefficients of stresses, recognised numbers, automorphisms and models of
-representations, colourings, flex patterns). Whatever a program reports as proved is proved whichever candidates it was
-given. Table 1 of the paper lists the arithmetic of every step.
+**What is trusted.** Every function is marked TRUSTED (its result enters a decision) or UNTRUSTED (it only proposes
+candidates: contacts, rattlers, Newton steps, approximate inverses, subsets, coefficients and classes of stresses,
+recognised numbers, automorphisms and models of representations, colourings). Whatever a program reports as proved is
+proved whichever candidates it was given. In version 8 every verdict of the paper is decided in exact integer and
+rational arithmetic and Arb ball arithmetic; the double-precision kernel of the census (`sphcert.py`, `census/cq.py`)
+only proposes. Table 1 of the paper lists the arithmetic of every step.
+
+## Environment
+
+Python 3.9 with the versions in `requirements-lock.txt` (NumPy 2.0.2, SciPy 1.13.1, python-flint 0.6.0, mpmath 1.3.0;
+matplotlib 3.9.4 for the figures). The census programs of version 4 put `~/Library/Caches/quantavane-census/pylib` and
+`flintlib` first on `sys.path` (see `CODE_NOTES.md`); install the libraries there, or into the interpreter's
+site-packages. The programs of `paper_v8/` read the paths from `QV_PYLIB` and `QV_FLINTLIB`, the repository from
+`QV_CERTIFY` and the archived table from `QV_SNAP`. Use one BLAS thread (`VECLIB_MAXIMUM_THREADS=1`,
+`OPENBLAS_NUM_THREADS=1`).
+
+## Rerunning everything from a clean checkout
+
+    git clone https://github.com/arhancanli/quantavane-spherical-codes && cd quantavane-spherical-codes
+    pip install --target ~/Library/Caches/quantavane-census/pylib -r certify/requirements-lock.txt
+    zsh certify/census/fetch_snapshot.sh SNAPDIR          # table.txt, data-1..12.txt, every MD5 checked
+    python3 -I certify/census/snapshot.py SNAPDIR         # data.txt and census/index.tsv
+    export QV_CERTIFY=$PWD/certify QV_SNAP=SNAPDIR
+    zsh certify/paper_v8/run_v8.sh SNAPDIR numbers         # every number, table and figure (about a minute)
+
+`run_v8.sh SNAPDIR all` reruns every computation of version 8 from the released census outputs, in roughly fifteen
+hours on one core of our machine (shared with other work): the exact decisions of the positive certificates, about 2.7
+CPU hours; the strictness re-checks, about 1.5; the exact negative certificates, about 2.3; the structured codes above
+the size limit, about 8 hours of wall-clock time (`run_above.py` and the second pass `above_more.py`, whose entries stop
+at 15 minutes or 1.5 GB); the other tolerances and close calls, under half an hour; the rigidity-constant sample, the
+gap-based scans and the worked examples, about an hour. Each
+step can be run alone (`exact`, `strict`, `flex8`, `above`, `tolscan`, `zeta`, `gapscan`, `gapcert`, `example`, `live`,
+`numbers`). The census itself (version 4, about five CPU hours) and the version 5 analyses are rerun with
+`certify/census/run_all.sh` and `certify/v5/run_v5.sh`; their outputs are released, so this is optional. The fetch of
+current codes from the live table (`run_v8.sh SNAPDIR livefetch`, about 800 requests, one every 1.5 s) is not part of
+`all`; its outputs and the SHA-256 of the fetched files are released, the files themselves are not.
 
 ## What each program proves
 
-The census (`census/`, outputs of version 4, used unchanged by the paper):
+The census (`census/`, outputs of version 4, used unchanged): `cq.py` + `sphcert.py` (the first pass: `PASS`,
+`LOCALMIN`, `NONOPT`, `FLEX` in double precision with rigorous bounds; every success is decided again exactly in
+`paper_v8/`), `strict.py` (strictness by recognition, Section 3.6, Theorem 3.14), `exact_strict.py` (Proposition 3.19),
+`exact_big.py` (a second program in exact integers), `run_census.py` (the rule of Section 6.1), `classify.py` (the
+proposals at every tolerance). The analyses of the entries with an exact cosine (`v5/`, Section 6.7): `core.py`,
+`subspace.py`, `rigidity.py` and their helpers.
 
-- `cq.py` + `sphcert.py`: `PASS` (isostatic graph, Theorem 3.4: an exact configuration with exactly the proposed
-  contacts exists within the printed distance; a strict local minimum, with the explicit constants of Theorem 3.8),
-  `LOCALMIN` (hyperstatic graph, Theorem 3.10: a local minimum within the printed distance of the zero P' of the square
-  subsystem, plus the tube `localmin_displacement`), `NONOPT` (Proposition 3.5: the exact equal-contact configuration
-  of the proposed graph is not a local minimum), `FLEX` (Theorem 4.1, the negative certificate: no configuration within
-  the printed l1 radius h carries a nonzero stress on the pairs within tau; with the tolerance this proves that no local
-  minimum lies within delta = min(h/sqrt d, tau'/4) of the stored code; `paper_v6/recount/flexgram.py` computes tau').
-- `strict.py`: `STRICT` on a LOCALMIN entry (Section 3.6: the Gram matrix recognised in Q(c*), verified exactly, then
-  Theorem 3.13).
-- `exact_strict.py`: Theorem 2.4 with no floating point in any decision (Proposition 3.18), for exact coordinates or a
-  rational Gram matrix. `exact_big.py`: a second program (exact integers and rationals) that re-checks a sample.
-- `run_census.py`: the rule of Section 5.1. It has two SHA-256 values in the outputs: 4a7435... for the first 15,992
-  entries and de9662... for the last 273, which added the memory watchdog (`--mem-limit-mb`); the certifiers are the same.
+Version 8 (`paper_v8/`, self-contained; it imports only `census/`, `v5/` and its own files):
 
-The analyses of the entries with an exact cosine (`v5/`, Section 5.6): `core.py` (the exact core), `subspace.py` (flat
-cores, Proposition 2.7), `rigidity.py` (split contact graphs, Proposition 2.8; bar-rigid cores, Theorem 2.4),
-`distances.py` (certified distances of the exact-only confirmations), `maxcos_exact.py`, `families.py` (untrusted),
-`summarize_v5.py`, and the helpers `kfield.py`, `tower.py`, `dist.py`, `exact2.py`. (`recognise116.py` and `jam116.py`
-belong to the separate note on (22,116); the paper does not use them.)
+- `verify/exactcheck.py`: the decision of record of every PASS, LOCALMIN and NONOPT certificate (Lemma 3.4, Theorem 3.5,
+  Theorem 3.11), exact. `verify/exactcheck2.py`: the same with the second stress enclosure (Lemma 3.4(b)), used where
+  the first left a sign undecided (three certificates).
+- `verify/strict7.py`, `verify/symstrict7.py`, `verify/strict7b.py` (with `exactpatch.py`, `exactpatch2.py`): the
+  strictness certificates of `census/strict.py` and `phase2/symstrict.py` with (S') and the span decided exactly.
+- `phase2/symstrict.py`: strictness by symmetry (Section 3.7, Theorem 3.16); `phase2/sym_survey.py`: the untrusted survey.
+- `recount/flexexact8.py`: the negative certificate (Theorem 4.1) decided exactly, with sparse exact products;
+  `recount/flexrefine8.py`: the same with a third right inverse (from a singular value decomposition) where the census's
+  two fail the exact test.
+- `above/run_above.py`: the structured codes above the size limit (Section 6.8; Proposition 3.19 with the rank over
+  F_p of S M, S = M^T or random, and an exact stress); `above/above_more.py`: a second pass with a larger cap on the
+  classes of contacts where no stress was found. `above/gan510.py`: the exact inner products of (10,510).
+- `recount/tolscan.py`: the positive certificates at the other tolerances and at the close calls (Section 6.3).
+- `recount/zetasample.py`: the comparison of rigidity constants (Section 6.4; untrusted).
+- `recount/gapcut.py`, `recount/gapsample.py`: gap-based proposals (Section 6.9).
+- `recount/flexgram7.py`: the double-precision separation of the negative certificate (version 7, kept for comparison).
+- `recount/diag_fail.py`, `recount/arbcheck.py`, `checks/check_*.py`: the diagnosis of the failures, an Arb re-check of a
+  sample, two exact identity checks (version 6, unchanged).
+- `live/select_live.py`, `live/fetch_live.py`, `live/run_live.py`: the currency check (Section 6.10).
+- `example/example.py`: the worked example (Section 5).
+- `make_numbers_v8.py` (+ `numbers_v8_extra.py`): every number, table and figure, `v8_verdicts.tsv` (the verdict of every
+  entry) and `VERIFY_numbers_v8.md` (every number with its source). It checks that every input exists before writing
+  anything.
 
-Version 6 (`paper_v6/`):
-
-- `phase2/symstrict.py`: `STRICT` on a LOCALMIN entry by symmetry (Section 3.7, Theorem 3.15): an exact model of the
-  code's symmetry over Q(sqrt D), checked exactly, a Krawczyk test on the symmetry-reduced system in Arb ball
-  arithmetic, then (S'), the span and the rattler gaps by the kernel of `cq.py` and `strict.py`. `--red model|perm|swap`
-  runs the red controls of Section 5.4. `phase2/sym_survey.py`: the untrusted survey of the symmetries.
-- `recount/flexgram.py`: the separation tau' of the negative certificate (Theorem 4.1), recomputed with no dense BLAS
-  product in any bound; `make_numbers_v6.py` takes delta = min(h/sqrt d, tau'/4) from its output.
-- `recount/arbcheck.py`: an independent re-check of a sample of existence proofs in Arb ball arithmetic (Section 5.5).
-- `recount/diag_fail.py`: the untrusted diagnosis of the existence failures (Section 5.7).
-- `checks/check_same_gram.py`, `checks/check_split_halves.py`: two exact identity checks used in Sections 5.5 and 5.6.
-- `make_numbers_v6.py`: every number and table of the paper, from released files only, and `VERIFY_numbers.md`.
-
-Every output records the SHA-256 of the programs that produced it (`code_sha256`).
-
-## Rerunning every number of the paper
-
-You need Python 3.9 with NumPy 2.0.2, SciPy 1.13.1, python-flint 0.6.0 and mpmath 1.3.0, and the data set:
-
-    zsh certify/census/fetch_snapshot.sh SNAPDIR          # downloads table.txt, data-1..12.txt, checks every MD5
-    python3 -I certify/census/snapshot.py SNAPDIR         # data.txt and census/index.tsv
-
-The census (about 4 CPU hours, then 1 for the strictness stage; outputs are released, so this is optional):
-
-    zsh certify/census/run_all.sh SNAPDIR classify
-    zsh certify/census/run_all.sh SNAPDIR certify
-    zsh certify/census/run_all.sh SNAPDIR strict
-    zsh certify/census/run_all.sh SNAPDIR exact
-    zsh certify/census/run_all.sh SNAPDIR post
-    zsh certify/v5/run_v5.sh SNAPDIR OUTDIR
-
-Version 6 (about one CPU hour) and the numbers of the paper:
-
-    export QV_CERTIFY=$PWD/certify QV_SNAP=SNAPDIR
-    zsh certify/paper_v6/run_v6.sh SNAPDIR               # survey, diag, sym, controls, red, checks, numbers
-
-`make_numbers_v6.py` writes `v6_numbers.tex` and the tables `v6_tab_*.tex`, which the paper's source inputs; every
-number of the paper comes from these files. One certificate alone:
-
-    python3 -I certify/census/cq.py CODE.txt D N --tol 1e-10 [--flex] [--json OUT.json]
-    python3 -I certify/paper_v6/phase2/symstrict.py OUTDIR --only D_N
-
-The floating-point steps can differ in the last bits between machines, so a rerun can give slightly different
-enclosures; whatever is reported as proved is proved either way.
-
-## The trusted kernel
-
-The pseudocode of the floating-point kernel (steps K1-K5, S1-S3, P, G, Q, F) is Appendix A of the paper; it is part of
-the proofs. `up(s) = fl(fl(s(1 + 2^-29)) + 2^-996)` bounds from above any sum of at most 2^20 nonnegative products
-computed in any order (Lemma 3.19(a)).
+Every output records the SHA-256 of the programs that produced it.
 
 ## Files: git and Zenodo
 
-Everything the paper uses is in git: the programs, `census/index.tsv`, `census/snapshot_files.json`, the per-entry
-outputs `census/results_v4/` (16,265 files), `census/strict_v4/`, `census/exact_v4/`, `census/summary_v4.json`,
-`census/validate_v4.tsv`, `census/classify.jsonl`, `census/MANIFEST_v4.tsv`, `census/logs/*v4*`, all of `v5/`, and all of
-`paper_v6/`. The Zenodo deposit **[DOI]** holds a copy of the directory at the version of the paper. Superseded version
-3 outputs (see `.gitignore`) go nowhere.
+Everything the paper uses is in git: the census outputs in `census/`, all of `v5/`, and all of `paper_v8/`. A copy of
+the directory at the version of the paper will be deposited at Zenodo. `paper_v6/` and `paper_v7/` hold the earlier
+versions and are not needed by version 8.
 
 ## Earlier versions
 
 `run_batch.py`, `analysis.py`, `exact_check.py`, `lp_dual.py`, `make_lists.py`, `dedup.py`, `lists/` and `results/` at this
-level belong to version 2 of the paper (certificates of the codes we uploaded) and are kept for that record. Version 3
-outputs are superseded by version 4 and are not part of the release.
+level belong to version 2 of the paper and are kept for that record. Version 3 outputs are superseded by version 4.
 
 ## The note: a jammed spherical code that is not infinitesimally jammed (`note/`)
+
 
 The programs of the note *A jammed spherical code that is not infinitesimally jammed* (A. Canli). The theorem that the
 entry (22,116) is jammed but not infinitesimally jammed appeared in version 5 of the census paper (its Theorem 5.4,

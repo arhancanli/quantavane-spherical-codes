@@ -1,0 +1,12 @@
+core done 24 1024 ok 39.9
+24 1024 NOT LOCAL, FLAT CORE (the exact core spans a proper subspace; Proposition 2.7) 41.2
+core done 25 1024 ok 40.8
+25 1024 NOT LOCAL, FLAT CORE (the exact core spans a proper subspace; Proposition 2.7) 41.7
+core done 26 1024 ok 40.9
+26 1024 NOT LOCAL, FLAT CORE (the exact core spans a proper subspace; Proposition 2.7) 41.7
+core done 28 976 ok 50.4
+28 976 undecided: rank test above 20000 columns 51.2
+core done 31 1024 ok 47.1
+31 1024 undecided: rank test above 20000 columns 48.1
+core done 32 1024 ok 46.0
+32 1024 NOT LOCAL, FLAT CORE (the exact core spans a proper subspace; Proposition 2.7) 47.1
