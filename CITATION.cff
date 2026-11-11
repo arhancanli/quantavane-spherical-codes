@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use these results, please cite them as below, and credit the table that lists them."
+type: dataset
+title: "Spherical codes uploaded to Henry Cohn's table, with an independent checker"
+abstract: "Spherical codes in dimensions 3 to 32 whose largest cosine was below the value on Henry Cohn's table of spherical codes when uploaded, with an independent checker, observations and certificates of local optimality."
+authors:
+  - family-names: Canli
+    given-names: Arhan
+    affiliation: Quantavane
+    email: arhan@quantavane.com
+license: CC-BY-4.0
+url: "https://quantavane.com"
+repository-code: "https://github.com/arhancanli/quantavane-spherical-codes"
+keywords:
+  - spherical codes
+  - sphere packing
+  - exact verification

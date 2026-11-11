@@ -26,3 +26,20 @@ others the table's own polishing pass has since listed a slightly better code.
 Paper: A. Canli, Improved spherical codes in dimensions 3 to 32 (in preparation).
 
 By Arhan Canli (Quantavane). CC BY 4.0 (see LICENSE). Corrections are welcome as GitHub issues.
+
+## How to cite
+
+Cite this repository for the codes and the checker, and Henry Cohn's table of spherical codes (spherical-codes.org),
+which lists the best known code for each entry. For one code, give its entry as well, for example d4_n310.
+
+```bibtex
+@misc{quantavane-spherical-codes,
+  author       = {Canli, Arhan},
+  title        = {Spherical codes uploaded to Henry Cohn's table, with an independent checker},
+  year         = {2026},
+  howpublished = {\url{https://github.com/arhancanli/quantavane-spherical-codes}},
+  note         = {Quantavane; CC BY 4.0}
+}
+```
+
+[CITATION.cff](CITATION.cff) gives the same reference for GitHub's "Cite this repository" button.
