@@ -1,0 +1,32 @@
+d20_n840 cols=13020 skipped: the dense FLINT matrix exceeds 1280 MB rank=None 0.0s
+d16_n915 cols=14160 skipped: the dense FLINT matrix exceeds 1280 MB rank=None 0.0s
+d15_n990 cols=14400 skipped: the dense FLINT matrix exceeds 1280 MB rank=None 0.0s
+d21_n729 cols=15309 skipped: the dense FLINT matrix exceeds 1280 MB rank=None 0.0s
+d18_n867 cols=15552 skipped: the dense FLINT matrix exceeds 1280 MB rank=None 0.0s
+d21_n850 cols=15750 skipped: the dense FLINT matrix exceeds 1280 MB rank=None 0.0s
+d20_n1002 cols=16200 skipped: the dense FLINT matrix exceeds 1280 MB rank=None 0.0s
+d16_n1024 cols=16384 skipped: the dense FLINT matrix exceeds 1280 MB rank=None 0.0s
+d29_n576 cols=16704 skipped: the dense FLINT matrix exceeds 1280 MB rank=None 0.0s
+d21_n974 cols=17010 skipped: the dense FLINT matrix exceeds 1280 MB rank=None 0.0s
+d19_n896 cols=17024 skipped: the dense FLINT matrix exceeds 1280 MB rank=None 0.0s
+d17_n1024 cols=17408 skipped: the dense FLINT matrix exceeds 1280 MB rank=None 0.0s
+d21_n1024 cols=18081 skipped: the dense FLINT matrix exceeds 1280 MB rank=None 0.0s
+d22_n891 cols=19602 skipped: the dense FLINT matrix exceeds 1280 MB rank=None 0.0s
+        0.71 real         0.56 user         0.07 sys
+           161792000  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               17597  page reclaims
+                  52  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 364  voluntary context switches
+                 104  involuntary context switches
+          6814326213  instructions retired
+          1877972286  cycles elapsed
+           152076744  peak memory footprint

@@ -1,0 +1,219 @@
+{
+ "program_sha256": {
+  "export9.py": "3d8746d83d78f01935406a251b0fc01e0857e9511f59c7f8d3fb1052202c8b71",
+  "exactcheck.py": "0307811044ce33427797de787be786a6037b667076974576a8d381f35f003cd3",
+  "flexexact8.py": "db0c1c885a16b7fa813c7cbc2e846dca6319c4f171dbb0f8c3225e5c9a40b08f"
+ },
+ "files": {
+  "pos_3_7": {
+   "U": 22,
+   "bytes": 7138,
+   "seconds": 0.3
+  },
+  "pos_5_16": {
+   "U": 81,
+   "bytes": 27305,
+   "seconds": 0.0
+  },
+  "pos_15_63": {
+   "U": 946,
+   "bytes": 6912705,
+   "seconds": 0.4
+  },
+  "pos_3_576": {
+   "U": 1705,
+   "bytes": 22548186,
+   "seconds": 1.2
+  },
+  "pos_4_80": {
+   "U": 305,
+   "bytes": 738103,
+   "seconds": 0.1
+  },
+  "pos_4_160": {
+   "U": 633,
+   "bytes": 3118618,
+   "seconds": 0.2
+  },
+  "pos_7_42": {
+   "U": 267,
+   "bytes": 564042,
+   "seconds": 0.1
+  },
+  "pos_10_42": {
+   "U": 421,
+   "bytes": 1387452,
+   "seconds": 0.1
+  },
+  "pos_11_56": {
+   "U": 617,
+   "bytes": 2953780,
+   "seconds": 0.2
+  },
+  "pos_13_27": {
+   "U": 352,
+   "bytes": 968766,
+   "seconds": 0.1
+  },
+  "pos_24_58": {
+   "U": 1393,
+   "bytes": 14904383,
+   "seconds": 0.9
+  },
+  "pos_18_37": {
+   "U": 667,
+   "bytes": 3443660,
+   "seconds": 0.2
+  },
+  "pos_27_55": {
+   "U": 1486,
+   "bytes": 16996562,
+   "seconds": 1.0
+  },
+  "pos_26_54": {
+   "U": 1405,
+   "bytes": 15195230,
+   "seconds": 1.0
+  },
+  "pos_3_44": {
+   "U": 133,
+   "bytes": 145552,
+   "seconds": 0.0
+  },
+  "pos_4_22": {
+   "U": 89,
+   "bytes": 68186,
+   "seconds": 0.1
+  },
+  "pos_9_34": {
+   "U": 307,
+   "bytes": 740717,
+   "seconds": 0.1
+  },
+  "pos_10_74": {
+   "U": 681,
+   "bytes": 3596567,
+   "seconds": 0.9
+  },
+  "pos_11_41": {
+   "U": 441,
+   "bytes": 1517829,
+   "seconds": 0.2
+  },
+  "pos_11_24": {
+   "U": 265,
+   "bytes": 554451,
+   "seconds": 0.1
+  },
+  "pos_20_46": {
+   "U": 921,
+   "bytes": 6535620,
+   "seconds": 0.6
+  },
+  "pos_19_66": {
+   "U": 1141,
+   "bytes": 9423977,
+   "seconds": 0.9
+  },
+  "pos_25_59": {
+   "U": 1476,
+   "bytes": 16703596,
+   "seconds": 1.3
+  },
+  "pos_25_56": {
+   "U": 1376,
+   "bytes": 14550874,
+   "seconds": 1.5
+  },
+  "neg_14_263": {
+   "rows": 72,
+   "cols": 644,
+   "bytes": 101953,
+   "seconds": 0.1
+  },
+  "neg_11_105": {
+   "rows": 971,
+   "cols": 1144,
+   "bytes": 2009746,
+   "seconds": 0.7
+  },
+  "neg_12_841": {
+   "rows": 16,
+   "cols": 96,
+   "bytes": 219778,
+   "seconds": 0.1
+  },
+  "neg_3_314": {
+   "rows": 902,
+   "cols": 906,
+   "bytes": 4207107,
+   "seconds": 0.5
+  },
+  "neg_26_81": {
+   "rows": 1747,
+   "cols": 2106,
+   "bytes": 22783820,
+   "seconds": 3.3
+  },
+  "neg_11_1008": {
+   "rows": 3,
+   "cols": 22,
+   "bytes": 226666,
+   "seconds": 0.1
+  },
+  "neg_11_985": {
+   "rows": 29,
+   "cols": 209,
+   "bytes": 226662,
+   "seconds": 0.1
+  },
+  "neg_21_851": {
+   "rows": 32,
+   "cols": 420,
+   "bytes": 379687,
+   "seconds": 0.1
+  },
+  "neg_11_1017": {
+   "rows": 33,
+   "cols": 242,
+   "bytes": 234964,
+   "seconds": 0.1
+  },
+  "neg_26_82": {
+   "rows": 79,
+   "cols": 1144,
+   "bytes": 231635,
+   "seconds": 0.1
+  },
+  "neg_14_253": {
+   "rows": 6,
+   "cols": 56,
+   "bytes": 75993,
+   "seconds": 0.0
+  },
+  "neg_7_47": {
+   "rows": 306,
+   "cols": 329,
+   "bytes": 662856,
+   "seconds": 0.1
+  },
+  "neg_10_225": {
+   "rows": 110,
+   "cols": 700,
+   "bytes": 75745,
+   "seconds": 0.0
+  },
+  "neg_27_667": {
+   "rows": 142,
+   "cols": 2484,
+   "bytes": 452776,
+   "seconds": 0.1
+  },
+  "neg_21_857": {
+   "rows": 18,
+   "cols": 252,
+   "bytes": 370774,
+   "seconds": 0.1
+  }
+ }
+}

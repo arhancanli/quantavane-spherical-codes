@@ -23,7 +23,9 @@ others the table's own polishing pass has since listed a slightly better code.
   cosine (interval Newton test with rigorous floating-point error bounds), one per code, with the programs that make
   and analyse them (see certify/README.md).
 
-Paper: A. Canli, Improved spherical codes in dimensions 3 to 32 (in preparation).
+Paper: A. Canli, Certified local optimality of spherical codes: a census of Cohn's table, preprint, November 2026
+(PDFs of the paper and its supplement attached to the release `census-preprint-2026-11`; programs in `certify/`). It
+certifies local optimality for the entries of the archived table and reports on these uploads in its Section 5.
 
 By Arhan Canli (Quantavane). CC BY 4.0 (see LICENSE). Corrections are welcome as GitHub issues.
 

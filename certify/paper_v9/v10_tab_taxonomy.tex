@@ -1,0 +1,13 @@
+% written by make_numbers_v10.py; do not edit
+\begin{tabular}{p{0.16\linewidth}p{0.35\linewidth}rrrrp{0.15\linewidth}}
+\toprule
+verdict & what is certified near the stored code & entries & A & B & C & distance \\
+\midrule
+strict local minimum & an exact strict local minimum modulo rotations and rattlers & 1{,}304 & 975 & 87 & 242 & $1.4\cdot10^{-115}$ to $1.2\cdot10^{-6}$ \\
+local minimum, strictness open & an exact local minimum in an explicit tube (hyperstatic) & 563 & 0 & 493 & 70 & $2.0\cdot10^{-16}$ to $4.0\cdot10^{-6}$ \\
+local minimum, not strict & an exact local minimum, neither strict nor jammed & 2 & 0 & 0 & 2 & -- \\
+not a local minimum & an exact configuration that is not a local minimum (flat core) & 51 & & & & $7.7\cdot10^{-15}$ to $5.4\cdot10^{-14}$ \\
+no local minimum within $\delta$ & no local minimum within $\delta$ (largest move of a point, modulo rotations), $\delta$ set by the separation, $\delta\ge10^{-12}$ & 11{,}742 & & & & $\delta$ $1.0\cdot10^{-12}$ to $3.5\cdot10^{-4}$ \\
+no verdict & every attempt failed or was above the limits; or the negative certificate is unresolved & 2{,}603 & & & & -- \\
+\bottomrule
+\end{tabular}

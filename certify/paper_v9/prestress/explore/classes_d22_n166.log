@@ -1,0 +1,5 @@
+classes 5 [2, 324, 1701, 3888, 2916]
+class stress space dim 2 singular values tail [1.00000000e+00 6.54568570e-01 1.54910149e-15 5.03821327e-16]
+extra flexes 2
+basis 0 class weights [ 0.  0. -1. -1. -1.] H eig [0.07332657 0.07442923]
+basis 1 class weights [ 1.00e+00  7.41e-02  3.30e-03 -8.00e-04 -4.90e-03] H eig [-0.23001844 -0.22661076]

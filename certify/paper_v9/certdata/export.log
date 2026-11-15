@@ -1,0 +1,39 @@
+pos 3_7 {'U': 22, 'bytes': 7138, 'seconds': 0.3}
+pos 5_16 {'U': 81, 'bytes': 27305, 'seconds': 0.0}
+pos 15_63 {'U': 946, 'bytes': 6912705, 'seconds': 0.4}
+pos 3_576 {'U': 1705, 'bytes': 22548186, 'seconds': 1.2}
+pos 4_80 {'U': 305, 'bytes': 738103, 'seconds': 0.1}
+pos 4_160 {'U': 633, 'bytes': 3118618, 'seconds': 0.2}
+pos 7_42 {'U': 267, 'bytes': 564042, 'seconds': 0.1}
+pos 10_42 {'U': 421, 'bytes': 1387452, 'seconds': 0.1}
+pos 11_56 {'U': 617, 'bytes': 2953780, 'seconds': 0.2}
+pos 13_27 {'U': 352, 'bytes': 968766, 'seconds': 0.1}
+pos 24_58 {'U': 1393, 'bytes': 14904383, 'seconds': 0.9}
+pos 18_37 {'U': 667, 'bytes': 3443660, 'seconds': 0.2}
+pos 27_55 {'U': 1486, 'bytes': 16996562, 'seconds': 1.0}
+pos 26_54 {'U': 1405, 'bytes': 15195230, 'seconds': 1.0}
+pos 3_44 {'U': 133, 'bytes': 145552, 'seconds': 0.0}
+pos 4_22 {'U': 89, 'bytes': 68186, 'seconds': 0.1}
+pos 9_34 {'U': 307, 'bytes': 740717, 'seconds': 0.1}
+pos 10_74 {'U': 681, 'bytes': 3596567, 'seconds': 0.9}
+pos 11_41 {'U': 441, 'bytes': 1517829, 'seconds': 0.2}
+pos 11_24 {'U': 265, 'bytes': 554451, 'seconds': 0.1}
+pos 20_46 {'U': 921, 'bytes': 6535620, 'seconds': 0.6}
+pos 19_66 {'U': 1141, 'bytes': 9423977, 'seconds': 0.9}
+pos 25_59 {'U': 1476, 'bytes': 16703596, 'seconds': 1.3}
+pos 25_56 {'U': 1376, 'bytes': 14550874, 'seconds': 1.5}
+neg 14_263 {'rows': 72, 'cols': 644, 'bytes': 101953, 'seconds': 0.1}
+neg 11_105 {'rows': 971, 'cols': 1144, 'bytes': 2009746, 'seconds': 0.7}
+neg 12_841 {'rows': 16, 'cols': 96, 'bytes': 219778, 'seconds': 0.1}
+neg 3_314 {'rows': 902, 'cols': 906, 'bytes': 4207107, 'seconds': 0.5}
+neg 26_81 {'rows': 1747, 'cols': 2106, 'bytes': 22783820, 'seconds': 3.3}
+neg 11_1008 {'rows': 3, 'cols': 22, 'bytes': 226666, 'seconds': 0.1}
+neg 11_985 {'rows': 29, 'cols': 209, 'bytes': 226662, 'seconds': 0.1}
+neg 21_851 {'rows': 32, 'cols': 420, 'bytes': 379687, 'seconds': 0.1}
+neg 11_1017 {'rows': 33, 'cols': 242, 'bytes': 234964, 'seconds': 0.1}
+neg 26_82 {'rows': 79, 'cols': 1144, 'bytes': 231635, 'seconds': 0.1}
+neg 14_253 {'rows': 6, 'cols': 56, 'bytes': 75993, 'seconds': 0.0}
+neg 7_47 {'rows': 306, 'cols': 329, 'bytes': 662856, 'seconds': 0.1}
+neg 10_225 {'rows': 110, 'cols': 700, 'bytes': 75745, 'seconds': 0.0}
+neg 27_667 {'rows': 142, 'cols': 2484, 'bytes': 452776, 'seconds': 0.1}
+neg 21_857 {'rows': 18, 'cols': 252, 'bytes': 370774, 'seconds': 0.1}

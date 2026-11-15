@@ -1,0 +1,28 @@
+d5_n21 U=106 STRICT deg=14 6.0s
+d8_n25 U=201 STRICT deg=18 5.3s
+d14_n39 U=533 STRICT deg=12 13.1s
+d13_n50 U=651 STRICT deg=12 17.8s
+d16_n45 U=721 STRICT deg=10 20.7s
+d20_n45 U=901 STRICT deg=12 32.2s
+d20_n49 U=981 STRICT deg=11 37.1s
+d14_n77 U=1079 STRICT deg=12 47.6s
+d14_n91 U=1177 STRICT deg=10 49.8s
+d23_n56 U=1289 STRICT deg=10 60.3s
+      291.27 real       258.37 user         1.11 sys
+          1102954496  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              227865  page reclaims
+                 868  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 811  voluntary context switches
+               81351  involuntary context switches
+       3374063691724  instructions retired
+        898114808309  cycles elapsed
+           823035080  peak memory footprint

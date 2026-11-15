@@ -1,0 +1,46 @@
+d6_n243 U=1297 STRICT deg=1 31.8s
+d21_n63 U=1303 STRICT deg=2 35.7s
+d19_n73 U=1331 STRICT deg=2 37.1s
+d16_n84 U=1345 STRICT deg=3 38.8s
+d13_n106 U=1353 STRICT deg=2 37.1s
+d25_n55 U=1376 STRICT deg=1 43.3s
+d7_n200 U=1387 STRICT deg=3 37.9s
+d11_n156 U=1453 STRICT deg=1 9.9s
+d14_n112 U=1569 STRICT deg=2 52.6s
+d16_n102 U=1601 STRICT deg=2 61.6s
+d21_n77 U=1618 STRICT deg=1 59.7s
+d28_n58 U=1625 STRICT deg=1 61.8s
+d21_n78 U=1639 STRICT deg=4 67.4s
+d19_n89 U=1673 STRICT deg=2 68.3s
+d21_n82 U=1723 STRICT deg=4 80.6s
+d18_n100 U=1729 STRICT deg=1 76.6s
+d18_n97 U=1747 STRICT deg=2 70.8s
+d21_n84 U=1765 STRICT deg=5 82.4s
+d29_n63 U=1828 STRICT deg=4 93.4s
+d13_n246 U=1873 STRICT deg=1 89.7s
+d8_n240 U=1921 STRICT deg=1 22.3s
+d15_n128 U=1921 STRICT deg=1 102.2s
+d15_n221 U=1936 STRICT deg=4 102.7s
+d19_n104 U=1958 STRICT deg=4 107.1s
+d18_n128 U=2017 STRICT deg=1 114.6s
+d20_n106 U=2121 STRICT deg=4 164.9s
+d22_n100 U=2201 STRICT deg=1 186.3s
+     1937.98 real      1681.32 user        13.63 sys
+          1994571776  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             3348386  page reclaims
+                 381  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 222  voluntary context switches
+              788525  involuntary context switches
+      26218982469504  instructions retired
+       5695423319616  cycles elapsed
+          2765097624  peak memory footprint
+CTL_A_DONE

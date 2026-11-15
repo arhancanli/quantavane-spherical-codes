@@ -1,0 +1,11 @@
+inner products [np.float64(0.25), np.float64(0.353553391), np.float64(0.36785113), np.float64(0.471404521), np.float64(0.48570226), np.float64(0.5)]
+extra flexes 3
+flex 0 support size 492 of 604 norm levels [0.095863 0.302517 0.307582 0.526273 0.564495 0.565532 0.601266 0.602689]
+flex 1 support size 492 of 604 norm levels [0.218051 0.244264 0.298213 0.430828 0.444649 0.557247 0.624161 0.655025]
+flex 2 support size 492 of 604 norm levels [0.08348  0.203209 0.237595 0.31236  0.500552 0.502924 0.704643 0.829538]
+union support 492
+flex 0 rotation of the support: residual 1.0
+flex 1 rotation of the support: residual 1.0000000000000002
+flex 2 rotation of the support: residual 1.0
+fixed points 112 contacts across 7104 contacts inside S 11256
+rank of the support points 11 rank of the fixed points 8

@@ -1,12 +1,14 @@
 #!/bin/zsh
 # Downloads the DSpace@MIT archive of Cohn's table (handle 1721.1/153543, data as of 31 July 2026) politely:
 # one request at a time, a pause between files, long back-off on HTTP 429; verifies each file's MD5 against
-# the checksum DSpace lists. Usage: fetch_snapshot.sh OUTDIR
+# the checksum DSpace lists (all 14 files of the item, readme.pdf included: snapshot.py records every one).
+# Usage: fetch_snapshot.sh OUTDIR
 out=${1:?outdir}
 mkdir -p $out
 UA="Mozilla/5.0 (academic data census)"
 base="https://dspace.mit.edu/server/api/core/bitstreams"
 list=(
+"readme.pdf ca6df6d3-dd60-4a01-8adb-e2fa7527c6c4 bf77d47a6286e70f0c89e6575abaa665"
 "table.txt ce27ecfe-fc3b-4a76-bc83-cf3be69d520e 3adb4968fe9b7b9b21f7be541bcaf270"
 "data-1.txt 3ff79008-4daf-4afb-b4ba-83d031a528f9 e12292a6b9343b36cd17f99b6ea6185f"
 "data-2.txt 99b97d89-dc8b-4871-9ec0-81a18be48d55 820a60d829ea6c6ee044e9717ad9d191"

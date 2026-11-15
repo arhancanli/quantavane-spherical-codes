@@ -1,0 +1,106 @@
+PARI stack size set to 536870912 bytes, maximum size set to 536870912
+{'d': 10, 'n': 24, 'degree': 8, 'points': 23, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.1, 'file': 'd10_n24.json.gz'}
+{'d': 10, 'n': 29, 'degree': 13, 'points': 29, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.6, 'file': 'd10_n29.json.gz'}
+{'d': 10, 'n': 63, 'degree': 8, 'points': 52, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.6, 'file': 'd10_n63.json.gz'}
+{'d': 10, 'n': 75, 'degree': 8, 'points': 75, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.9, 'file': 'd10_n75.json.gz'}
+{'d': 11, 'n': 51, 'degree': 12, 'points': 51, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 2.4, 'file': 'd11_n51.json.gz'}
+{'d': 11, 'n': 70, 'degree': 8, 'points': 70, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 1.7, 'file': 'd11_n70.json.gz'}
+{'d': 12, 'n': 26, 'degree': 4, 'points': 26, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.0, 'file': 'd12_n26.json.gz'}
+{'d': 12, 'n': 44, 'degree': 8, 'points': 41, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.2, 'file': 'd12_n44.json.gz'}
+{'d': 13, 'n': 29, 'degree': 8, 'points': 29, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 2.8, 'file': 'd13_n29.json.gz'}
+{'d': 13, 'n': 50, 'degree': 12, 'points': 50, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 5.0, 'file': 'd13_n50.json.gz'}
+{'d': 13, 'n': 52, 'degree': 7, 'points': 52, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 1.0, 'file': 'd13_n52.json.gz'}
+{'d': 14, 'n': 151, 'degree': 2, 'points': 128, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.2, 'file': 'd14_n151.json.gz'}
+{'d': 14, 'n': 152, 'degree': 2, 'points': 128, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.1, 'file': 'd14_n152.json.gz'}
+{'d': 14, 'n': 39, 'degree': 12, 'points': 38, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 4.3, 'file': 'd14_n39.json.gz'}
+{'d': 14, 'n': 48, 'degree': 8, 'points': 48, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 1.3, 'file': 'd14_n48.json.gz'}
+{'d': 14, 'n': 77, 'degree': 12, 'points': 77, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 17.1, 'file': 'd14_n77.json.gz'}
+{'d': 14, 'n': 91, 'degree': 10, 'points': 84, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 25.5, 'file': 'd14_n91.json.gz'}
+{'d': 15, 'n': 33, 'degree': 6, 'points': 30, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.7, 'file': 'd15_n33.json.gz'}
+{'d': 15, 'n': 39, 'degree': 8, 'points': 38, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.3, 'file': 'd15_n39.json.gz'}
+{'d': 16, 'n': 169, 'degree': 8, 'points': 131, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 7.9, 'file': 'd16_n169.json.gz'}
+{'d': 16, 'n': 45, 'degree': 10, 'points': 45, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 2.5, 'file': 'd16_n45.json.gz'}
+{'d': 16, 'n': 83, 'degree': 8, 'points': 83, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 4.4, 'file': 'd16_n83.json.gz'}
+{'d': 17, 'n': 192, 'degree': 8, 'points': 174, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 3.4, 'file': 'd17_n192.json.gz'}
+{'d': 17, 'n': 87, 'degree': 8, 'points': 87, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 13.4, 'file': 'd17_n87.json.gz'}
+{'d': 18, 'n': 101, 'degree': 4, 'points': 97, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.9, 'file': 'd18_n101.json.gz'}
+{'d': 18, 'n': 133, 'degree': 4, 'points': 121, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 1.8, 'file': 'd18_n133.json.gz'}
+{'d': 18, 'n': 140, 'degree': 8, 'points': 128, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 19.6, 'file': 'd18_n140.json.gz'}
+{'d': 18, 'n': 163, 'degree': 3, 'points': 162, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 1.2, 'file': 'd18_n163.json.gz'}
+{'d': 18, 'n': 47, 'degree': 8, 'points': 47, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.8, 'file': 'd18_n47.json.gz'}
+{'d': 18, 'n': 48, 'degree': 8, 'points': 47, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 1.0, 'file': 'd18_n48.json.gz'}
+{'d': 18, 'n': 55, 'degree': 8, 'points': 54, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.9, 'file': 'd18_n55.json.gz'}
+{'d': 18, 'n': 59, 'degree': 9, 'points': 59, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 3.7, 'file': 'd18_n59.json.gz'}
+{'d': 18, 'n': 80, 'degree': 6, 'points': 78, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 1.3, 'file': 'd18_n80.json.gz'}
+{'d': 19, 'n': 103, 'degree': 8, 'points': 102, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 2.8, 'file': 'd19_n103.json.gz'}
+{'d': 19, 'n': 45, 'degree': 8, 'points': 45, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 2.1, 'file': 'd19_n45.json.gz'}
+{'d': 19, 'n': 53, 'degree': 9, 'points': 53, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 6.6, 'file': 'd19_n53.json.gz'}
+{'d': 19, 'n': 54, 'degree': 10, 'points': 54, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 4.1, 'file': 'd19_n54.json.gz'}
+{'d': 20, 'n': 43, 'degree': 6, 'points': 43, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.4, 'file': 'd20_n43.json.gz'}
+{'d': 20, 'n': 45, 'degree': 12, 'points': 45, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 8.6, 'file': 'd20_n45.json.gz'}
+{'d': 20, 'n': 49, 'degree': 11, 'points': 49, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 6.9, 'file': 'd20_n49.json.gz'}
+{'d': 20, 'n': 65, 'degree': 5, 'points': 65, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 1.0, 'file': 'd20_n65.json.gz'}
+{'d': 21, 'n': 59, 'degree': 8, 'points': 59, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 3.7, 'file': 'd21_n59.json.gz'}
+{'d': 21, 'n': 92, 'degree': 8, 'points': 92, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 18.0, 'file': 'd21_n92.json.gz'}
+{'d': 22, 'n': 120, 'degree': 8, 'points': 119, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 49.4, 'file': 'd22_n120.json.gz'}
+{'d': 23, 'n': 104, 'degree': 6, 'points': 104, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 5.4, 'file': 'd23_n104.json.gz'}
+{'d': 23, 'n': 56, 'degree': 10, 'points': 56, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 27.1, 'file': 'd23_n56.json.gz'}
+{'d': 28, 'n': 61, 'degree': 8, 'points': 61, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 2.8, 'file': 'd28_n61.json.gz'}
+{'d': 3, 'n': 52, 'degree': 16, 'points': 48, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 1.2, 'file': 'd3_n52.json.gz'}
+{'d': 4, 'n': 13, 'degree': 9, 'points': 13, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.0, 'file': 'd4_n13.json.gz'}
+{'d': 4, 'n': 16, 'degree': 10, 'points': 16, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.0, 'file': 'd4_n16.json.gz'}
+{'d': 4, 'n': 18, 'degree': 16, 'points': 18, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.1, 'file': 'd4_n18.json.gz'}
+{'d': 4, 'n': 50, 'degree': 10, 'points': 50, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.6, 'file': 'd4_n50.json.gz'}
+{'d': 5, 'n': 21, 'degree': 14, 'points': 21, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.4, 'file': 'd5_n21.json.gz'}
+{'d': 5, 'n': 24, 'degree': 10, 'points': 24, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.1, 'file': 'd5_n24.json.gz'}
+{'d': 5, 'n': 57, 'degree': 4, 'points': 56, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.0, 'file': 'd5_n57.json.gz'}
+{'d': 6, 'n': 18, 'degree': 8, 'points': 18, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.0, 'file': 'd6_n18.json.gz'}
+{'d': 7, 'n': 16, 'degree': 12, 'points': 16, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.2, 'file': 'd7_n16.json.gz'}
+{'d': 7, 'n': 168, 'degree': 14, 'points': 166, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 25.1, 'file': 'd7_n168.json.gz'}
+{'d': 7, 'n': 41, 'degree': 8, 'points': 34, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.7, 'file': 'd7_n41.json.gz'}
+{'d': 7, 'n': 43, 'degree': 10, 'points': 36, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.3, 'file': 'd7_n43.json.gz'}
+{'d': 8, 'n': 25, 'degree': 18, 'points': 25, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 1.8, 'file': 'd8_n25.json.gz'}
+{'d': 8, 'n': 34, 'degree': 6, 'points': 33, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.1, 'file': 'd8_n34.json.gz'}
+{'d': 8, 'n': 39, 'degree': 8, 'points': 39, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.3, 'file': 'd8_n39.json.gz'}
+{'d': 9, 'n': 42, 'degree': 6, 'points': 40, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.2, 'file': 'd9_n42.json.gz'}
+{'d': 9, 'n': 44, 'degree': 12, 'points': 42, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 1.3, 'file': 'd9_n44.json.gz'}
+{'d': 9, 'n': 53, 'degree': 12, 'points': 50, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 1.3, 'file': 'd9_n53.json.gz'}
+{'d': 9, 'n': 97, 'degree': 10, 'points': 61, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.5, 'file': 'd9_n97.json.gz'}
+{'d': 10, 'n': 156, 'degree': 2, 'points': 154, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.4, 'file': 'd10_n156.json.gz'}
+{'d': 10, 'n': 194, 'degree': 1, 'points': 192, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.2, 'file': 'd10_n194.json.gz'}
+{'d': 10, 'n': 28, 'degree': 2, 'points': 28, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.0, 'file': 'd10_n28.json.gz'}
+{'d': 10, 'n': 32, 'degree': 4, 'points': 31, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.0, 'file': 'd10_n32.json.gz'}
+{'d': 10, 'n': 40, 'degree': 1, 'points': 40, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.0, 'file': 'd10_n40.json.gz'}
+{'d': 10, 'n': 41, 'degree': 2, 'points': 40, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.0, 'file': 'd10_n41.json.gz'}
+{'d': 10, 'n': 50, 'degree': 2, 'points': 40, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.0, 'file': 'd10_n50.json.gz'}
+{'d': 10, 'n': 57, 'degree': 2, 'points': 56, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.0, 'file': 'd10_n57.json.gz'}
+{'d': 10, 'n': 58, 'degree': 1, 'points': 58, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.0, 'file': 'd10_n58.json.gz'}
+{'d': 10, 'n': 59, 'degree': 6, 'points': 52, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.2, 'file': 'd10_n59.json.gz'}
+{'d': 11, 'n': 156, 'degree': 1, 'points': 132, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.1, 'file': 'd11_n156.json.gz'}
+{'d': 11, 'n': 166, 'degree': 1, 'points': 144, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.1, 'file': 'd11_n166.json.gz'}
+{'d': 11, 'n': 28, 'degree': 2, 'points': 24, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.0, 'file': 'd11_n28.json.gz'}
+{'d': 11, 'n': 30, 'degree': 1, 'points': 30, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.0, 'file': 'd11_n30.json.gz'}
+{'d': 11, 'n': 31, 'degree': 4, 'points': 30, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.1, 'file': 'd11_n31.json.gz'}
+{'d': 11, 'n': 33, 'degree': 4, 'points': 26, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.1, 'file': 'd11_n33.json.gz'}
+{'d': 11, 'n': 35, 'degree': 2, 'points': 35, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.0, 'file': 'd11_n35.json.gz'}
+{'d': 11, 'n': 36, 'degree': 4, 'points': 31, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.1, 'file': 'd11_n36.json.gz'}
+{'d': 11, 'n': 40, 'degree': 1, 'points': 40, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.0, 'file': 'd11_n40.json.gz'}
+{'d': 11, 'n': 41, 'degree': 2, 'points': 40, 'irreducible': True, 'unit_diagonal': True, 'contacts_equal_cosine': True, 'gram_rank_d': True, 'all_ok': True, 'seconds': 0.0, 'file': 'd11_n41.json.gz'}
+      302.25 real       271.00 user         0.58 sys
+           229376000  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               23631  page reclaims
+                 272  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 129  voluntary context switches
+              106984  involuntary context switches
+       2413306388111  instructions retired
+        953197076656  cycles elapsed
+           202736096  peak memory footprint

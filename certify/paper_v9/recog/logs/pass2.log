@@ -1,0 +1,72 @@
+d5_n21 U=106 recognised in Q(c) deg=14 vals=19 dev=-3999 acc=3986 8.4s
+d7_n17 U=120 no polynomial of degree <= 30 deg=None vals=16 dev=-3999 acc=3985 3.2s
+d8_n19 U=153 an inner product not recognised deg=29 vals=12 dev=-3999 acc=3985 44.5s
+d8_n23 U=185 no polynomial of degree <= 30 deg=None vals=18 dev=-3999 acc=3985 3.7s
+d8_n25 U=201 recognised in Q(c) deg=18 vals=11 dev=-3999 acc=3985 5.3s
+d9_n23 U=208 an inner product not recognised deg=16 vals=19 dev=-3997 acc=3982 18.5s
+d8_n27 U=209 no polynomial of degree <= 30 deg=None vals=19 dev=-3999 acc=3986 3.8s
+d11_n24 U=265 an inner product not recognised deg=26 vals=9 dev=-3999 acc=3984 38.8s
+d11_n29 U=287 no polynomial of degree <= 30 deg=None vals=13 dev=-3999 acc=3984 5.5s
+d10_n31 U=311 no polynomial of degree <= 30 deg=None vals=19 dev=-3999 acc=3984 6.0s
+d9_n38 U=316 an inner product not recognised deg=25 vals=18 dev=-3999 acc=3983 40.3s
+d9_n43 U=334 an inner product not recognised deg=24 vals=11 dev=-3999 acc=3984 28.5s
+d11_n37 U=408 no polynomial of degree <= 30 deg=None vals=14 dev=-3999 acc=3983 7.0s
+d12_n39 U=457 no polynomial of degree <= 30 deg=None vals=17 dev=-3999 acc=3983 8.3s
+d14_n43 U=477 no polynomial of degree <= 30 deg=None vals=12 dev=-3999 acc=3983 9.1s
+d13_n39 U=482 no polynomial of degree <= 30 deg=None vals=20 dev=-3999 acc=3983 9.3s
+d12_n43 U=505 an inner product not recognised deg=16 vals=11 dev=-3999 acc=3983 12.9s
+d10_n62 U=511 no polynomial of degree <= 30 deg=None vals=18 dev=-3994 acc=3981 8.3s
+d14_n37 U=519 an inner product not recognised deg=14 vals=9 dev=-3999 acc=3983 16.7s
+d14_n39 U=533 recognised in Q(c) deg=12 vals=11 dev=-3999 acc=3984 13.8s
+d13_n49 U=638 an inner product not recognised deg=18 vals=15 dev=-3999 acc=3983 26.3s
+d17_n38 U=647 no polynomial of degree <= 30 deg=None vals=17 dev=-3999 acc=3974 20.8s
+d13_n50 U=651 recognised in Q(c) deg=12 vals=19 dev=-3999 acc=3983 17.0s
+d16_n45 U=721 recognised in Q(c) deg=10 vals=18 dev=-3999 acc=3983 18.7s
+d11_n69 U=738 an inner product not recognised deg=16 vals=18 dev=-3999 acc=3982 23.5s
+d19_n41 U=780 no polynomial of degree <= 30 deg=None vals=19 dev=-3999 acc=3981 17.7s
+d19_n44 U=837 an inner product not recognised deg=18 vals=15 dev=-3999 acc=3982 29.6s
+d20_n44 U=881 no polynomial of degree <= 30 deg=None vals=17 dev=-3999 acc=3982 20.4s
+d20_n45 U=901 recognised in Q(c) deg=12 vals=10 dev=-3999 acc=3983 20.8s
+d17_n56 U=902 an inner product not recognised deg=20 vals=14 dev=-3997 acc=3981 37.6s
+d20_n49 U=981 recognised in Q(c) deg=11 vals=15 dev=-3999 acc=3983 24.1s
+d20_n64 U=1041 an inner product not recognised deg=24 vals=16 dev=-3999 acc=3983 60.7s
+d19_n55 U=1046 an inner product not recognised deg=21 vals=17 dev=-3998 acc=3981 47.5s
+d11_n98 U=1057 an inner product not recognised deg=20 vals=16 dev=-3999 acc=3980 38.2s
+d14_n77 U=1079 recognised in Q(c) deg=12 vals=18 dev=-3999 acc=3982 34.5s
+d14_n91 U=1177 recognised in Q(c) deg=10 vals=19 dev=-3999 acc=3981 34.3s
+d21_n60 U=1261 an inner product not recognised deg=14 vals=11 dev=-3999 acc=3982 39.3s
+d15_n94 U=1276 an inner product not recognised deg=20 vals=17 dev=-3999 acc=3982 50.8s
+d23_n56 U=1289 recognised in Q(c) deg=10 vals=15 dev=-3999 acc=3982 34.6s
+d20_n66 U=1301 an inner product not recognised deg=18 vals=19 dev=-3999 acc=3981 55.1s
+d18_n75 U=1333 an inner product not recognised deg=15 vals=20 dev=-3999 acc=3980 56.2s
+d19_n72 U=1369 an inner product not recognised deg=10 vals=13 dev=-3999 acc=3981 45.8s
+d19_n75 U=1388 an inner product not recognised deg=24 vals=14 dev=-3999 acc=3980 81.7s
+d22_n68 U=1453 no polynomial of degree <= 30 deg=None vals=17 dev=-3999 acc=3982 41.7s
+d23_n64 U=1473 an inner product not recognised deg=14 vals=13 dev=-3999 acc=3981 47.9s
+d29_n61 U=1625 no polynomial of degree <= 30 deg=None vals=13 dev=-3999 acc=3979 52.0s
+d24_n68 U=1633 an inner product not recognised deg=20 vals=10 dev=-3999 acc=3980 62.5s
+d29_n62 U=1770 no polynomial of degree <= 30 deg=None vals=17 dev=-3999 acc=3979 56.2s
+d18_n105 U=1819 no polynomial of degree <= 30 deg=None vals=20 dev=-3999 acc=3981 64.6s
+d24_n76 U=1825 an inner product not recognised deg=12 vals=17 dev=-3999 acc=3981 78.7s
+d28_n66 U=1849 an inner product not recognised deg=20 vals=17 dev=-3999 acc=3981 79.8s
+d18_n108 U=1873 an inner product not recognised deg=12 vals=18 dev=-3999 acc=3980 69.4s
+d20_n141 U=2821 an inner product not recognised deg=15 vals=15 dev=-3999 acc=3980 99.4s
+     1780.75 real      1389.13 user         5.43 sys
+           626262016  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              243803  page reclaims
+                 143  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                1836  voluntary context switches
+              861583  involuntary context switches
+      16202611069782  instructions retired
+       4819724232907  cycles elapsed
+           570590216  peak memory footprint
+QUEUE_DONE
